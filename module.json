@@ -1,0 +1,59 @@
+{
+  "id": "helianas-crafting",
+  "title": "Helianas - Crafting Resources",
+  "description": "<p>A working compendium for crafting items for Helianas. NOT to be shared with customers.</p>",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10.120,
+    "maximum": 10
+  },
+  "authors": [
+    {
+      "name": "Harrison",
+      "url": "https://harrison.ju.mp",
+      "email": "harrison@themadnetwork.co.uk",
+      "discord": "Harrison#3229"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "compendium-folders",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "helianas-crafting-journals",
+      "label": "Heliana - STAFF Crafting",
+      "path": "packs/helianas-crafting-journals.db",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "helianas-crafting-items",
+      "label": "Helianas - STAFF Crafting",
+      "path": "packs/helianas-crafting-items.db",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "https://harrison.ju.mp",
+  "protected": false
+}
