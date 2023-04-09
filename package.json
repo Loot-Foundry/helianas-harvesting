@@ -4,11 +4,13 @@
   "description": "A Foundry Companion Module for Harvesting and Crafting for Heliana's Guide to Monster Hunting",
   "main": "index.js",
   "scripts": {
+    "compendium": "node ./tools/crafting-items-generator/main.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "",
   "devDependencies": {
+    "csv": "^6.2.8",
     "file-system": "^1.2.2"
   }
 }
