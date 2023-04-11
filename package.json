@@ -10,7 +10,6 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "csv": "^6.2.8",
-    "file-system": "^1.2.2"
+    "csv": "^6.2.8"
   }
 }
