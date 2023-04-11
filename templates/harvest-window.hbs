@@ -1,0 +1,101 @@
+<form class="package-configuration flexrow">
+  <div style="padding: 2px;">
+    <div class="form-group">
+      <label for="creature-type">Creature Type</label>
+      <div class="form-fields">
+        <select id="creature-type" class="form-control">
+          {{#select selectedType}}
+          {{#each creatureTypes}}
+          <option value="{{this}}">{{this}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </div>
+    </div>
+    {{#if hasBoss}}
+    <div class="form-group">
+      <label class="form-check-label" for="is-boss">Boss?</label>
+      <div class="form-fields">
+        <input type="checkbox" class="form-check-input" id="is-boss" {{checked isBoss}}>
+      </div>
+    </div>
+    {{#if isBoss}}
+    <div class="form-group">
+      <label for="boss-name">Boss Name</label>
+      <div class="form-fields">
+        <select id="boss-name" class="form-control">
+          {{#select selectedBoss}}
+          {{#each bossNames}}
+          <option value="{{this}}">{{this}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </div>
+    </div>
+    {{/if}}
+    {{/if}}
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" colspan="2">Item</th>
+          <th scope="col">Harvestable Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each itemsByDc}}
+        <tr>
+          <td colspan="3" style="text-align: center; background: #ada"><strong>DC {{@key}}</strong></td>
+        </tr>
+        {{#each this}}
+        <tr {{#if this.bossDrop}}style="background-color: #f1eb9c;" {{/if}}>
+          <td><img style="max-height: 2rem;" src="{{this.img}}" alt="{{this.name}}"></td>
+          <td>{{this.name}}<sup>{{#if this.edible}}E{{/if}}{{#if this.volatile}}V{{/if}}</sup></td>
+          <td>
+            <input class="item-count-input form-control" type="number" min="0" data-item-id="{{this.id}}"
+              value="{{this.count}}" style="text-align: center;" />
+          </td>
+        </tr>
+        {{/each}}
+        {{/each}}
+      </tbody>
+    </table>
+    <div>
+      <button id="create-harvest-button">Create Harvest Table</button>
+    </div>
+  </div>
+  <div style="padding: 2px;">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" colspan="2">Item</th>
+          <th scope="col">DC</th>
+          <th scope="col">Attempt?</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each harvest}}
+        <tr class="harvest-table-row" data-item-id="{{this.item.id}}" data-harvest-order="{{ @key }}" draggable="true"
+          {{#if (not this.attempt) }} style="background-color: #999" {{/if}}>
+          <td>
+            <img style="max-height: 2rem;" src="{{this.item.img}}" alt="{{this.item.name}}">
+          </td>
+          <td>
+
+            {{this.item.name}}
+            {{#if this.showCount}}
+            #{{ this.itemCount }}
+            {{/if}}
+          </td>
+          <td>
+            {{ this.DC }} (+{{this.item.dc}})
+          </td>
+          <td style="text-align: center;">
+            <input type="checkbox" class="form-check-input harvest-attempt-checkbox" data-harvest-index="{{@key}}"
+              {{checked this.attempt}}>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+  </div>

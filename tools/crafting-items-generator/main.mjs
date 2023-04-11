@@ -24,5 +24,6 @@ const item5ECompendium = components
     .map(obj => JSON.stringify(obj))
     .join("\n");
 
+fs.writeFileSync("data/crafting-items.json", JSON.stringify(components));
 fs.writeFileSync("packs/helianas-crafting-items-test.db", item5ECompendium);
 
