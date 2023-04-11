@@ -1,0 +1,20 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "html.format.enable": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+    "html.format.maxPreserveNewLines": 1,
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "html.format.wrapLineLength": 80,
+    "json.format.enable": true,
+    "html.format.preserveNewLines": false,
+    "html.format.templating": true,
+    "javascript.format.enable": true,
+    "javascript.format.semicolons": "insert",
+}

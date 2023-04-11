@@ -1,4 +1,4 @@
-import { Config } from "./config.js"
+import { Config } from "./config.js";
 
 export default class HarvestWindow extends Application {
 
@@ -11,7 +11,7 @@ export default class HarvestWindow extends Application {
     this.updateForm({
       creatureType: "Aberration",
       isBoss: false
-    })
+    });
   }
 
   static get defaultOptions() {
@@ -79,26 +79,26 @@ export default class HarvestWindow extends Application {
       this.#formData.itemCount = {};
       this.#formData.harvestItems = [];
     }
- 
+
     if (typeof options.itemCount !== "undefined") {
       this.#formData.itemCount = options.itemCount;
-     
+
       // Generate harvest table
       this.#formData.harvestItems = [];
       Object.entries(this.#formData.itemCount).forEach(([itemId, count]) => {
-          const item = this.items.find(i => i.id === itemId);
+        const item = this.items.find(i => i.id === itemId);
 
-          for (let itemCount = 1; itemCount <= count; itemCount++) {
-            this.#formData.harvestItems.push({
-              showCount: count > 1,
-              itemCount,
-              attempt: true,
-              item
-            });
-          }
+        for (let itemCount = 1; itemCount <= count; itemCount++) {
+          this.#formData.harvestItems.push({
+            showCount: count > 1,
+            itemCount,
+            attempt: true,
+            item
+          });
+        }
       });
     }
- 
+
     // Update Harvest DCs
     let DC = 0;
     this.#formData.harvestItems.forEach(harvest => {
@@ -134,7 +134,7 @@ export default class HarvestWindow extends Application {
     data.items = this.items
       .filter(item => {
         return item.creatureType === data.selectedType &&
-          (!item.bossDrop || item.bosses.includes(data.selectedBoss))
+          (!item.bossDrop || item.bosses.includes(data.selectedBoss));
       })
       .map(item => {
         const count = this.#formData.itemCount[item.id] ?? "";
@@ -208,11 +208,11 @@ export default class HarvestWindow extends Application {
 
     // Cosmetic reaction to improve readbility of drop action
     harvestTableRows.on("dragenter", event => {
-        event.currentTarget.style.borderTop = "3px solid black";
+      event.currentTarget.style.borderTop = "3px solid black";
     });
 
     harvestTableRows.on("dragleave", event => {
-        event.currentTarget.style.borderTop = "";
+      event.currentTarget.style.borderTop = "";
     });
 
     const harvestAttemptCheckbox = html.find(".harvest-attempt-checkbox");
