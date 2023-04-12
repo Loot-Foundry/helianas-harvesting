@@ -21,4 +21,26 @@ export class ItemData {
     get(itemId) {
         return this.items.find(i => i.id === itemId)
     }
+
+    createItem5e(creatureName, item) {
+        return {
+            "name": `${item.name} (${creatureName})`,
+            "type": "loot",
+            "img": item.img,
+            "system": {
+                "description": {
+                    "value": `<p>A ${item.name.toLowerCase()} harvested from a ${creatureName}. It may be useful in crafting!</p>`,
+                },
+                "source": item.source,
+                "quantity": item.count,
+                "weight": 0,
+                "price": {
+                    "value": 0,
+                    "denomination": "gp"
+                },
+                "identified": true
+            },
+            "_id": randomID(),
+        };
+    }
 }

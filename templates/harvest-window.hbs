@@ -1,12 +1,25 @@
 <form class="package-configuration flexrow">
   <div style="padding: 2px;">
     <div class="form-group">
+      <label for="creature-name">Creature Name</label>
+      <div class="form-fields">
+        <input
+          type="text"
+          class="managed-input form-control"
+          id="creature-name"
+          value="{{creatureName}}"
+          data-binding="creatureName"
+        />
+      </div>
+    </div>
+    <div class="form-group">
       <label for="creature-type">Creature Type</label>
       <div class="form-fields">
         <select
           id="creature-type"
           class="managed-input form-control"
-          data-binding="creatureType">
+          data-binding="creatureType"
+        >
           {{#select selectedType}}
             {{#each creatureTypes}}
               <option value="{{this}}">{{this}}</option>
@@ -19,15 +32,15 @@
       <div class="form-group">
         <label
           class="form-check-label"
-          for="is-boss">
-          Boss?
-        </label>
+          for="is-boss"
+        > Boss? </label>
         <div class="form-fields">
           <input
             type="checkbox"
             class="form-check-input"
             id="is-boss"
-            {{checked isBoss}}>
+            {{checked isBoss}}
+          >
         </div>
       </div>
       {{#if isBoss}}
@@ -37,7 +50,8 @@
             <select
               id="boss-name"
               class="managed-input form-control"
-              data-binding="bossName">
+              data-binding="bossName"
+            >
               {{#select selectedBoss}}
                 {{#each bossNames}}
                   <option value="{{this}}">{{this}}</option>
@@ -63,15 +77,17 @@
           <tr>
             <td
               colspan="3"
-              style="text-align: center; background: #ada">
-            <strong>DC {{@key}}</strong>
+              style="text-align: center; background: #ada"
+            >
+              <strong>DC {{@key}}</strong>
             </td>
           </tr>
           {{#each this}}
             <tr
               {{#if this.bossDrop}}
-                style="background-color: #f1eb9c;"
-              {{/if}} >
+              style="background-color: #f1eb9c;"
+              {{/if}}
+            >
               <td><img
                   style="max-height: 2rem;"
                   src="{{this.img}}"
@@ -87,7 +103,8 @@
                   min="0"
                   data-item-id="{{this.id}}"
                   value="{{this.count}}"
-                  style="text-align: center;"/>
+                  style="text-align: center;"
+                />
               </td>
             </tr>
           {{/each}}
@@ -119,17 +136,18 @@
             draggable="true"
             {{#if (not this.attempt) }}
             style="background-color: #999"
-            {{/if}}>
+            {{/if}}
+          >
             <td>
               <img
                 style="max-height: 2rem;"
                 src="{{this.item.img}}"
-                alt="{{this.item.name}}" />
+                alt="{{this.item.name}}"
+              />
             </td>
             <td>
               {{this.item.name}}
-              {{#if this.showCount}}
-                #{{ this.itemCount }}
+              {{#if this.showCount}} #{{ this.itemCount }}
               {{/if}}
             </td>
             <td>
@@ -140,8 +158,7 @@
                 type="checkbox"
                 class="form-check-input harvest-attempt-checkbox"
                 data-harvest-index="{{@key}}"
-                {{checked
-                this.attempt}}
+                {{checked this.attempt}}
               >
             </td>
           </tr>
@@ -149,12 +166,16 @@
       </tbody>
     </table>
     <div class="flexrow">
-      <button id="harvest-show-components">Share All Components</button>
-      <button id="harvest-show-table">Share Harvest Table</button>
+      <button
+        id="harvest-show-components"
+        {{ disabled harvestEmpty }}
+      >Share All Components</button>
+      <button
+        id="harvest-show-table"
+        {{ disabled harvestEmpty }}
+      >Share Harvest Table</button>
     </div>
-
     <hr />
-
     <div class="form-group">
       <label for="harvest-check">Harvest Check Total</label>
       <div class="form-fields">
@@ -162,24 +183,35 @@
           type="number"
           class="managed-input form-control"
           id="harvest-check"
-          value="{{harvestCheck}}"
-          data-binding="harvestCheckTotal" />
+          value="{{harvestCheckTotal}}"
+          data-binding="harvestCheckTotal"
+        />
       </div>
     </div>
-
     <div class="form-group">
       <label for="harvesting-character">Harvesting Character</label>
       <div class="form-fields">
         <select
           class="managed-input form-control"
           id="harvesting-character"
-          data-binding="harvestingCharacter" />
+          data-binding="harvestingCharacter"
+        />
+        {{#select harvestingCharacter}}
           <option value="">None</option>
+          {{#each players}}
+            <option value="{{this.id}}">{{this.name}}</option>
+          {{/each}}
+        {{/select}}
         </select>
       </div>
-      <p class="notes">This character will receive items when you execute the
+      <p class="notes">This character will receive items when you complete the
         harvest</p>
     </div>
-
+    <div>
+      <button
+        id="harvest-complete"
+        {{disabled (or harvestEmpty (not harvestingCharacter) (not harvestCheckTotal)) }}
+      > Complete Harvest </button>
+    </div>
   </div>
 </form>

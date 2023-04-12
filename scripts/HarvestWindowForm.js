@@ -1,10 +1,13 @@
 export class HarvestWindowForm {
+    creatureName = "";
     creatureType = "";
     isBoss = false;
     bossName = "";
     itemCount = {};
+
     harvestItems = [];
-    harvestCheckTotal = null;
+    harvestCheckTotal = 0;
+    harvestingCharacter = "";
 
     constructor(itemData) {
         this.itemData = itemData;
@@ -14,12 +17,16 @@ export class HarvestWindowForm {
         let resetItems = false;
         if (!options) options = {};
 
-        if (typeof options.creatureType !== "undefined" && this.creatureType !== options.creatureType) {
+        if (this.#changed(options, "creatureName")) {
+            this.creatureName = options.creatureName
+        }
+
+        if (this.#changed(options, "creatureType")) {
             this.creatureType = options.creatureType;
             resetItems = true;
         }
 
-        if (typeof options.isBoss !== "undefined" && options.isBoss !== this.isBoss) {
+        if (this.#changed(options, "isBoss")) {
             this.isBoss = options.isBoss;
             if (!this.isBoss) {
                 this.bossName = "";
@@ -28,7 +35,7 @@ export class HarvestWindowForm {
         }
 
         // Update the boss name
-        if (typeof options.bossName !== "undefined" && options.bossName !== this.bossName) {
+        if (this.#changed(options, "bossName")) {
             this.bossName = options.bossName;
             resetItems = true;
         }
@@ -51,12 +58,12 @@ export class HarvestWindowForm {
             this.harvestItems = [];
         }
 
-        if (typeof options.harvestCheckTotal !== "undefined") {
+        if (this.#changed(options, "harvestCheckTotal")) {
             const checkTotal = parseInt(options.harvestAttemptCheckbox);
             this.harvestCheckTotal = Number.isInteger(checkTotal) ? checkTotal : "";
         }
 
-        if (typeof options.itemCount !== "undefined") {
+        if (this.#changed(options, "itemCount")) {
             this.itemCount = options.itemCount;
 
             // Generate harvest table
@@ -78,6 +85,35 @@ export class HarvestWindowForm {
                 harvest.DC = "N/A";
             }
         });
+
+        if (this.#changed(options, "harvestCheckTotal")) {
+            this.harvestCheckTotal = options.harvestCheckTotal;
+        }
+
+        if (this.#changed(options, "harvestingCharacter")) {
+            this.harvestingCharacter = options.harvestingCharacter;
+        }
+    }
+
+    #changed(options, optionName) {
+        const defined = typeof (options[optionName]) !== "undefined";
+        const optionType = typeof (this[optionName]);
+
+        if (optionType === "undefined") throw new Error(`Unknown form type '${optionName}'`);
+
+        if (defined) {
+            if (optionType === "string") {
+                return options[optionName] !== this[optionName];
+            }
+
+            if (optionType === "number") {
+                return parseInt(options[optionName]) !== this[optionName];
+            }
+
+            return true;
+        }
+
+        return false;
     }
 
     generateHarvestTable() {
@@ -128,5 +164,27 @@ export class HarvestWindowForm {
                 const count = this.itemCount[item.id] ?? "";
                 return { count, ...item };
             });
+    }
+
+    getHarvestComponents(dc = 10000) {
+        const items = new Map();
+
+        for (const row of this.harvestItems) {
+            if (row.DC <= dc) {
+                const item = items.get(row.item.id);
+                if (item) {
+                    item.count++;
+                }
+                else {
+                    items.set(row.item.id, { ...row.item, count: 1 });
+                }
+
+            }
+        }
+
+        return Array.from(items.values()).sort((a, b) => {
+            if (a.dc === b.dc) return a.name.localeCompare(b.name);
+            return a.dc - b.dc;
+        });
     }
 }
