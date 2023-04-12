@@ -4,16 +4,20 @@ import { HarvestWindowForm } from "./HarvestWindowForm.js";
 
 export default class HarvestWindow extends Application {
 
-  constructor(itemData) {
+  constructor(itemData, token) {
     super();
 
     this.itemData = new ItemData(itemData);
     this.formData = new HarvestWindowForm(this.itemData);
 
-    this.updateForm({
-      creatureType: "Aberration",
-      isBoss: false
-    });
+    if (token) {
+      this.updateFromToken(token);
+    } else {
+      this.updateForm({
+        creatureType: "Aberration",
+        isBoss: false
+      });
+    }
   }
 
   static get defaultOptions() {
@@ -32,6 +36,21 @@ export default class HarvestWindow extends Application {
   updateForm(options) {
     this.formData.updateForm(options);
     if (this.rendered) this.render();
+  }
+
+  updateFromToken(token) {
+    const actor = token.actor;
+    const creatureType = this.itemData.creatureTypes
+      .find(t => t.toLowerCase() === actor.system.details.type.value) ?? "Aberration";
+
+    const bosses = this.itemData.getBossNames(creatureType);
+    this.updateForm({
+      creatureName: actor.name,
+      creatureType: creatureType,
+      isBoss: bosses.includes(actor.name),
+      // Bosses are auto validated
+      bossName: actor.name
+    });
   }
 
   getData() {

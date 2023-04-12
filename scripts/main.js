@@ -5,7 +5,7 @@ import { Config } from "./config.js";
 const itemData = loadItemData(Config.HarvestItemJson);
 
 async function loadItemData(filepath) {
-    const itemFile = await fetch("modules/helianas-crafting/data/crafting-items.json");
+    const itemFile = await fetch(filepath);
     const items = await itemFile.json();
 
     const creatureTypes = new Set();
@@ -28,7 +28,12 @@ async function loadItemData(filepath) {
 }
 
 async function launchHarvestWindow() {
-    const hw = new HarvestWindow(await itemData);
+    let token = null;
+
+    if (canvas.tokens.controlled.length)
+        token = canvas.tokens.controlled[0];
+
+    const hw = new HarvestWindow(await itemData, token);
     hw.render(true);
 }
 

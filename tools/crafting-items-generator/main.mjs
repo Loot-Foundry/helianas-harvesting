@@ -11,7 +11,7 @@ const converter = new Converter(harvestComponentMap);
 const fileData = fs.readFileSync("data/harvesting-components.csv");
 const components = csv.parse(fileData, { columns: true })
     .map(line => converter.convertLine(line));
-    
+
 components.forEach(line => line.name = createHarvestItemName(line.name, line.creatureType));
 
 const logger = new HarvestItemLogger();
@@ -25,5 +25,4 @@ const item5ECompendium = components
     .join("\n");
 
 fs.writeFileSync("data/crafting-items.json", JSON.stringify(components));
-fs.writeFileSync("packs/helianas-crafting-items-test.db", item5ECompendium);
-
+fs.writeFileSync("packs/helianas-crafting-items.db", item5ECompendium);
