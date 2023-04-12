@@ -5,7 +5,8 @@
       <div class="form-fields">
         <select
           id="creature-type"
-          class="form-control">
+          class="managed-input form-control"
+          data-binding="creatureType">
           {{#select selectedType}}
             {{#each creatureTypes}}
               <option value="{{this}}">{{this}}</option>
@@ -35,8 +36,8 @@
           <div class="form-fields">
             <select
               id="boss-name"
-              class="form-control"
-            >
+              class="managed-input form-control"
+              data-binding="bossName">
               {{#select selectedBoss}}
                 {{#each bossNames}}
                   <option value="{{this}}">{{this}}</option>
@@ -159,10 +160,10 @@
       <div class="form-fields">
         <input
           type="number"
-          class="form-check-input"
+          class="managed-input form-control"
           id="harvest-check"
           value="{{harvestCheck}}"
-        >
+          data-binding="harvestCheckTotal" />
       </div>
     </div>
 
@@ -170,9 +171,9 @@
       <label for="harvesting-character">Harvesting Character</label>
       <div class="form-fields">
         <select
-          class="form-control"
+          class="managed-input form-control"
           id="harvesting-character"
-        >
+          data-binding="harvestingCharacter" />
           <option value="">None</option>
         </select>
       </div>

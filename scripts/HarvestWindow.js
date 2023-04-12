@@ -1,12 +1,14 @@
 import { Config } from "./config.js";
+import { ItemData } from "./HarvestItems.js";
+import { HarvestWindowForm } from "./HarvestWindowForm.js"
 
 export default class HarvestWindow extends Application {
 
   constructor(itemData) {
     super();
-    this.items = itemData.items;
-    this.creatureTypes = itemData.creatureTypes;
-    this.bosses = itemData.bosses;
+
+    this.itemData = new ItemData(itemData);
+    this.formData = new HarvestWindowForm(this.itemData);
 
     this.updateForm({
       creatureType: "Aberration",
@@ -24,122 +26,30 @@ export default class HarvestWindow extends Application {
     });
   }
 
-  items = [];
-  creatureTypes = [];
-  bosses = new Map();
-
-  #formData = {
-    creatureType: "",
-    isBoss: false,
-    bossName: "",
-    itemCount: {},
-    harvestItems: []
-  };
-
-  hasBoss(creatureType) {
-    return this.bosses.has(this.#formData.creatureType);
-  }
+  itemData = null;
+  formData = null;
 
   updateForm(options) {
-    let resetItems = false;
-    if (!options) options = {};
-
-    if (typeof options.creatureType !== "undefined" && this.#formData.creatureType !== options.creatureType) {
-      this.#formData.creatureType = options.creatureType;
-      resetItems = true;
-    }
-
-    if (typeof options.isBoss !== "undefined" && options.isBoss !== this.#formData.isBoss) {
-      this.#formData.isBoss = options.isBoss;
-      if (!this.#formData.isBoss) {
-        this.#formData.bossName = "";
-      }
-      resetItems = true;
-    }
-
-    // Update the boss name
-    if (typeof options.bossName !== "undefined" && options.bossName !== this.#formData.bossName) {
-      this.#formData.bossName = options.bossName;
-      resetItems = true;
-    }
-
-    if (this.#formData.isBoss) {
-      if (!this.hasBoss(this.#formData.creatureType)) {
-        this.#formData.isBoss = false;
-        this.#formData.bossName = "";
-        resetItems = true;
-      } else if (!this.bosses.get(this.#formData.creatureType).has(this.#formData.bossName)) {
-        const bossOptions = Array.from(this.bosses.get(this.#formData.creatureType)).sort();
-        this.#formData.bossName = bossOptions[0];
-        resetItems = true;
-      }
-    }
-
-    if (resetItems) {
-      this.#formData.itemCount = {};
-      this.#formData.harvestItems = [];
-    }
-
-    if (typeof options.itemCount !== "undefined") {
-      this.#formData.itemCount = options.itemCount;
-
-      // Generate harvest table
-      this.#formData.harvestItems = [];
-      Object.entries(this.#formData.itemCount).forEach(([itemId, count]) => {
-        const item = this.items.find(i => i.id === itemId);
-
-        for (let itemCount = 1; itemCount <= count; itemCount++) {
-          this.#formData.harvestItems.push({
-            showCount: count > 1,
-            itemCount,
-            attempt: true,
-            item
-          });
-        }
-      });
-    }
-
-    // Update Harvest DCs
-    let DC = 0;
-    this.#formData.harvestItems.forEach(harvest => {
-      if (harvest.attempt) {
-        DC += harvest.item.dc;
-        harvest.DC = DC;
-      }
-      else {
-        harvest.DC = "N/A";
-      }
-    });
-
+    this.formData.updateForm(options);
     if (this.rendered) this.render();
-
-    console.log("Rerendering with the following: ", this.#formData);
   }
 
   getData() {
     let data = super.getData();
 
-    data.selectedType = this.#formData.creatureType;
-    data.creatureTypes = this.creatureTypes;
+    data.selectedType = this.formData.creatureType;
+    data.creatureTypes = this.itemData.creatureTypes;
 
-    data.hasBoss = this.hasBoss(data.selectedType);
+    data.hasBoss = this.itemData.hasBoss(data.selectedType);
 
     if (data.hasBoss) {
-      data.isBoss = this.#formData.isBoss;
+      data.isBoss = this.formData.isBoss;
 
-      data.selectedBoss = this.#formData.bossName;
-      data.bossNames = Array.from(this.bosses.get(data.selectedType)).sort();
+      data.selectedBoss = this.formData.bossName;
+      data.bossNames = this.itemData.getBossNames(data.selectedType);
     }
 
-    data.items = this.items
-      .filter(item => {
-        return item.creatureType === data.selectedType &&
-          (!item.bossDrop || item.bosses.includes(data.selectedBoss));
-      })
-      .map(item => {
-        const count = this.#formData.itemCount[item.id] ?? "";
-        return { count, ...item };
-      });
+    data.items = this.formData.getItemCount(data.selectedType, data.selectedBoss);
 
     data.itemsByDc = {};
 
@@ -149,7 +59,10 @@ export default class HarvestWindow extends Application {
       data.itemsByDc[i.dc] = arr;
     }
 
-    data.harvest = this.#formData.harvestItems;
+    data.harvest = this.formData.harvestItems;
+    data.harvestEmpty = data.harvest.length === 0;
+
+    data.harvestCheckTotal = this.formData.harvestCheckTotal;
 
     return data;
   }
@@ -158,19 +71,17 @@ export default class HarvestWindow extends Application {
   activateListeners(html) {
     super.activateListeners(html);
 
-    const creatureType = html.find('#creature-type');
+    const creatureType = html.find('.managed-input');
     creatureType.on('change', event => {
-      this.updateForm({ creatureType: event.target.value });
+      const input = {};
+      input[event.target.dataset.binding] = event.target.value;
+      console.log("Input: ", input);
+      this.updateForm(input);
     });
 
     const isBoss = html.find("#is-boss");
     isBoss.on('change', event => {
       this.updateForm({ isBoss: event.target.checked });
-    });
-
-    const bossName = html.find("#boss-name");
-    bossName.on('change', event => {
-      this.updateForm({ bossName: event.target.value });
     });
 
     const createHarvestButton = html.find("#create-harvest-button");
@@ -201,8 +112,8 @@ export default class HarvestWindow extends Application {
       const sourceIndex = parseInt(dataTransfer.getData("harvestOrder"));
       if (Number.isInteger(sourceIndex)) {
         const targetIndex = parseInt(event.currentTarget.dataset.harvestOrder);
-
-        this.#rearrangeHarvestOrder(sourceIndex, targetIndex);
+        this.formData.reorderHarvestTable(sourceIndex, targetIndex);
+        this.updateForm();
       }
     });
 
@@ -215,35 +126,11 @@ export default class HarvestWindow extends Application {
       event.currentTarget.style.borderTop = "";
     });
 
-    const harvestAttemptCheckbox = html.find(".harvest-attempt-checkbox");
-    harvestAttemptCheckbox.on("change", (event) => {
+    const harvestAttemptCheckboxes = html.find(".harvest-attempt-checkbox");
+    harvestAttemptCheckboxes.on("change", (event) => {
       const index = parseInt(event.target.dataset.harvestIndex);
-      this.#formData.harvestItems[index].attempt = event.target.checked;
+      this.formData.harvestItems[index].attempt = event.target.checked;
       this.updateForm();
     });
-  }
-
-  #rearrangeHarvestOrder(sourceIndex, targetIndex) {
-    if (sourceIndex === targetIndex) return;
-    let items = this.#formData.harvestItems;
-    const ele = items[sourceIndex];
-
-    // Add the item at the targetIndex.
-    items = [
-      ...items.slice(0, targetIndex),
-      ele,
-      ...items.slice(targetIndex)
-    ];
-
-    // If the sourceIndex comes after the targetIndex, it just moved.
-    if (sourceIndex > targetIndex)
-      sourceIndex++;
-
-    // Remove the old copy of the item
-    items.splice(sourceIndex, 1);
-
-    this.#formData.harvestItems = items;
-
-    this.updateForm();
   }
 }
