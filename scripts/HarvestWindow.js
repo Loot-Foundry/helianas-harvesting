@@ -26,7 +26,7 @@ export default class HarvestWindow extends Application {
       width: 800,
       height: 600,
       resizable: true,
-      title: "Harvest"
+      title: "HelianasHarvest.HarvestWindowTitle"
     });
   }
 
@@ -191,7 +191,7 @@ export default class HarvestWindow extends Application {
   }
 
   shareComponents() {
-    let message = `<p>The following items can be harvested from ${this.formData.creatureName}</p>`;
+    let message = `<p>${game.i18n.format("HelianasHarvest.ChatComponentsMessage", {creatureName: this.formData.creatureName})}</p>`;
     message += `<ul>`;
 
     this.formData.getHarvestComponents().forEach(item => {
@@ -199,14 +199,13 @@ export default class HarvestWindow extends Application {
     });
 
     message += `</ul>
-      <p>Discuss what you would like to attempt to harvest and what order.
-      Each additional item you attempt to harvest will increase the DC.</p>`;
+      <p>${game.i18n.localize("HelianasHarvest.ChatComponentsInstructions")}</p>`;
 
     this.sendChatMessage(message);
   }
 
   showTable() {
-    let message = `<p>The current harvest table for ${this.formData.creatureName}</p>`;
+    let message = `<p>${game.i18n.format("HelianasHarvest.ChatHarvestTableMessage", {creatureName: this.formData.creatureName})}</p>`;
     message += `<ul>`;
 
     this.formData.harvestItems.forEach(harvest => {
@@ -216,7 +215,7 @@ export default class HarvestWindow extends Application {
     });
 
     message += `</ul>
-      <p>Roll your dual check to complete the harvest.</p>`;
+      <p>${game.i18n.localize("HelianasHarvest.ChatRollCheckInstructions")}</p>`;
 
     this.sendChatMessage(message);
   }
@@ -224,7 +223,7 @@ export default class HarvestWindow extends Application {
   async completeHarvest() {
     const actor = game.actors.get(this.formData.harvestingCharacter);
     const items = this.formData.getHarvestComponents(this.formData.harvestCheckTotal);
-    let message = `<p>Are you sure you wish to send the following items to ${actor.name}?</p><ul>`;
+    let message = `<p>${game.i18n.format("HelianasHarvest.ConfirmHarvestDialog", { name: actor.name})}</p><ul>`;
 
     items.forEach(item => {
       message += `<li> ${item.name} x ${item.count}`;
@@ -233,7 +232,7 @@ export default class HarvestWindow extends Application {
     message += "</ul>";
 
     Dialog.confirm({
-      title: "Confirm Harvest",
+      title: game.i18n.localize("HelianasHarvest.ConfirmHarvestTitle"),
       content: message,
       yes: () => {
         const items5e = items
