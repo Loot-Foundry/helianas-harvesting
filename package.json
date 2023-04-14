@@ -11,15 +11,16 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/plugin-transform-modules-amd": "^7.20.11",
-    "@babel/preset-env": "^7.21.4",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
     "csv": "^6.2.8",
+    "del": "^7.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "jsonfile": "^6.1.0",
-    "del": "^7.0.0"
+    "rollup": "^3.20.2"
   },
   "overrides": {
     "chokidar": "3.5.3",

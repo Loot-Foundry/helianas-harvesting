@@ -1,10 +1,13 @@
 import gulp from 'gulp';
-import babel from 'gulp-babel';
 import sourcemaps from 'gulp-sourcemaps';
 import jsonfile from 'jsonfile';
 import { join, dirname, relative } from 'path';
 import { fileURLToPath } from 'url';
 import { deleteAsync } from 'del';
+import { rollup } from 'rollup';
+import rollupCommonJS from '@rollup/plugin-commonjs';
+import rollupNodeResolve from '@rollup/plugin-node-resolve';
+import rollupTerser from '@rollup/plugin-terser';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -23,22 +26,25 @@ gulp.task('copyFiles', () => {
     }));
 });
 
-gulp.task('compileJS', () => {
+gulp.task('compileJS', async () => {
   const modules = jsonfile.readFileSync(modulePath);
-  return gulp.src(modules.includes.filter(file => file.endsWith('.js')), { base: './', cwd: __dirname })
-    .pipe(sourcemaps.init())
-    .pipe(babel({
-      presets: ['@babel/preset-env'],
-      plugins: ['@babel/plugin-transform-modules-amd']
-    }))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest((file) => {
-      if (file.base) {
-        const relativePath = relative('./', file.base);
-        return join(distPath, relativePath);
-      }
-      return distPath;
-    }));
+  const jsFiles = modules.includes.filter(file => file.endsWith('.js'));
+  for (const jsFile of jsFiles) {
+    const bundle = await rollup({
+      input: jsFile,
+      plugins: [
+        rollupNodeResolve(),
+        rollupCommonJS(),
+        rollupTerser(),
+      ]
+    });
+    const outputFilePath = join(distPath, jsFile);
+    await bundle.write({
+      file: outputFilePath,
+      format: 'amd',
+      sourcemap: true,
+    });
+  }
 });
 
 gulp.task('clean', () => {
