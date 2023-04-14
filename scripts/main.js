@@ -41,7 +41,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
     let actorControl = controls.find(c => c.name === "token");
     actorControl.tools.push({
         name: "harvest",
-        title: "HELIANAS.HarvestControl",
+        title: "HelianaHarvest.HarvestControl",
         icon: "fa-solid fa-sickle",
         layer: "tokens",
         visible: game.user.isGM,

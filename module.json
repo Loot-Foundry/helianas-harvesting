@@ -1,55 +1,59 @@
 {
-  "id": "helianas-crafting",
-  "title": "Helianas - Crafting Resources",
-  "description": "<p>A working compendium for crafting items for Helianas. NOT to be shared with customers.</p>",
-  "version": "1.0",
+  "id": "helianas-harvesting",
+  "title": "Heliana's Harvesting Module",
+  "description": "<p>Initial Testing Version of a Harvesting Module to aid with Haliana's Harvesting Rules.</p>",
+  "version": "0.1",
   "compatibility": {
     "minimum": 10,
-    "verified": 10.120,
+    "verified": 10.291,
     "maximum": 10
   },
   "authors": [
     {
-      "name": "Harrison",
-      "url": "https://harrison.ju.mp",
-      "email": "harrison@themadnetwork.co.uk",
-      "discord": "Harrison#3229"
+      "name": "Kage",
+      "discord": "Kage#6375"
     }
   ],
   "relationships": {
-    "requires": [
-      {
-        "id": "scene-packer",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatibility": {
+            "minimum": "2.1.0",
+            "verified": "2.1.5"
+          }
+        }
+      ],
+      "requires": []
+    }
   },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
   "packs": [
     {
-      "name": "helianas-crafting-journals",
-      "label": "Heliana - STAFF Crafting",
-      "path": "packs/helianas-crafting-journals.db",
+      "name": "helianas-harvesting-journals",
+      "label": "Heliana's Harvesting Journals",
+      "path": "packs/dnd5e-harvesting-journals.db",
       "type": "JournalEntry",
       "system": "dnd5e"
     },
     {
-      "name": "helianas-crafting-items",
-      "label": "Helianas - STAFF Crafting",
-      "path": "packs/helianas-crafting-items.db",
+      "name": "dnd5e-components",
+      "label": "Heliana's Harvesting Components",
+      "path": "packs/dnd5e-harvesting-components.db",
       "type": "Item",
       "system": "dnd5e"
     }
   ],
   "esmodules": [
-    "./scripts/init-scene-packer.js",
     "./scripts/main.js"
-  ],
-  "url": "https://harrison.ju.mp",
-  "protected": false
+  ]
 }
