@@ -1,41 +1,23 @@
+import { ComponentDatabase } from "./ComponentDatabase.js";
 import HarvestWindow from "./HarvestWindow.js"
 import { Config } from "./config.js";
 
 
-const itemData = loadItemData(Config.HarvestItemJson);
+Hooks.on("setup", function() {
+    game.modules.get("helianas-harvesting").api = {
+        componentDatabase: new ComponentDatabase()
+    };
+});
 
-async function loadItemData(filepath) {
-    const itemFile = await fetch(filepath);
+Hooks.on("ready", async function() {
+    const itemFile = await fetch(Config.HarvestItemJson);
     const items = await itemFile.json();
+    const { componentDatabase } = game.modules.get("helianas-harvesting").api;
 
-    const creatureTypes = new Set();
-    const bosses = new Map();
-
-    for (const item of items) {
-        creatureTypes.add(item.creatureType);
-        if (item.bossDrop) {
-            const bossList = bosses.get(item.creatureType) ?? new Set();
-            item.bosses.forEach(boss => bossList.add(boss));
-            bosses.set(item.creatureType, bossList);
-        }
-    }
-
-    return {
-        creatureTypes: Array.from(creatureTypes).sort(),
-        bosses,
-        items
-    }
-}
-
-async function launchHarvestWindow() {
-    let token = null;
-
-    if (canvas.tokens.controlled.length)
-        token = canvas.tokens.controlled[0];
-
-    const hw = new HarvestWindow(await itemData, token);
-    hw.render(true);
-}
+    items.forEach(item => {
+        componentDatabase.addItem(item);
+    });
+});
 
 Hooks.on("getSceneControlButtons", (controls) => {
     let actorControl = controls.find(c => c.name === "token");
@@ -46,6 +28,15 @@ Hooks.on("getSceneControlButtons", (controls) => {
         layer: "tokens",
         visible: game.user.isGM,
         button: true,
-        onClick: launchHarvestWindow
+        onClick: () => {
+            let token = null;
+
+            if (canvas.tokens.controlled.length)
+                token = canvas.tokens.controlled[0];
+
+            const { componentDatabase } = game.modules.get("helianas-harvesting").api;
+            const hw = new HarvestWindow(componentDatabase, token);
+            hw.render(true);
+        }
     });
 });

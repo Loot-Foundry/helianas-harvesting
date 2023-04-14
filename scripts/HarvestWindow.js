@@ -1,13 +1,13 @@
 import { Config } from "./config.js";
-import { ItemData } from "./HarvestItems.js";
+import { ComponentDatabase } from "./ComponentDatabase.js";
 import { HarvestWindowForm } from "./HarvestWindowForm.js";
 
 export default class HarvestWindow extends Application {
 
-  constructor(itemData, token) {
+  constructor(componentDatabase, token) {
     super();
 
-    this.itemData = new ItemData(itemData);
+    this.itemData = componentDatabase;
     this.formData = new HarvestWindowForm(this.itemData);
 
     if (token) {

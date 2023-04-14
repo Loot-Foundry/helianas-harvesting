@@ -29,7 +29,7 @@ export function convertToItem5e(source) {
         },
         "effects": [],
         "flags": {
-            "helianasHarvesting": {
+            "helianas-harvesting": {
                 "id": source.id
             },
             "core": {
