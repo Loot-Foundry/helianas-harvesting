@@ -30,7 +30,7 @@ const item5ECompendium = components
     .map(convertToItem5e)
     .sort((a, b) => a._id < b._id ? -1 : 1)
     .map(obj => JSON.stringify(obj))
-    .join("\n");
+    .join("\n") + "\n";
 
 fs.writeFileSync("data/harvesting-components.json", JSON.stringify(components));
 fs.writeFileSync("packs/dnd5e-components.db", item5ECompendium);
