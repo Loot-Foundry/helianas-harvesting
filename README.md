@@ -10,9 +10,9 @@ const api = game.modules.get("helianas-harvesting")?.api;
 if (api) {
     api.componentDatabase.addItem({
         /**
-         * id must be a 16 digit alphanumeric random string. Please
-         * use a presistent ID unique for each item as it will be stored
-         * on newly made it's flag data for later crafting checks.
+         * id must be a 16 digit alphanumeric random string.
+         * Use a persistent unique ID for each item, it will be saved
+         * to newly made item's via flag data for later crafting checks.
          **/
         id: "mmdXhJuLahzOhNQy"  stored on the
 
@@ -20,11 +20,11 @@ if (api) {
 
         img: "/foundry/icon.webp",
 
-        // This gets added to the system.source for genreated items.
+        // This gets added to the system.source for generated items.
         source: "My Content"
 
         // The creature type which can drop this item.
-        // Note this is case sentative and is upper cased.
+        // Note this is case sensitive and is upper cased.
         creatureType: "Aberration",
 
         // Crafting DC for the item
@@ -33,7 +33,7 @@ if (api) {
         // True if the item is edible
         edible: false,
 
-        // True if the item is violatile
+        // True if the item is volatile
         volatile: true,
 
         // True if this is a unique drop from a boss (see bosses)
