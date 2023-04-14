@@ -30,7 +30,7 @@ export function convertToItem5e(source) {
         "effects": [],
         "flags": {
             "core": {
-                "sourceId": `Compendium.helianas-harvesting.dnd5e-harvesting-components.${source.id}`
+                "sourceId": `Compendium.helianas-harvesting.dnd5e-components.${source.id}`
             }
         },
         "_stats": {

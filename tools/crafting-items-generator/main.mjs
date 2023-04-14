@@ -33,4 +33,4 @@ const item5ECompendium = components
     .join("\n");
 
 fs.writeFileSync("data/harvesting-components.json", JSON.stringify(components));
-fs.writeFileSync("packs/dnd5e-harvesting-components.db", item5ECompendium);
+fs.writeFileSync("packs/dnd5e-components.db", item5ECompendium);

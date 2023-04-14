@@ -39,16 +39,16 @@
   ],
   "packs": [
     {
-      "name": "helianas-harvesting-journals",
+      "name": "dnd5e-journals",
       "label": "Heliana's Harvesting Journals",
-      "path": "packs/dnd5e-harvesting-journals.db",
+      "path": "packs/dnd5e-journals.db",
       "type": "JournalEntry",
       "system": "dnd5e"
     },
     {
       "name": "dnd5e-components",
       "label": "Heliana's Harvesting Components",
-      "path": "packs/dnd5e-harvesting-components.db",
+      "path": "packs/dnd5e-components.db",
       "type": "Item",
       "system": "dnd5e"
     }
