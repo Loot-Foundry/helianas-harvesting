@@ -1,4 +1,4 @@
 export const Config = {
-    HarvestWindowTemplate: "modules/helianas-crafting/templates/harvest-window.hbs",
-    HarvestItemJson: "modules/helianas-crafting/data/crafting-items.json"
+    HarvestWindowTemplate: "modules/helianas-harvesting/templates/harvest-window.hbs",
+    HarvestItemJson: "modules/helianas-harvesting/data/harvesting-components.json"
 };
