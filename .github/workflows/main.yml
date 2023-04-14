@@ -43,7 +43,7 @@ jobs:
     - run: npm run build
 
     # Create a zip file with all files required by the module to add to the release
-    - run: zip -r -j ./module.zip ./dist/*
+    - run: (cd dist; zip -r ../module.zip *)
 
     # Create a release for this specific version
     - name: Update Release with Files
