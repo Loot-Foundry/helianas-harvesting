@@ -1,14 +1,14 @@
 {
-  "name": "helianas-crafting",
+  "name": "helianas-harvesting",
   "version": "1.0.0",
   "description": "A Foundry Companion Module for Harvesting and Crafting for Heliana's Guide to Monster Hunting",
   "main": "index.js",
   "scripts": {
-    "compendium": "node ./tools/crafting-items-generator/main.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compendium": "node ./tools/crafting-items-generator/main.mjs"
   },
-  "author": "",
-  "license": "",
+  "author": "Charles Miller",
+  "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "csv": "^6.2.8"
   }
