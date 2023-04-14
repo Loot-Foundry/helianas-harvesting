@@ -17,4 +17,7 @@
     "html.format.templating": true,
     "javascript.format.enable": true,
     "javascript.format.semicolons": "insert",
+    "cSpell.words": [
+        "helianas"
+    ],
 }
