@@ -1,12 +1,9 @@
 import gulp from 'gulp';
-import sourcemaps from 'gulp-sourcemaps';
 import jsonfile from 'jsonfile';
 import { join, dirname, relative } from 'path';
 import { fileURLToPath } from 'url';
 import { deleteAsync } from 'del';
 import { rollup } from 'rollup';
-import rollupCommonJS from '@rollup/plugin-commonjs';
-import rollupNodeResolve from '@rollup/plugin-node-resolve';
 import rollupTerser from '@rollup/plugin-terser';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -33,15 +30,13 @@ gulp.task('compileJS', async () => {
     const bundle = await rollup({
       input: jsFile,
       plugins: [
-        rollupNodeResolve(),
-        rollupCommonJS(),
-        rollupTerser(),
+        rollupTerser()
       ]
     });
     const outputFilePath = join(distPath, jsFile);
     await bundle.write({
       file: outputFilePath,
-      format: 'amd',
+      format: 'esm',
       sourcemap: true,
     });
   }
