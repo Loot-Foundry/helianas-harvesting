@@ -29,6 +29,9 @@ export function convertToItem5e(source) {
         },
         "effects": [],
         "flags": {
+            "helianasHarvesting": {
+                "id": source.id
+            },
             "core": {
                 "sourceId": `Compendium.helianas-harvesting.dnd5e-components.${source.id}`
             }

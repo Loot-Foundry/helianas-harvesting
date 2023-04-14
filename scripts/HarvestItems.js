@@ -40,7 +40,12 @@ export class ItemData {
                 },
                 "identified": true
             },
-            "_id": randomID(),
+            flags: {
+                "helianasHarvesting": {
+                    "id": item.id,
+                    "source": creatureName
+                }
+            }
         };
     }
 }
