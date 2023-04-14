@@ -10,7 +10,15 @@ import { createHarvestItemName } from './convertHarvestItemName.mjs';
 const converter = new Converter(harvestComponentMap);
 const fileData = fs.readFileSync("data/harvesting-components.csv");
 const components = csv.parse(fileData, { columns: true })
-    .map(line => converter.convertLine(line));
+    .map(line => {
+        let result = converter.convertLine(line);
+        // We ignore bosses on items that aren't specifically a boss drop
+        if (!result.bossDrop) result.bosses = [];
+        return result;
+    })
+    // Filter non-OGL items
+    .filter(line => !line.bossDrop);
+
 
 components.forEach(line => line.name = createHarvestItemName(line.name, line.creatureType));
 
@@ -24,5 +32,5 @@ const item5ECompendium = components
     .map(obj => JSON.stringify(obj))
     .join("\n");
 
-fs.writeFileSync("data/crafting-items.json", JSON.stringify(components));
-fs.writeFileSync("packs/helianas-crafting-items.db", item5ECompendium);
+fs.writeFileSync("data/harvesting-components.json", JSON.stringify(components));
+fs.writeFileSync("packs/dnd5e-harvesting-components.db", item5ECompendium);

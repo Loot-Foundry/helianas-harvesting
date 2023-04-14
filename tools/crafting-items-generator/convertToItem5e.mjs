@@ -1,13 +1,17 @@
 export function convertToItem5e(source) {
     const lowerCaseName = source.name.toLowerCase();
     const lowerCaseCreatureType = source.creatureType.toLowerCase();
+    let description =
+        `<p>A ${lowerCaseName} harvested from a ${lowerCaseCreatureType}. It may be ` +
+        `useful in crafting!</p>`;
+
     return {
         "name": source.name,
         "type": "loot",
         "img": source.img,
         "system": {
             "description": {
-                "value": `<p>A ${lowerCaseName} harvested from a ${lowerCaseCreatureType}. It may be useful in crafting!</p><p></p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Note</span></strong></span></p><p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\">If you are using the metatag optional rule then, to keep track of the different metatags you have for this component:</span></p><p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\"> <strong>[Monster Name] - [Monster Size] - [Number of this Component]</strong></span></p>`,
+                "value": description,
                 "chat": "",
                 "unidentified": ""
             },
@@ -26,7 +30,7 @@ export function convertToItem5e(source) {
         "effects": [],
         "flags": {
             "core": {
-                "sourceId": `Compendium.helianas-crafting.helianas-crafting-items-test.${source.id}`
+                "sourceId": `Compendium.helianas-harvesting.dnd5e-harvesting-components.${source.id}`
             }
         },
         "_stats": {
