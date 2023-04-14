@@ -53,6 +53,17 @@
       "system": "dnd5e"
     }
   ],
+  "includes": [
+    "data/harvesting-components.json",
+    "lang/*",
+    "packs/dnd5e-components.db",
+    "packs/dnd5e-journals.db",
+    "scripts/main.js",
+    "templates/*",
+    "LICENSE",
+    "module.json",
+    "OGL.md"
+  ],
   "esmodules": [
     "./scripts/main.js"
   ]
