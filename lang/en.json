@@ -1,3 +1,21 @@
 {
-    "HelianaHarvest.HarvestControl": "Harvest Creature"
+    "HelianasHarvest" : {
+        "CreatureTypeLabel": "Creature Type",
+        "CreatureNameLabel": "Creature Name",
+        "IsBossLabel": "Boss?",
+        "BossNameLabel": "Boss Name",
+        "ItemNameHeader": "Item Name",
+        "HarvestCountHeader": "Number Harvestable",
+        "CreateHarvestTableButton": "Create Harvest Table",
+        "DCHeader": "DC",
+        "AttemptHarvestHeader": "Attempt?",
+        "ShareComponentsButton": "Share All Components",
+        "ShareHarvestTableButton": "Share Harvest Table",
+        "HarvestCheckTotalLabel": "Harvest Check Total",
+        "HarvestingCharacterLabel": "Harvesting Character",
+        "HarvestCharacterOptionNone": "None",
+        "HarvestCharacterNote": "This character will receive items when you complete the harvest.",
+        "CompleteHarvestButton": "Complete Harvest",
+        "HarvestControl": "Harvest Creature"
+    }
 }

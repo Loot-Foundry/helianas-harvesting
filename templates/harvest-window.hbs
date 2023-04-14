@@ -1,7 +1,7 @@
 <form class="package-configuration flexrow">
   <div style="padding: 2px;">
     <div class="form-group">
-      <label for="creature-name">Creature Name</label>
+      <label for="creature-name">{{localize "HelianasHarvest.CreatureNameLabel"}}</label>
       <div class="form-fields">
         <input
           type="text"
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="form-group">
-      <label for="creature-type">Creature Type</label>
+      <label for="creature-type">{{localize "HelianasHarvest.CreatureTypeLabel"}}</label>
       <div class="form-fields">
         <select
           id="creature-type"
@@ -33,7 +33,7 @@
         <label
           class="form-check-label"
           for="is-boss"
-        > Boss? </label>
+        > {{localize "HelianasHarvest.IsBossLabel"}} </label>
         <div class="form-fields">
           <input
             type="checkbox"
@@ -45,7 +45,7 @@
       </div>
       {{#if isBoss}}
         <div class="form-group">
-          <label for="boss-name">Boss Name</label>
+          <label for="boss-name">{{localize "HelianasHarvest.BossNameLabel"}}</label>
           <div class="form-fields">
             <select
               id="boss-name"
@@ -68,8 +68,8 @@
           <th
             scope="col"
             colspan="2"
-          >Item</th>
-          <th scope="col">Harvestable Count</th>
+          >{{localize "HelianasHarvest.ItemNameHeader"}}</th>
+          <th scope="col">{{localize "HelianasHarvest.HarvestCountHeader"}}</th>
         </tr>
       </thead>
       <tbody>
@@ -79,7 +79,7 @@
               colspan="3"
               style="text-align: center; background: #ada"
             >
-              <strong>DC {{@key}}</strong>
+              <strong>{{localize "HelianasHarvest.DCHeader"}} {{@key}}</strong>
             </td>
           </tr>
           {{#each this}}
@@ -112,7 +112,7 @@
       </tbody>
     </table>
     <div>
-      <button id="create-harvest-button">Create Harvest Table</button>
+      <button id="create-harvest-button">{{localize "HelianasHarvest.CreateHarvestTableButton"}}</button>
     </div>
   </div>
   <div style="padding: 2px;">
@@ -122,9 +122,9 @@
           <th
             scope="col"
             colspan="2"
-          >Item</th>
-          <th scope="col">DC</th>
-          <th scope="col">Attempt?</th>
+          >{{localize "HelianasHarvest.ItemNameHeader"}}</th>
+          <th scope="col">{{localize "HelianasHarvest.DCHeader"}}</th>
+          <th scope="col">{{localize "HelianasHarvest.AttemptHarvestHeader"}}</th>
         </tr>
       </thead>
       <tbody>
@@ -169,15 +169,15 @@
       <button
         id="harvest-show-components"
         {{ disabled harvestEmpty }}
-      >Share All Components</button>
+      >{{localize "HelianasHarvest.ShareComponentsButton"}}</button>
       <button
         id="harvest-show-table"
         {{ disabled harvestEmpty }}
-      >Share Harvest Table</button>
+      >{{localize "HelianasHarvest.ShareHarvestTableButton"}}</button>
     </div>
     <hr />
     <div class="form-group">
-      <label for="harvest-check">Harvest Check Total</label>
+      <label for="harvest-check">{{localize "HelianasHarvest.HarvestCheckTotalLabel"}}</label>
       <div class="form-fields">
         <input
           type="number"
@@ -189,7 +189,7 @@
       </div>
     </div>
     <div class="form-group">
-      <label for="harvesting-character">Harvesting Character</label>
+      <label for="harvesting-character">{{localize "HelianasHarvest.HarvestingCharacterLabel"}}</label>
       <div class="form-fields">
         <select
           class="managed-input form-control"
@@ -197,21 +197,20 @@
           data-binding="harvestingCharacter"
         />
         {{#select harvestingCharacter}}
-          <option value="">None</option>
+          <option value="">{{localize "HelianasHarvest.HarvestCharacterOptionNone"}}</option>
           {{#each players}}
             <option value="{{this.id}}">{{this.name}}</option>
           {{/each}}
         {{/select}}
         </select>
       </div>
-      <p class="notes">This character will receive items when you complete the
-        harvest</p>
+      <p class="notes">{{localize "HelianasHarvest.HarvestCharacterNote"}}</p>
     </div>
     <div>
       <button
         id="harvest-complete"
         {{disabled (or harvestEmpty (not harvestingCharacter) (not harvestCheckTotal)) }}
-      > Complete Harvest </button>
+      > {{localize "HelianasHarvest.CompleteHarvestButton"}} </button>
     </div>
   </div>
 </form>
