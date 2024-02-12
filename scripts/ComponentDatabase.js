@@ -89,6 +89,26 @@ export class ComponentDatabase {
         return this._items.get(itemId);
     }
 
+    async exportBasicItems() {
+        const rootFolder = (await Folder.create({name: "Components", type: "Item" })).id;
+        const subFolders = {};
+
+        for (const item of this.items) {
+            let folderId = rootFolder;
+            if (subFolders[item.creatureType]) {
+                folderId = subFolders[item.creatureType];
+            }
+            else {
+                folderId = (await Folder.create({ name: item.creatureType, type: "Item", folder: rootFolder })).id;
+                subFolders[item.creatureType] = folderId;
+            }
+
+            const out = this.createGenericItem5e(item);
+            out.folder = folderId;
+            await Item.create(out);
+        }
+    }
+
     createItem5e(creatureName, item) {
         return {
             "name": `${item.name} (${creatureName})`,
@@ -112,6 +132,33 @@ export class ComponentDatabase {
                 "helianas-harvesting": {
                     "id": item.id,
                     "source": creatureName
+                }
+            }
+        };
+    }
+
+    createGenericItem5e(item) {
+        return {
+            "name": `${item.name}`,
+            "type": "loot",
+            "img": item.img,
+            "system": {
+                "rarity": item.rarity,
+                "description": {
+                    "value": `<p>A ${item.name.toLowerCase()} harvested from a ${item.creatureType.toLowerCase()}. It may be useful in crafting!</p>`,
+                },
+                "source": item.source,
+                "quantity": 1,
+                "weight": 0,
+                "price": {
+                    "value": item.value,
+                    "denomination": "gp"
+                },
+                "identified": true
+            },
+            "flags": {
+                "helianas-harvesting": {
+                    "id": item.id,
                 }
             }
         };
