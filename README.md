@@ -14,7 +14,7 @@ if (api) {
          * Use a persistent unique ID for each item, it will be saved
          * to newly made item's via flag data for later crafting checks.
          **/
-        id: "mmdXhJuLahzOhNQy"  stored on the
+        id: "mmdXhJuLahzOhNQy",
 
         name: "My Item Name",
 
@@ -25,23 +25,22 @@ if (api) {
 
         // The creature type which can drop this item.
         // Note this is case sensitive and is upper cased.
+        // Defaults to "All"
         creatureType: "Aberration",
 
-        // Crafting DC for the item
+        // Crafting DC for the item (Defaults to 5)
         dc: 5,
 
-        // True if the item is edible
+        // True if the item is flagged for crafting (Defaults to false)
+        crafting: true,
+
+        // True if the item is edible (Defaults to false)
         edible: false,
 
-        // True if the item is volatile
+        // True if the item is volatile (Defaults to false)
         volatile: true,
-
-        // True if this is a unique drop from a boss (see bosses)
-        bossDrop: true,
-
         // An array of all creature names which can drop this item if bossDrop is true.
         bosses: ["Big Monster", "Bigger Monster", "Biggest Monster"]
-
     });
 }
 ```
