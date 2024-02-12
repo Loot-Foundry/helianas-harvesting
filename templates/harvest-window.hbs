@@ -1,4 +1,4 @@
-<form class="package-configuration flexrow">
+<form class="flexrow">
   <div style="padding: 2px;">
     <div class="form-group">
       <label for="creature-name">{{localize "HelianasHarvest.CreatureNameLabel"}}</label>
@@ -26,6 +26,18 @@
             {{/each}}
           {{/select}}
         </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="creature-cr">{{localize "HelianasHarvest.CreatureCRLabel"}}</label>
+      <div class="form-fields">
+        <input
+          type="text"
+          class="managed-input form-control"
+          id="creature-cr"
+          value="{{creatureCR}}"
+          data-binding="creatureCR"
+        />
       </div>
     </div>
     {{#if hasBoss}}

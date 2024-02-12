@@ -56,7 +56,13 @@ export class ComponentDatabase {
         item.name = typeof input.name === "string" ? input.name : "Unnamed Item";
         item.img = typeof input.img === "string" ? input.img : "icons/svg/item-bag.svg";
         item.source = typeof input.source === "string" ? input.source : "";
-        item.creatureType = this.creatureTypes.includes(input.creatureType) ? input.creatureType : creatureType[0]
+        item.creatureType = this.creatureTypes.includes(input.creatureType) ? input.creatureType : "All"
+
+        item.crMin = typeof input.crMin === "number" ? input.crMin : 0;
+        item.crMax = typeof input.crMax === "number" ? input.crMax : 40;
+
+        item.value = typeof input.value === "number" ? input.value : item.dc * 4;
+        item.rarity = typeof input.rarity === "string" ? input.rarity : "common";
 
         return item;
     }
@@ -84,6 +90,7 @@ export class ComponentDatabase {
             "type": "loot",
             "img": item.img,
             "system": {
+                "rarity": item.rarity,
                 "description": {
                     "value": `<p>A ${item.name.toLowerCase()} harvested from a ${creatureName}. It may be useful in crafting!</p>`,
                 },
@@ -91,7 +98,7 @@ export class ComponentDatabase {
                 "quantity": item.count,
                 "weight": 0,
                 "price": {
-                    "value": 0,
+                    "value": item.value,
                     "denomination": "gp"
                 },
                 "identified": true

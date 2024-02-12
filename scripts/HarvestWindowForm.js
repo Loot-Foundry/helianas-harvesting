@@ -1,6 +1,7 @@
 export class HarvestWindowForm {
     creatureName = "";
     creatureType = "";
+    creatureCR = 0;
     isBoss = false;
     bossName = "";
     itemCount = {};
@@ -24,6 +25,11 @@ export class HarvestWindowForm {
         if (this.#changed(options, "creatureType")) {
             this.creatureType = options.creatureType;
             resetItems = true;
+        }
+
+        if (this.#changed(options, "creatureCR")) {
+            const creatureCR = parseFloat(options.creatureCR);
+            this.creatureCR = creatureCR;
         }
 
         if (this.#changed(options, "isBoss")) {
@@ -107,7 +113,7 @@ export class HarvestWindowForm {
             }
 
             if (optionType === "number") {
-                return parseInt(options[optionName]) !== this[optionName];
+                return parseInt(options[optionName]) !== this[optionName] || parseFloat(options[optionName]) !== this[optionName];
             }
 
             return true;
@@ -154,10 +160,11 @@ export class HarvestWindowForm {
         this.harvestItems = items;
     }
 
-    getItemCount(selectedType, bossName) {
+    getItemCount(selectedType, bossName, selectedCR) {
         return this.itemData.items
             .filter(item => {
-                return item.creatureType === selectedType &&
+                return (item.creatureType === selectedType || item.creatureType === "All") &&
+                    (selectedCR >= item.crMin && selectedCR <= item.crMax) &&
                     (!item.bossDrop || item.bosses.includes(bossName));
             })
             .map(item => {

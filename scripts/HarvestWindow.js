@@ -47,6 +47,7 @@ export default class HarvestWindow extends Application {
     this.updateForm({
       creatureName: actor.name,
       creatureType: creatureType,
+      creatureCR: actor.system?.details?.cr ?? 1,
       isBoss: bosses.includes(actor.name),
       // Bosses are auto validated
       bossName: actor.name
@@ -59,6 +60,7 @@ export default class HarvestWindow extends Application {
     data.creatureName = this.formData.creatureName;
     data.selectedType = this.formData.creatureType;
     data.creatureTypes = this.itemData.creatureTypes;
+    data.creatureCR = this.formData.creatureCR;
 
     data.hasBoss = this.itemData.hasBoss(data.selectedType);
 
@@ -69,7 +71,7 @@ export default class HarvestWindow extends Application {
       data.bossNames = this.itemData.getBossNames(data.selectedType);
     }
 
-    data.items = this.formData.getItemCount(data.selectedType, data.selectedBoss);
+    data.items = this.formData.getItemCount(data.selectedType, data.selectedBoss, data.creatureCR);
 
     data.itemsByDc = this.getItemDCs(data.items);
 

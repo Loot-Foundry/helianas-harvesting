@@ -15,6 +15,7 @@ Hooks.on("ready", async function() {
     const { componentDatabase } = game.modules.get("helianas-harvesting").api;
 
     items.forEach(item => {
+        item.source = "HGtMH";
         componentDatabase.addItem(item);
     });
 });

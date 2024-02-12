@@ -2,6 +2,7 @@
     "HelianasHarvest" : {
         "CreatureTypeLabel": "Creature Type",
         "CreatureNameLabel": "Creature Name",
+        "CreatureCRLabel": "Creature CR Rating",
         "IsBossLabel": "Boss?",
         "BossNameLabel": "Boss Name",
         "ItemNameHeader": "Item Name",
