@@ -206,6 +206,27 @@ export default class HarvestWindow extends Application {
     this.sendChatMessage(message);
   }
 
+  getAssessmentSkill() {
+    const skillTable = {
+      "Aberration": "Arcana",
+      "Beast": "Survival",
+      "Celestial": "Religion",
+      "Construct": "Investigation",
+      "Dragon": "Survival",
+      "Elemental": "Arcana",
+      "Fey": "Arcana",
+      "Fiend": "Religion",
+      "Giant": "Medicine",
+      "Humanoid": "Medicine",
+      "Monstrosity": "Survival",
+      "Ooze": "Nature",
+      "Plant": "Nature",
+      "Undead": "Medicine",
+    }
+
+    return skillTable[this.formData.creatureType] ?? "Other";
+  }
+
   showTable() {
     let message = `<p>${game.i18n.format("HelianasHarvest.ChatHarvestTableMessage", {creatureName: this.formData.creatureName})}</p>`;
     message += `<ul>`;
@@ -218,6 +239,8 @@ export default class HarvestWindow extends Application {
 
     message += `</ul>
       <p>${game.i18n.localize("HelianasHarvest.ChatRollCheckInstructions")}</p>`;
+
+    message += `<p>Assessment check: Intelligence (${this.getAssessmentSkill()})</p>`;
 
     this.sendChatMessage(message);
   }
