@@ -1,0 +1,7 @@
+.helianas-harvesting-module sup {
+    vertical-align: super;
+}
+
+.helianas-harvesting-module table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
