@@ -41,9 +41,12 @@ export class ComponentDatabase {
             id: input.id
         };
 
+        item.crafting = input.crafting === true;
         item.edible = input.edible === true;
         item.volatile = input.volatile === true;
-        item.bossDrop = input.bossDrop === true;
+
+        // Convert singular boss name to an array
+        if (typeof input.bosses === "string") input.bosses = [input.bosses];
 
         if (Array.isArray(input.bosses) && input.bosses.every(boss => typeof boss === 'string')) {
             item.bosses = input.bosses;
@@ -51,6 +54,8 @@ export class ComponentDatabase {
         else {
             item.bosses = [];
         }
+
+        item.bossDrop = item.bosses.length > 0;
 
         item.dc = typeof input.dc === "number" ? input.dc : 5;
         item.name = typeof input.name === "string" ? input.name : "Unnamed Item";
