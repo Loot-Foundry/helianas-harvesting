@@ -1,0 +1,65 @@
+<form>
+  <div class="form-group">
+    <div class="form-fields">
+      <input
+        type="text"
+        class="managed-input debounce form-control"
+        id="recipe-search"
+        value="{{searchText}}"
+        data-binding="searchText"
+        placeholder="{{localize "HelianasHarvest.RecipeSearch"}}"
+      />
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">{{localize "HelianasHarvest.ItemNameHeader"}}</th>
+        <th scope="col">{{localize "HelianasHarvest.ItemRarity"}}</th>
+        <th scope="col">{{localize "HelianasHarvest.ItemPriceHeader"}}</th>
+        <th scope="col">{{localize "HelianasHarvest.RecipeMetatag"}}</th>
+        <th scope="col">{{localize "HelianasHarvest.RequiredComponents"}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each recipes}}
+        <tr class="harvest-table-row">
+          <td>
+            <a
+              class="recipe-item-name display-image-name"
+              data-item-name="{{ this.name }}"
+              data-item-link="{{ this.link }}"
+            >
+              <img
+                src="{{this.img}}"
+                alt="{{this.name}}"
+                style="max-height: 2rem;"
+              />
+              <div>
+                {{this.name}}
+                {{#if (gt this.qty 1)}} (x{{this.qty}}) {{/if}}
+              </div>
+            </a>
+          </td>
+          <td style="text-align: center;">
+            {{ getProperty ../rarityNames this.rarity }}
+          </td>
+          <td style="text-align: right;">
+            {{ this.price }}
+          </td>
+          <td style="text-align: center;">
+            {{ this.metatag }}
+          </td>
+          <td>
+            {{#each this.components}}
+              <p class="display-image-name">
+                <img src="{{ this.img }}" style="max-height: 1rem"/>
+                <span>{{this.name}}</span>
+              </p>
+            {{/each}}
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</form>

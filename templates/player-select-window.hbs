@@ -1,0 +1,22 @@
+<div>
+    <h1 class="module-title">
+        {{ localize message }}
+    </h1>
+    <ul class="player-list">
+        {{#each players}}
+            <li class="player-item">
+                <a
+                    class="select-player display-image-name"
+                    data-player-id="{{ this.id }}"
+                >
+                    <img
+                        src="{{this.img}}"
+                        alt="{{ this.name }}"
+                        style="max-height: 3rem;"
+                    />
+                    <span>{{ this.name }}</span>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</div>

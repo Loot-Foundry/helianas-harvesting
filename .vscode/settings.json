@@ -18,6 +18,8 @@
     "javascript.format.enable": true,
     "javascript.format.semicolons": "insert",
     "cSpell.words": [
-        "helianas"
+        "Heliana's",
+        "helianas",
+        "metatag"
     ],
 }
