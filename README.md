@@ -49,7 +49,7 @@ If you are importing a large number of items, I recommend loading them from a JS
 
 ```js
 Hooks.on("ready", async function() {
-    const api = game.modules.get("helianas-harvesting").api;
+    const api = game.modules.get("helianas-harvesting")?.api;
 
     if (api) {
         const itemFile = await fetch(Config.HarvestItemJson);

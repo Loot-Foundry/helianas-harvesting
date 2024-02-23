@@ -26,7 +26,7 @@ export default class HarvestWindow extends Application {
       classes: ['helianas-harvesting-module'],
       width: 800,
       height: 600,
-      resizable: true,
+      resizable: false,
       title: "HelianasHarvest.HarvestWindowTitle"
     });
   }

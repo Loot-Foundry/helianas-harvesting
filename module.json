@@ -2,7 +2,7 @@
   "id": "helianas-harvesting",
   "title": "Heliana's Harvesting",
   "description": "<p>Initial Testing Version of a Harvesting Module to aid with Heliana's Harvesting Rules.</p>",
-  "version": "0.2",
+  "version": "0.3",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315",
@@ -15,19 +15,17 @@
     }
   ],
   "relationships": {
-    "relationships": {
-      "systems": [
-        {
-          "id": "dnd5e",
-          "type": "system",
-          "compatibility": {
-            "minimum": "2.0.0",
-            "verified": "3.0.1"
-          }
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0",
+          "verified": "3.0.1"
         }
-      ],
-      "requires": []
-    }
+      }
+    ],
+    "requires": []
   },
   "languages": [
     {
