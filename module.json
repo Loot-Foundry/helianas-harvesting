@@ -2,7 +2,7 @@
   "id": "helianas-harvesting",
   "title": "Heliana's Harvesting",
   "description": "<p>Initial Testing Version of a Harvesting Module to aid with Heliana's Harvesting Rules.</p>",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315",
@@ -56,6 +56,7 @@
   ],
   "includes": [
     "data/harvesting-components.json",
+    "data/crafting-recipes.json",
     "lang/*",
     "packs/dnd5e-components.db",
     "packs/dnd5e-journals.db",

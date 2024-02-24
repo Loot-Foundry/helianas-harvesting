@@ -1,1 +1,2413 @@
-[{"name":"+1 Ammunition","item":["Compendium.dnd5e.items.tEWhsb2lYF4uvF0z","Compendium.dnd5e.items.ZjUOHSyND2VFXQeP","Compendium.dnd5e.items.NYIib9KEYDUFe9GY"],"rarity":"uncommon","qty":10,"price":25,"component":"EmhhpOFAHtZEO3hb"},{"name":"+2 Ammunition","item":["Compendium.dnd5e.items.gLkbbUtGhQgYANM8","Compendium.dnd5e.items.x1GUgZYjMubaFavx","Compendium.dnd5e.items.BNJmdttKvIwC08Pd"],"rarity":"rare","qty":10,"price":100,"component":"AiCeQyy4udhdOFVs"},{"name":"+3 Ammunition","item":["Compendium.dnd5e.items.IY5PveXrF7VoFlWg","Compendium.dnd5e.items.XXLznzi3rlanMhTM","Compendium.dnd5e.items.x9I9vdo4kafHDjcO"],"rarity":"veryRare","qty":10,"price":480,"component":"VBr0hd4emdEZIEvh"},{"name":"Ammunition of Slaying","item":["Compendium.dnd5e.items.aXsfZvDCdpuv3Yvb","Compendium.dnd5e.items.6OIw31CDF6mAwFnd","Compendium.dnd5e.items.Mj8fTo5VZKJJ7uMv"],"rarity":"veryRare","price":550,"variants":[{"component":"dbdH3VbRd1W2ucXF","mod":"Aberration"},{"component":"NVQmaBx4ZAamAfS4","mod":"Beast"},{"component":"tCjYYmrWoOGWAIJ5","mod":"Celestial"},{"component":"DbBMwWcAQ6sHlts7","mod":"Construct"},{"component":"eqFKrrfW66rlnFBx","mod":"Dragon"},{"component":"DrRWMM7zhbFMSzSX","mod":"Elemental"},{"component":"yeRCgjVwQ7DyusFf","mod":"Fey"},{"component":"HQTWHFdCv4WHSKso","mod":"Fiend"},{"component":"zloMUkaNBGzuKVQk","mod":"Giant"},{"component":"79aJ7ySW6dmb0635","mod":"Humanoid"},{"component":"7WBaUdAs6QRcw6LX","mod":"Monstrosity"},{"component":"EJ6ukmLOW0AVI2ax","mod":"Ooze"},{"component":"ClhLDzU87z4DlE11","mod":"Plant"},{"component":"HWfsNczOK8yvTgre","mod":"Undead"}]},{"name":"+1 Armor","item":["Compendium.dnd5e.items.84z9mVy1mCipUWEY","Compendium.dnd5e.items.Rn9gt6JGULtx9Zvz","Compendium.dnd5e.items.MSO3JxK8578xSh6x","Compendium.dnd5e.items.dOZkW5MwvsMhnd08","Compendium.dnd5e.items.k2B9P3gm2NGjJ1m0","Compendium.dnd5e.items.dXtZxlh2VKLCo1nA","Compendium.dnd5e.items.twRJhPtDQe1HceFt","Compendium.dnd5e.items.fStHPOhuJvwEjzQh","Compendium.dnd5e.items.NM1dPyKwHw2DyUWA","Compendium.dnd5e.items.aDEAwKwttl35dWaB","Compendium.dnd5e.items.HpEEfZg9PRkXnMi4","Compendium.dnd5e.items.STxsp9Ao3pS2T4gt"],"price":1500,"includeBasePrice":true,"rarity":"rare","component":"cYW1f8CLLOvfAv4Z","metatag":"Dinosaur"},{"name":"+2 Armor","item":["Compendium.dnd5e.items.ET8Oo5vaTZqyb7rN","Compendium.dnd5e.items.akjpaK4TYkUZbGrN","Compendium.dnd5e.items.FLoBS3UnFnZTSsSx","Compendium.dnd5e.items.YFarUKR3OrM5raf5","Compendium.dnd5e.items.XJFqU9COdk4ycFa2","Compendium.dnd5e.items.UT8zCwmdXVQlBiyl","Compendium.dnd5e.items.G9XQPNLlDXkpVxn1","Compendium.dnd5e.items.VTc5McIjCm40KPIz","Compendium.dnd5e.items.M28HYDCueaK7J8u8","Compendium.dnd5e.items.fO1PuSOtZWLzEHqu","Compendium.dnd5e.items.zIpNJyuOxp2raizE","Compendium.dnd5e.items.FZixEM5voQkH84xP"],"price":6500,"includeBasePrice":true,"rarity":"veryRare","component":"IXByIg9HWtqoURaE","metatag":"Gorgon"},{"name":"+3 Armor","item":["Compendium.dnd5e.items.JDTO996oInbiZGHW","Compendium.dnd5e.items.eHGbr3rqRRxdBPLq","Compendium.dnd5e.items.cI0UhWUux8gIzSHn","Compendium.dnd5e.items.xbVpKtrQ6tJsPhXX","Compendium.dnd5e.items.IeM5Ha2cg0RA99q3","Compendium.dnd5e.items.ZwFCZDgQljlidzns","Compendium.dnd5e.items.XKnDE8DTrJxIkVCF","Compendium.dnd5e.items.466j8hy4AiENMHVQ","Compendium.dnd5e.items.KhRhwADrTpol3yTx","Compendium.dnd5e.items.9uT9SXy1Gb1jiiZX","Compendium.dnd5e.items.BwC8hZaNjO7IQc6K","Compendium.dnd5e.items.00BggOkChWztQx6R"],"price":28800,"includeBasePrice":true,"rarity":"legendary","component":"Wrf7F3joiws0LfKb","metatag":"Magnetite"},{"name":"Armor of Resistance","item":["Compendium.dnd5e.items.lccm5AjIk91aIHbi","Compendium.dnd5e.items.BQw5lyopqLmf8B6u","Compendium.dnd5e.items.HF32aZSVw4P0MR4K","Compendium.dnd5e.items.lN1VbnGFo3HNZXNb","Compendium.dnd5e.items.VRT5GEusTFstOZdF","Compendium.dnd5e.items.dRtb9Tg34NKX9mGF","Compendium.dnd5e.items.698gLyJ4JKVVMF53","Compendium.dnd5e.items.azxwKFHrNmG3HpVy","Compendium.dnd5e.items.Wo2Dkh191C4VmLmg","Compendium.dnd5e.items.f0I81P9k29Q1lV4S","Compendium.dnd5e.items.JNkjtTxYmEC7W34O","Compendium.dnd5e.items.W1kDsFekjroIywuz"],"rarity":"uncommon","includeBasePrice":true,"variants":[{"component":"yV25NETDeHuwL0KW","metatag":"Black Pudding","price":1200,"mod":"Acid"},{"component":"XFSxdDal8TdWSaA9","metatag":"Ice Devil","price":1200,"mod":"Cold"},{"component":"xMIlw7VW2cfWQjCO","metatag":"Salamander","price":1500,"mod":"Fire"},{"component":"PNBpZzmeBSHtuJJX","metatag":"Golem","price":1200,"mod":"Force"},{"component":"xMIlw7VW2cfWQjCO","metatag":"Djinni","price":1200,"mod":"Lightning"},{"component":"TzCPgT7JhpP04SkE","metatag":"Mummy","price":1200,"mod":"Necrotic"},{"component":"vlNoBGcKR48rqFN8","metatag":"Naga","price":1500,"mod":"Poison"},{"component":"pnzfqU0ghGOwCnW7","metatag":"Aboleth","price":1100,"mod":"Psychic"},{"component":"oYlfu54Ps2NiTXBz","metatag":"Planetar","price":1100,"mod":"Radiant"},{"component":"qvJJUacV1hJNsjqW","metatag":"Storm","price":1100,"mod":"Thunder"}]},{"name":"Armor of Invulnerability","item":"Compendium.dnd5e.items.evSCq83oPhR0ZK4y","rarity":"legendary","price":"18000","component":"87bCx26JGVjaY5SS","metatag":"Golem"},{"name":"Demon Armor","item":"Compendium.dnd5e.items.ejEt6hLQxOux04lS","rarity":"rare","price":3000,"component":"1OdKcBvQY8R40hyC","metatag":"Demon"},{"name":"Dwarven Plate","item":"Compendium.dnd5e.items.OwqRt1pVLhdMQa0d","rarity":"veryRare","price":6500,"component":"eqFKrrfW66rlnFBx"},{"name":"Glamoured Studded Leather","item":"Compendium.dnd5e.items.SypSoinJkES0o5FB","rarity":"rare","price":2100,"component":"yeRCgjVwQ7DyusFf","metatag":"Hag"},{"name":"Dragon Scale Mail","item":"Compendium.dnd5e.items.tIwoSAGJlcuyiwaQ","rarity":"veryRare","price":9400,"component":"i78vqs99UxYefKCI","variants":[{"mod":"Black","metatag":"Black"},{"mod":"Blue","metatag":"Blue"},{"mod":"Brass","metatag":"Brass"},{"mod":"Bronze","metatag":"Bronze"},{"mod":"Copper","metatag":"Copper"},{"mod":"Gold","metatag":"Gold"},{"mod":"Green","metatag":"Green"},{"mod":"Red","metatag":"Red"},{"mod":"Silver","metatag":"Silver"},{"mod":"White","metatag":"White"}]},{"name":"Elven Chain","item":"Compendium.dnd5e.items.6067acDZGv7KNOkP","rarity":"rare","price":2500,"component":"H8M3EbG0rpQLdr0O"},{"name":"Armor of Vulnerability","item":"Compendium.dnd5e.items.YwS4pESpfsiq0JZv","rarity":"uncommon","price":500,"includeBasePrice":true,"component":"HQTWHFdCv4WHSKso"},{"name":"Plate Armor of Etherealness","item":"Compendium.dnd5e.items.dJjdWdaZU30r1zx4","rarity":"legendary","price":41600,"component":"1REcsIBcwg1YbhMX"},{"name":"Animated Shield","item":"Compendium.dnd5e.items.NG8BlE2nwYJxCjWO","rarity":"rare","price":5000,"component":"cHnLGG1O2TftyNOu","metatag":"Animated"},{"name":"Arrow-Catching Shield","item":"Compendium.dnd5e.items.uWUD93jwuO2Jxkti","rarity":"rare","price":5000,"component":"lB2NvUMY9yA5K26r"},{"name":"Shield of Missile Attraction","item":"Compendium.dnd5e.items.M5APnDW8bKQb7fHI","rarity":"rare","price":5000,"component":"VlOSYbeyg3iQKm08","metatag":"Magnetite"},{"name":"Spellguard Shield","item":"Compendium.dnd5e.items.kpDbCYgUivh7NApp","rarity":"veryRare","price":25000,"component":"87bCx26JGVjaY5SS","metatag":"Shield Guardian"},{"name":"+1 Shield","item":"Compendium.dnd5e.items.NgwrqNa6kkgoPW2Q","rarity":"rare","price":1500,"component":"xjJZ37nt0OJCSNIp","metatag":"Beetle"},{"name":"+2 Shield","item":"Compendium.dnd5e.items.xzZQIIxXjNJwNqnp","rarity":"veryRare","price":6500,"component":"DmmvAWOXEPDmLeJX","metatag":"Bulette"},{"name":"+3 Shield","item":"Compendium.dnd5e.items.WfqBg3yBNoJQtVEB","rarity":"legendary","price":28800,"component":"i78vqs99UxYefKCI"},{"name":"Oil of Etherealness","item":"Compendium.dnd5e.items.Xbq8CyXSRV358SfP","rarity":"rare","price":1900,"component":"1REcsIBcwg1YbhMX"},{"name":"Oil of Sharpness","item":"Compendium.dnd5e.items.C0MNXWA81ufzGlp5","rarity":"veryRare","price":4800,"component":"xIsX4yO6XCAAX0AA"},{"name":"Oil of Slipperiness","item":"Compendium.dnd5e.items.FIDyR0kZnxGy7bj8","rarity":"uncommon","price":480,"component":"Xl6yAscw4bGt63y1"},{"name":"Philter of Love","item":"Compendium.dnd5e.items.63nb14yQRJMc4bIn","rarity":"uncommon","price":180,"component":"yeRCgjVwQ7DyusFf"},{"name":"Potion of Animal Friendship","item":"Compendium.dnd5e.items.nXWevqtV6p484N59","rarity":"uncommon","price":200,"component":"NVQmaBx4ZAamAfS4"},{"name":"Potion of Clairvoyance","item":"Compendium.dnd5e.items.bAyr7j5Peq9wIJTa","rarity":"rare","price":900,"component":"f0vzWxq07ZRNSb0P"},{"name":"Potion of Climbing","item":"Compendium.dnd5e.items.aMnWi1WXWpxRHq4r","rarity":"common","price":50,"component":"bCKpjpOXCQbIOfBF"},{"name":"Potion of Cloud Giant Strength","item":"Compendium.dnd5e.items.lAcTZgNtpmks2Mo5","rarity":"veryRare","price":6000,"component":"Wvy5lLUwe4khoWFZ"},{"name":"Potion of Diminution","item":"Compendium.dnd5e.items.HY8duCwmvlXOruTG","rarity":"uncommon","price":270,"component":"79aJ7ySW6dmb0635","metatag":"Gnome"},{"name":"Potion of Flying","item":"Compendium.dnd5e.items.eTNc8XPtvZNe3yQs","rarity":"rare","price":900,"component":"EF8ieZM5f27C4RyP"},{"name":"Potion of Fire Giant Strength","item":"Compendium.dnd5e.items.bEZOY6uvHRweMM56","rarity":"rare","price":3000,"component":"Wvy5lLUwe4khoWFZ","metatag":"Fire"},{"name":"Potion of Frost Giant Strength","item":"Compendium.dnd5e.items.TevMHicE3A70AlmP","rarity":"rare","price":1500,"component":"Wvy5lLUwe4khoWFZ","metatag":"Frost"},{"name":"Potion of Hill Giant Strength","item":"Compendium.dnd5e.items.mhFBTY0egW8AeCHe","rarity":"uncommon","price":500,"component":"Wvy5lLUwe4khoWFZ","metatag":"Hill"},{"name":"Potion of Stone Giant Strength","item":"Compendium.dnd5e.items.4ZiJsDTRA1GgcWKP","rarity":"rare","price":1500,"component":"Wvy5lLUwe4khoWFZ","metatag":"Stone"},{"name":"Potion of Storm Giant Strength","item":"Compendium.dnd5e.items.1KMSpOSU0EliUBm2","rarity":"legendary","price":30000,"component":"Wvy5lLUwe4khoWFZ","metatag":"Storm"},{"name":"Potion of Gaseous Form","item":"Compendium.dnd5e.items.bqZ6NTLDCUB98YjV","rarity":"rare","price":900,"component":"p3RuPY4B6v8GC4tY"},{"name":"Potion of Greater Healing","item":"Compendium.dnd5e.items.L887NdWEP5NqHCrQ","rarity":"uncommon","price":250,"component":"sd5FByV5Bb4XW8Pp"},{"name":"Potion of Growth","item":"Compendium.dnd5e.items.gTRFQLdVD1gsKtPi","rarity":"uncommon","price":270,"component":"zloMUkaNBGzuKVQk"},{"name":"Potion of Healing","item":"Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs","rarity":"common","price":50,"component":"DuYjIFUhM5vTErTr"},{"name":"Potion of Heroism","item":"Compendium.dnd5e.items.wNKYbKYwOHbA7SH8","rarity":"uncommon","price":180,"component":"tCjYYmrWoOGWAIJ5"},{"name":"Potion of Invisibility","item":"Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB","rarity":"rare","price":900,"component":"vCRuBwLkS3GCozMC","metatag":"Duergar"},{"name":"Potion of Mind Reading","item":"Compendium.dnd5e.items.Ct9LR9Ft1FG4a6Y1","rarity":"uncommon","price":180,"component":"PAdHyVXnuTux8hdb","metatag":"Aboleth"},{"name":"Potion of Poison","item":"Compendium.dnd5e.items.qBSEGJyHxdKIlBfj","rarity":"uncommon","price":180,"component":"m2qvItypCKPwOaMS"},{"name":"Potion of Resistance","rarity":"uncommon","variants":[{"item":"Compendium.dnd5e.items.zgZkJAyFAfYmyn11","price":240,"component":"5vG0Jr4gXLm77iQJ"},{"item":"Compendium.dnd5e.items.34YKlIJVVWLeBv7R","price":240,"component":"aJgfKtcgq9heFRDX","metatag":"Ice Devil"},{"item":"Compendium.dnd5e.items.Jj4iFQQGvckx8Wsj","price":300,"component":"aJgfKtcgq9heFRDX","metatag":"Hell Hound"},{"item":"Compendium.dnd5e.items.kKGJjVVlJVoakWgQ","price":240,"component":"OiGzKrl04YHEirj1"},{"item":"Compendium.dnd5e.items.8MPnSrvEeZhPhtTi","price":240,"component":"6MLu1IWoxEKhpSQd","metatag":"Flesh Golem"},{"item":"Compendium.dnd5e.items.xw99pcqPBVwtMOLw","price":240,"component":"HWfsNczOK8yvTgre"},{"item":"Compendium.dnd5e.items.f5chGcpQCi1HYPQw","price":300,"component":"aJgfKtcgq9heFRDX","metatag":"Bearded Devil"},{"item":"Compendium.dnd5e.items.c0luemOP0iW8L23R","price":220,"component":"OiGzKrl04YHEirj1","metatag":"Dreamholder"},{"item":"Compendium.dnd5e.items.LBQWNqX6hZOKhQ8a","price":220,"component":"6MLu1IWoxEKhpSQd","metatag":"Couatl"},{"item":"Compendium.dnd5e.items.zBX8LLC2CjC89Dzl","price":220,"component":"hT3V8qWDXKbiRKGI","metatag":"Storm"}]},{"name":"Potion of Speed","item":"Compendium.dnd5e.items.ctKfjHjk9gs9UtZI","rarity":"veryRare","price":4800,"component":"oU1RT4tJPp4IzHfG"},{"name":"Potion of Superior Healing","item":"Compendium.dnd5e.items.5m9ErO9In8Uc5yyf","rarity":"rare","price":1000,"component":"vlNoBGcKR48rqFN8"},{"name":"Potion of Supreme Healing","item":"Compendium.dnd5e.items.JFiSlgcm3uSSBM5t","rarity":"veryRare","price":5000,"component":["vlNoBGcKR48rqFN8","ODgZjv1bCzx1fVhw"]},{"name":"Potion of Water Breathing","item":"Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg","rarity":"uncommon","price":180,"component":"HbIkMc24LrD2F3zh"},{"name":"Ring of Air Elemental Command","item":"Compendium.dnd5e.items.XZWHQ20ynJBK6xmU","rarity":"legendary","price":35000,"component":"T0h4LS1FgWbtW1Yl","metatag":"Air Elemental"},{"name":"Ring of Animal Influence","item":"Compendium.dnd5e.items.ElLfmohtIFMagr5f","rarity":"rare","price":1500,"component":"0bibGJfScx8Kh2Wv"},{"name":"Ring of Djinni Summoning","item":"Compendium.dnd5e.items.hdlBOEbEjiwUjTW5","rarity":"legendary","price":90000,"component":"T0h4LS1FgWbtW1Yl","metatag":"Djinni"},{"name":"Ring of Earth Elemental Command","item":"Compendium.dnd5e.items.Zf7kBZa5f4WBepn1","rarity":"legendary","price":35000,"component":"JXKfw1i3zfca4FpO","metatag":"Earth Elemental"},{"name":"Ring of Evasion","item":"Compendium.dnd5e.items.2wxqnjpnPmkpPCC5","rarity":"rare","price":5000,"component":"QkOa20g9NPulrF8F"},{"name":"Ring of Feather Falling","item":"Compendium.dnd5e.items.JyYwliYiWEw2g0yJ","rarity":"rare","price":2100,"component":"THaJlBXlAbQFHWGN"},{"name":"Ring of Fire Elemental Command","item":"Compendium.dnd5e.items.L9KBLub5vfb3mTDz","rarity":"legendary","price":35000,"component":"GcYYTzakq3RAdrWA","metatag":"Fire Elemental"},{"name":"Ring of Free Action","item":"Compendium.dnd5e.items.i2puCDRaTxkuFfB4","rarity":"veryRare","price":16000,"component":"oyHUdONgiF7nYpCa"},{"name":"Ring of Invisibility","item":"Compendium.dnd5e.items.1J0dsxyKRhVXYQf5","rarity":"legendary","price":32000,"component":"DrRWMM7zhbFMSzSX","metatag":"Invisible Stalker"},{"name":"Ring of Jumping","item":"Compendium.dnd5e.items.x7LfMrLafLKfemGH","rarity":"uncommon","price":1000,"component":"cYW1f8CLLOvfAv4Z","metatag":"Frog or Toad"},{"name":"Ring of Mind Shielding","item":"Compendium.dnd5e.items.dGnkwePemh7ovuDv","rarity":"uncommon","price":1600,"component":"vnyhV87jkWP7Mrng"},{"name":"Ring of Protection","item":"Compendium.dnd5e.items.QtmVEreNIWEVOoLR","rarity":"rare","price":3500,"component":"87bCx26JGVjaY5SS"},{"name":"Ring of Regeneration","item":"Compendium.dnd5e.items.AweD4kpKGM7Ilu3n","rarity":"veryRare","price":12000,"component":"jxo80IYK5IY1IQXf"},{"name":"Ring of Resistance","rarity":"uncommon","component":"A3qPzoyg2OTWBJOl","variants":[{"item":"Compendium.dnd5e.items.WO8DLfz3G2QZ5njs","price":1200,"metatag":"(Dragon with Acid Immunity)"},{"item":"Compendium.dnd5e.items.fvezXwRJ5PqUf5NN","price":4000,"metatag":"(Dragon with Cold Immunity)"},{"item":"Compendium.dnd5e.items.3X7vdOjnCSpi40yn","price":1500,"metatag":"(Dragon with Fire Immunity)"},{"item":"Compendium.dnd5e.items.ScxK8YNU5dWELhlQ","price":1200,"metatag":"(Dragon with Force Immunity)"},{"item":"Compendium.dnd5e.items.XJ8CG4UvLELCmOi2","price":1200,"metatag":"(Dragon with Lightning Immunity)"},{"item":"Compendium.dnd5e.items.qMGkmzfLHfXd7DiJ","price":1200,"metatag":"(Dragon with Necrotic Immunity)"},{"item":"Compendium.dnd5e.items.5SorTMl8NKDO9Yge","price":1500,"metatag":"(Dragon with Poison Immunity)"},{"item":"Compendium.dnd5e.items.Q7E6MgPzVkwBeZ6l","price":1100,"metatag":"(Dragon with Psychic Immunity)"},{"item":"Compendium.dnd5e.items.IrC5LPbWNxlAQoK7","price":1100,"metatag":"(Dragon with Radiant Immunity)"},{"item":"Compendium.dnd5e.items.IpBBqr0r7JanyVn0","price":1100,"metatag":"(Dragon with Thunder Immunity)"}]},{"name":"Ring of Shooting Stars","item":"Compendium.dnd5e.items.etA2SBgWwduCLgLT","rarity":"veryRare","price":14000,"component":"mThBpshzp6qS1MQi"},{"name":"Ring of Spell Storing","item":"Compendium.dnd5e.items.9cIlRtKDtDXQtElf","rarity":"rare","price":8000,"component":"epJgCrtRo4sfrdr5"},{"name":"Ring of Spell Turning","item":"Compendium.dnd5e.items.8PI1EL8xHLq4tXKr","rarity":"legendary","price":50000,"component":"XFSxdDal8TdWSaA9","metatag":"Rakshasa"},{"name":"Ring of Swimming","item":"Compendium.dnd5e.items.aA7MbjnpHYoYvmuW","rarity":"uncommon","price":1800,"component":"HbIkMc24LrD2F3zh"},{"name":"Ring of Telekinesis","item":"Compendium.dnd5e.items.hxfOtvFrY1PXHQN1","rarity":"veryRare","price":25000,"component":"pnzfqU0ghGOwCnW7","metatag":"Dreamholder"},{"name":"Ring of the Ram","item":"Compendium.dnd5e.items.qw05Om9XWqTMoio2","rarity":"rare","price":5000,"component":"kdo5X01G1MhDaGTm","metatag":"Goat or Sheep"},{"name":"Ring of Three Wishes","item":"Compendium.dnd5e.items.ewXgnWiYQhS8KArS","rarity":"legendary","price":150000,"component":"IQty2wmvgO8Mkh5u","metatag":"Halfling"},{"name":"Ring of Warmth","item":"Compendium.dnd5e.items.2veAOEyfbDJuxR8Y","rarity":"uncommon","price":4500,"component":"Dp3nZiuONDzG0WNe"},{"name":"Ring of Water Elemental Command","item":"Compendium.dnd5e.items.HnIERWmmra74hSCw","rarity":"legendary","price":35000,"component":"Nca66iDNA3u3nZVR","metatag":"Water Elemental"},{"name":"Ring of Water Walking","item":"Compendium.dnd5e.items.LC5LsQOPwoHQW9Mi","rarity":"uncommon","price":1500,"component":"DuYjIFUhM5vTErTr"},{"name":"Ring of X-ray Vision","item":"Compendium.dnd5e.items.i3njMqHc689GvHDn","rarity":"rare","price":6000,"component":"FFvArli2j1V6vQ17"},{"name":"Immovable Rod","item":"Compendium.dnd5e.items.eQNXan0zp279jDtk","rarity":"uncommon","price":2000,"component":"cYW1f8CLLOvfAv4Z"},{"name":"Rod of Absorption","item":"Compendium.dnd5e.items.6pjaQzbtxQTuQ4RW","rarity":"legendary","price":41600,"component":"qcmPfB2BqQgzGyKm"},{"name":"Rod of Alertness","item":"Compendium.dnd5e.items.Do3qeSHtBjUsmfvz","rarity":"veryRare","price":25000,"component":"64sgJIggFsgi0L7u"},{"name":"Rod of Lordly Might","item":"Compendium.dnd5e.items.d5HNCmLIPCpPoX2w","rarity":"legendary","price":35000,"component":"x0QkmzQiyfpTzgys","metatag":"Pit Fiend"},{"name":"Rod of Rulership","item":"Compendium.dnd5e.items.vmbB2SK6pQU2Vkzb","rarity":"rare","price":6000,"component":"hEuQaTZsBW9h8LAP","metatag":"Incubus or Sucubus"},{"name":"Rod of Security","item":"Compendium.dnd5e.items.9kfMsSweOBui0SC4","rarity":"veryRare","price":20000,"component":"aMzAJ1jEth8pAepp","metatag":"Unicorn"},{"name":"Staff of Charming","item":"Compendium.dnd5e.items.FeouSUPUlUhfgeRp","rarity":"rare","price":6000,"component":"iIeA2wkTaNdOAlCT","metatag":"Incubus or Sucubus"},{"name":"Staff of Fire","item":"Compendium.dnd5e.items.lsiR1hVfISlC5YoB","rarity":"veryRare","price":12000,"component":"ipqCzs5yfdZshALV","metatag":"Magma Mephit"},{"name":"Staff of Frost","item":"Compendium.dnd5e.items.xEtBeZjJnkDXojQM","rarity":"veryRare","price":12000,"component":"5vG0Jr4gXLm77iQJ","metatag":"Ice Mephit"},{"name":"Staff of Healing","item":"Compendium.dnd5e.items.WLVQJVpCWiPkCAtZ","rarity":"veryRare","price":6000,"component":"aMzAJ1jEth8pAepp","metatag":"Unicorn"},{"name":"Staff of Power","item":"Compendium.dnd5e.items.eM5gEe4SEOvA2Y9t","rarity":"legendary","price":65000,"component":"B3KAXOUbXXneKhEb","metatag":"Storm"},{"name":"Staff of Striking","item":"Compendium.dnd5e.items.URun3vYrXKJJdAJe","rarity":"veryRare","price":12000,"component":"PDhdqwQJBPS2VlA3","metatag":"Sprite"},{"name":"Staff of Swarming Insects","item":"Compendium.dnd5e.items.bod1dKzbAkAm21Ho","rarity":"rare","price":5000,"component":"QFG2nvKjMeb3A9in","metatag":"Beetle or Insect"},{"name":"Staff of Thunder and Lightning","item":"Compendium.dnd5e.items.F6v3Q7dz1SlpLTMf","rarity":"veryRare","price":10000,"component":"6j0yj0EAdskYL9Xu","metatag":"Djinni"},{"name":"Staff of Withering","item":"Compendium.dnd5e.items.uHL99JKLUpTKAbz8","rarity":"rare","price":2500,"component":"1t71vPhsR3YOWkcY","metatag":"Wight"},{"name":"Staff of the Magi","item":"Compendium.dnd5e.items.l3V7V8VCXpmAAysQ","rarity":"artifact","price":4000000,"component":"rW1Xodor47cpyhCL","metatag":"Kraken"},{"name":"Staff of the Python","item":"Compendium.dnd5e.items.MOeFq5MLAQzVQC7z","rarity":"uncommon","price":1200,"component":"xjJZ37nt0OJCSNIp","metatag":"Snake"},{"name":"Staff of the Woodlands","item":"Compendium.dnd5e.items.caEn3ixCUFBnHTx6","rarity":"veryRare","price":22000,"component":"oyHUdONgiF7nYpCa","metatag":"Dryad"},{"name":"+1 Wand of the War Mage","item":"Compendium.dnd5e.items.OPbdSlrhkUDNpgcS","rarity":"uncommon","price":750,"component":"d7A1YuHfTxhACcuj"},{"name":"+2 Wand of the War Mage","item":"Compendium.dnd5e.items.k3T7tpcdzDyVKlF4","rarity":"rare","price":1500,"component":"d7A1YuHfTxhACcuj"},{"name":"+3 Wand of the War Mage","item":"Compendium.dnd5e.items.IuVaBrq17AqxpXc4","rarity":"veryRare","price":6200,"component":"d7A1YuHfTxhACcuj"},{"name":"Wand of Binding","item":"Compendium.dnd5e.items.7jEKkA9qbwJ3IuCb","rarity":"rare","price":5000,"component":"dQf3AhmCdhXWly5c","metatag":"Shambling Mound"},{"name":"Wand of Enemy Detection","item":"Compendium.dnd5e.items.5Rxo4K9cgpwgW9vZ","rarity":"uncommon","price":1200,"component":"Hkbv1jrFWbD43g0G","metatag":"Ankheg"},{"name":"Wand of Fear","item":"Compendium.dnd5e.items.EJFql4aNWHHJSxT9","rarity":"rare","price":5000,"component":"1REcsIBcwg1YbhMX","metatag":"Ghost"},{"name":"Wand of Fireballs","item":"Compendium.dnd5e.items.DoSvjhRARhRqWZXg","rarity":"veryRare","price":25000,"component":"ipqCzs5yfdZshALV","metatag":"Fire Elemental"},{"name":"Wand of Lightning Bolts","item":"Compendium.dnd5e.items.bPFVfq81EsMNu6OQ","rarity":"veryRare","price":25000,"component":"6j0yj0EAdskYL9Xu","metatag":"Air Elemental"},{"name":"Wand of Magic Detection","item":"Compendium.dnd5e.items.18fbyArtidKzON01","rarity":"uncommon","price":600,"component":"YFvz364KlQjcCgnY","metatag":"Sphinx"},{"name":"Wand of Magic Missiles","item":"Compendium.dnd5e.items.1taRIMF9w7jpnonN","rarity":"uncommon","price":900,"component":"7WBaUdAs6QRcw6LX"},{"name":"Wand of Paralysis","item":"Compendium.dnd5e.items.GcpXNc4dKUNw0Tk6","rarity":"veryRare","price":10000,"component":"scRplQg5saStEwcd","metatag":"Phase Spider"},{"name":"Wand of Polymorph","item":"Compendium.dnd5e.items.khyjT3dKyoEOf4eA","rarity":"veryRare","price":20000,"component":"gQADm2mPJwrV5LNQ","metatag":"Mimic"},{"name":"Wand of Secrets","item":"Compendium.dnd5e.items.VQ6NWjWV37wiB29O","rarity":"uncommon","price":600,"component":"63kQK9z9A2NTVpP5","metatag":"(Has Blindsight)"},{"name":"Wand of Web","item":"Compendium.dnd5e.items.4sR5HOah6KwVPHOb","rarity":"rare","price":4000,"component":"i8ypVXXity8JzNJF","metatag":"Spider"},{"name":"Wand of Wonder","item":"Compendium.dnd5e.items.lPsueMv4ZoXqCYf9","rarity":"rare","price":4000,"component":"0CJU10TbDGph88GY"},{"name":"Amulet of Health","item":"Compendium.dnd5e.items.iiQxTvDOhPGW5spF","rarity":"rare","price":7000,"component":"0bibGJfScx8Kh2Wv","metatag":"Mammoth"},{"name":"Amulet of Proof against Detection and Location","item":"Compendium.dnd5e.items.50N8zf58FR4JWR05","rarity":"uncommon","price":1000,"component":"zG8LGapbh4k8O3EZ"},{"name":"Amulet of the Planes","item":"Compendium.dnd5e.items.8ABk0XV76Hzq8Qul","rarity":"veryRare","price":20000,"component":"KH2nNTWu5d1C5D8z"},{"name":"Apparatus of the Crab","item":"Compendium.dnd5e.items.lSd5QHnIJbKvP1bh","rarity":"veryRare","price":12000,"component":"Flywz49U8ViqIZPL"},{"name":"Bag of Beans","item":"Compendium.dnd5e.items.F8QpasPjLrw2POzE","rarity":"rare","price":2000,"component":"ClhLDzU87z4DlE11"},{"name":"Bag of Devouring","item":"Compendium.dnd5e.items.YG9QW0flem4SLL6A","rarity":"veryRare","price":6500,"component":"ZhZ3QEPTqCnxAbDb"},{"name":"Bag of Holding","item":"Compendium.dnd5e.items.aDHRuUs29SrumWfq","rarity":"uncommon","price":2500,"component":"NzaynVVgPInD2LZv"},{"name":"Bag of Tricks","item":["Compendium.dnd5e.items.9Ifr8fGvJ1bArzOW","Compendium.dnd5e.items.DxIdfGoJEYQj8o3D","Compendium.dnd5e.items.LHaqMvrx3PfSzWMQ"],"rarity":"uncommon","price":500,"component":"38jKtQMrqQuY4rDu"},{"name":"Bead of Force","item":"Compendium.dnd5e.items.SqTtbBCfiEsmZ36N","rarity":"rare","price":960,"component":"nxwXhGc8NBLA5XuM"},{"name":"Belt of Dwarvenkind","item":"Compendium.dnd5e.items.j2ZGEwx8MhHZXds4","rarity":"veryRare","price":9500,"component":"ZhZ3QEPTqCnxAbDb"},{"name":"Belt of Giant Strength","component":"2ugxh5VDYE9BSQyn","variants":[{"item":"Compendium.dnd5e.items.bq9YKwEHLQ7p7ric","price":24000,"rarity":"veryRare","metatag":"Fire"},{"item":"Compendium.dnd5e.items.ORKf6RRcalrdD6Qp","price":16000,"rarity":"veryRare","metatag":"Frost"},{"item":"Compendium.dnd5e.items.ER75WHewYN04Zp11","price":8000,"rarity":"rare","metatag":"Hill"},{"item":"Compendium.dnd5e.items.fCUZ7h8YYrs16UhX","price":16000,"rarity":"veryRare","metatag":"Stone"},{"item":"Compendium.dnd5e.items.wBYmPQG3nZfD88aP","price":96000,"rarity":"legendary","metatag":"Storm"}]},{"name":"Boots of Elvenkind","item":"Compendium.dnd5e.items.KKWBLKQIWHtcpymp","rarity":"uncommon","price":2500,"component":"SiJprDsuwzvrjjnp"},{"name":"Boots of Levitation","item":"Compendium.dnd5e.items.HLhFCDGfI8EK7uV9","rarity":"rare","price":4000,"component":"38jKtQMrqQuY4rDu"},{"name":"Boots of Speed","item":"Compendium.dnd5e.items.MCMSZrhcD40oMJ9v","rarity":"rare","price":4000,"component":"sLDAHwZgbSQgGdWW"},{"name":"Boots of Striding and Springing","item":"Compendium.dnd5e.items.hSY1b8yi8JWw2blf","rarity":"uncommon","price":1800,"component":"lg7XAcGRAcjYQcPG"},{"name":"Boots of the Winterlands","item":"Compendium.dnd5e.items.RDPFmUR9exTEXFc8","rarity":"uncommon","price":2000,"component":"IohBB5Av8ku7lcaS"},{"name":"Bowl of Commanding Water Elementals","item":"Compendium.dnd5e.items.rRMaaGZ7qbzqMvoI","rarity":"rare","price":3200,"component":"Nca66iDNA3u3nZVR"},{"name":"Bracers of Archery","item":"Compendium.dnd5e.items.ZYEqOSY9BLZs2GPx","rarity":"rare","price":1500,"component":"ZhZ3QEPTqCnxAbDb"},{"name":"Bracers of Defense","item":"Compendium.dnd5e.items.DSHi7yT6OUyDoCcu","rarity":"rare","price":6000,"component":"ucusMCaHQqzR0jsS"},{"name":"Brazier of Commanding Fire Elementals","item":"Compendium.dnd5e.items.OcjcplcUWH07Kn9k","rarity":"rare","price":3200,"component":"GcYYTzakq3RAdrWA","metatag":"Efreefi"},{"name":"Brooch of Shielding","item":"Compendium.dnd5e.items.ZdcEtbtU3VkuxIFE","rarity":"uncommon","price":1500,"component":"DmmvAWOXEPDmLeJX"},{"name":"Broom of Flying","item":"Compendium.dnd5e.items.hFAVm9pTJDm0nu3g","rarity":"veryRare","price":8000,"component":"oyHUdONgiF7nYpCa"},{"name":"Candle of Invocation","item":"Compendium.dnd5e.items.ZoUVmRA3HfAK2eZy","rarity":"veryRare","price":5600,"variants":[{"mod":"Good","component":"6MLu1IWoxEKhpSQd"},{"mod":"Evil","component":"aJgfKtcgq9heFRDX"}]},{"name":"Cape of the Mountebank","item":"Compendium.dnd5e.items.gpHgWLsD8k2yzbfR","rarity":"rare","price":1600,"component":"ZhZ3QEPTqCnxAbDb"},{"name":"Carpet of Flying","rarity":"veryRare","component":"oyHUdONgiF7nYpCa","variants":[{"item":"Compendium.dnd5e.items.XwqNHyox5OQQio8q","price":8000},{"item":"Compendium.dnd5e.items.DeK9uQvNJj3JzFwe","price":10000},{"item":"Compendium.dnd5e.items.XAr1SR4POx5BAArk","price":12000},{"item":"Compendium.dnd5e.items.TjWk2mpNXjDdfIDM","price":16000}]},{"name":"Censer of Controlling Air Elementals","item":"Compendium.dnd5e.items.sXEkkTDXWQDUMzsC","rarity":"rare","price":3200,"component":"T0h4LS1FgWbtW1Yl","metatag":"Djinni"},{"name":"Chime of Opening","item":"Compendium.dnd5e.items.vZdLYfHlLcZqQ8zc","rarity":"rare","price":1500,"component":"khcaAhWbTgPlLsZy"},{"name":"Circlet of Blasting","item":"Compendium.dnd5e.items.9UvWQTY5yIgkJmmb","rarity":"uncommon","price":360,"component":"Mg44MtvSc2kXWCYW"},{"name":"Cloak of Arachnida","item":"Compendium.dnd5e.items.VwJjuNbBf2KHMPrY","rarity":"veryRare","price":9400,"component":"sGIgCEeorbjaVVIr","metatag":"Giant Spider"},{"name":"Cloak of Displacement","item":"Compendium.dnd5e.items.LpD064ilKEeFzVI8","rarity":"legendary","price":60000,"component":"ZhZ3QEPTqCnxAbDb"},{"name":"Cloak of Elvenkind","item":"Compendium.dnd5e.items.Jvf1NWFxcjfHnMQ5","rarity":"rare","price":5000,"component":"ClhLDzU87z4DlE11"},{"name":"Cloak of Protection","item":"Compendium.dnd5e.items.lvaMqEhfidfHDGf5","rarity":"rare","price":3500,"component":"sGIgCEeorbjaVVIr"},{"name":"Cloak of the Bat","item":"Compendium.dnd5e.items.Aq1rhgcgFnwu2T4I","rarity":"rare","price":6000,"component":"IohBB5Av8ku7lcaS","metatag":"Bat"},{"name":"Cloak of the Manta Ray","item":"Compendium.dnd5e.items.hGrxC676XmlnS9y0","rarity":"rare","price":5000,"component":"IohBB5Av8ku7lcaS","metatag":"Ray or shark"},{"name":"Crystal Ball","item":"Compendium.dnd5e.items.ItoGjtOtDOQ2noNM","rarity":"veryRare","price":28000,"component":"f0vzWxq07ZRNSb0P"},{"name":"Cube of Force","item":"Compendium.dnd5e.items.s4fR8bxQGSt4wbH7","rarity":"veryRare","price":16000,"component":"cHnLGG1O2TftyNOu"},{"name":"Cubic Gate","item":"Compendium.dnd5e.items.6ai1pEde3iQX30Fr","rarity":"legendary","price":40000,"component":"DrRWMM7zhbFMSzSX"},{"name":"Decanter of Endless Water","item":"Compendium.dnd5e.items.qXcUKfCVxEvV3VU8","component":"5vG0Jr4gXLm77iQJ","variants":[{"mod":"(60 Gallons/day)","price":300,"rarity":"uncommon"},{"mod":"(300 Gallons/day)","price":1300,"rarity":"rare"},{"mod":"(1500 Gallons/day)","price":6200,"rarity":"veryRare"},{"mod":"(Unlimited)","price":28800,"rarity":"legendary"}]},{"name":"Deck of Illusions","item":"Compendium.dnd5e.items.Wk7EOYoY3b2tgGoS","rarity":"uncommon","price":600,"component":"Hfq7q7Kam5fNd97o"},{"name":"Deck of Many Things","item":"Compendium.dnd5e.items.oSarKEU8x1AupB6z","rarity":"legendary","price":60000,"component":"KH2nNTWu5d1C5D8z"},{"name":"Dimensional Shackles","item":"Compendium.dnd5e.items.wGKykLRS8UqChNXI","rarity":"rare","price":2500,"component":"OiGzKrl04YHEirj1"},{"name":"Dust of Disappearance","item":"Compendium.dnd5e.items.cGUPm15mLfhGDz2b","rarity":"uncommon","price":250,"component":"DrRWMM7zhbFMSzSX"},{"name":"Dust of Dryness","item":"Compendium.dnd5e.items.eMR6B4bIoJPUDJG8","rarity":"uncommon","price":180,"component":"HPprrBKDy38nCPzu"},{"name":"Dust of Sneezing and Choking","item":"Compendium.dnd5e.items.9eyZY9tL3fXD1Mbm","rarity":"uncommon","price":480,"component":"hEuQaTZsBW9h8LAP"},{"name":"Efficient Quiver","item":"Compendium.dnd5e.items.MLNzQUsVUi0PEV3i","rarity":"uncommon","price":1000,"component":"16sVLmlX0K7dM08Q"},{"name":"Efreeti Bottle","item":"Compendium.dnd5e.items.fbcQsOgWCjhEAGY7","rarity":"legendary","price":30000,"component":"GcYYTzakq3RAdrWA","metatag":"Efreeti"},{"name":"Elemental Gem","rarity":"rare","price":960,"component":"Dp3nZiuONDzG0WNe","variants":[{"item":"Compendium.dnd5e.items.zDJ4oEt5HArN1xmP","metatag":"Djinni"},{"item":"Compendium.dnd5e.items.HLEhnzLbpRbYdAHo"},{"item":"Compendium.dnd5e.items.dsjke4vPPsc9gsxH","metatag":"Efreefi"},{"item":"Compendium.dnd5e.items.IGwDN9gtYxCrlrCr"}]},{"name":"Eversmoking Bottle","item":"Compendium.dnd5e.items.CvzjhUy9ekRieR1A","rarity":"uncommon","price":480,"component":"1U4aEXFOooBJTC93"},{"name":"Eyes of Charming","item":"Compendium.dnd5e.items.8dfhaa1g3VDjhtm3","rarity":"uncommon","price":1000,"component":"64sgJIggFsgi0L7u"},{"name":"Eyes of Minute Seeing","item":"Compendium.dnd5e.items.BsyPV6eTNghT3Fho","rarity":"uncommon","price":850,"component":"MlwNdpnQ6TvJSz70","metatag":"Bird"},{"name":"Eyes of the Eagle","item":"Compendium.dnd5e.items.U4PI6l96QJUk6TGb","rarity":"uncommon","price":850,"component":"MlwNdpnQ6TvJSz70","metatag":"Eagle"},{"name":"Feather Token","variants":[{"item":"Compendium.dnd5e.items.DnlQkH6Bpwkd5n5Y","price":50,"rarity":"common","component":"oyHUdONgiF7nYpCa"},{"item":"Compendium.dnd5e.items.hWqImieUaLo08l9l","price":3000,"rarity":"rare","component":"r4w30vZItZx4gH6Y"},{"item":"Compendium.dnd5e.items.e98hfROZjztt7ccO","price":300,"rarity":"uncommon","component":"f0Vhn42XB5wryuBx"},{"item":"Compendium.dnd5e.items.UgnUJhu0tW1tLt7g","price":1400,"rarity":"rare","component":"sBFCK8wOVWgkoY3r"},{"item":"Compendium.dnd5e.items.NjTgPn2o0M1TGk93","price":50,"rarity":"common","component":"SiJprDsuwzvrjjnp"},{"item":"Compendium.dnd5e.items.Fgkj11diTJJ7H3JC","price":600,"rarity":"uncommon","component":"pprQRQQTwn73lthK"}]},{"name":"Figurine of Wondrous Power","rarity":"rare","variants":[{"item":"Compendium.dnd5e.items.CI58LNiwrTpmWYMp","price":2000,"component":"f0Vhn42XB5wryuBx","metatag":"Griffon"},{"item":"Compendium.dnd5e.items.s2kQs21J3cFg7ZSs","price":4000,"component":"sGIgCEeorbjaVVIr","metatag":"Insect"},{"item":"Compendium.dnd5e.items.Minr6xegwoHFvAjG","rarity":"uncommon","price":600,"component":"IohBB5Av8ku7lcaS","metatag":"Lion"},{"item":["Compendium.dnd5e.items.8CaODbNQtxHGuVjn","Compendium.dnd5e.items.41kYCmKq0PbGVKaM","Compendium.dnd5e.items.iLt7wTWr4cJnQulJ"],"rarity":"veryRare","price":17400,"component":"kdo5X01G1MhDaGTm","metatag":"Goat"},{"item":"Compendium.dnd5e.items.GP2bvHlxVi30OEmo","price":6000,"component":"mmN2lB8E5UGBftu1","metatag":"Elephant"},{"item":"Compendium.dnd5e.items.M5qkJ7erLqWYUHa0","rarity":"veryRare","price":24000,"component":"cYW1f8CLLOvfAv4Z","metatag":"Horse"},{"item":"Compendium.dnd5e.items.9nxSHbqlDdngtuuz","price":3000,"component":"EmhhpOFAHtZEO3hb","metatag":"Dog or Wolf"},{"item":"Compendium.dnd5e.items.XEH5YErAN1WSytln","price":7000,"component":"MlwNdpnQ6TvJSz70","metatag":"Owl"},{"item":"Compendium.dnd5e.items.nMtmxeYrbyFdv0bg","rarity":"uncommon","price":1000,"component":"r4w30vZItZx4gH6Y","metatag":"Bird"}]},{"name":"Folding Boat","item":"Compendium.dnd5e.items.u4ewpAFZjLrWrmQv","rarity":"rare","price":3000,"component":"SiJprDsuwzvrjjnp"},{"name":"Gauntlets of Ogre Power","item":"Compendium.dnd5e.items.3TWT5bv3z5zGUZCe","rarity":"rare","price":5000,"component":"qvJJUacV1hJNsjqW","metatag":"Ogre"},{"name":"Gem of Brightness","item":"Compendium.dnd5e.items.thkvJ5QBRORIwkkV","rarity":"rare","price":5000,"component":"6MLu1IWoxEKhpSQd"},{"name":"Gem of Seeing","item":"Compendium.dnd5e.items.jJU8vFhHLQeKe2wu","rarity":"rare","price":8000,"component":"f0vzWxq07ZRNSb0P"},{"name":"Gloves of Missile Snaring","item":"Compendium.dnd5e.items.otYAEwhsANKHZAmk","rarity":"uncommon","price":1500,"component":"sLDAHwZgbSQgGdWW"},{"name":"Gloves of Swimming and Climbing","item":"Compendium.dnd5e.items.PRhtLbRLb9LjHZG7","rarity":"uncommon","price":900,"component":"xjJZ37nt0OJCSNIp","metatag":"Shark"},{"name":"Goggles of Night","item":"Compendium.dnd5e.items.XGAWqtmhK6SYBL6A","rarity":"uncommon","price":1000,"component":"YFvz364KlQjcCgnY"},{"name":"Hat of Disguise","item":"Compendium.dnd5e.items.dQxqcjDm0IxYusCV","rarity":"uncommon","price":1200,"component":"XFSxdDal8TdWSaA9","metatag":"Shapechanger"},{"name":"Headband of Intellect","item":"Compendium.dnd5e.items.a26LjC4QxP1oorXC","rarity":"rare","price":5000,"component":"k8OOk9mRHLO4FIYd"},{"name":"Helm of Brilliance","item":"Compendium.dnd5e.items.rhGulc3gEJhnuP31","rarity":"veryRare","price":25000,"component":"ba4zNUpWFrEBsWlN"},{"name":"Helm of Comprehending Languages","item":"Compendium.dnd5e.items.rY9sRFQp5CFSfsat","rarity":"uncommon","price":500,"component":"Flywz49U8ViqIZPL"},{"name":"Helm of Telepathy","item":"Compendium.dnd5e.items.EJVaAvNfCq6gn6VG","rarity":"uncommon","price":2000,"component":"cft5xyACBpRZsZs6"},{"name":"Helm of Teleportation","item":"Compendium.dnd5e.items.DEQkJiQdGyfmSNkV","rarity":"veryRare","price":23000,"component":"FjeqPxwD0Eh1bFeZ"},{"name":"Handy Haversack","item":"Compendium.dnd5e.items.7vqs5AqI4VCmuszx","rarity":"uncommon","price":1500,"component":"NzaynVVgPInD2LZv"},{"name":"Horn of Blasting","item":"Compendium.dnd5e.items.t7GfyRp3dB3lqS9i","rarity":"uncommon","price":450,"component":"VlOSYbeyg3iQKm08"},{"name":"Horn of Valhalla","variants":[{"item":"Compendium.dnd5e.items.QYJyQCnIQeLiMrmJ","rarity":"rare","price":8400,"component":"mmN2lB8E5UGBftu1","metatag":"Elephant"},{"item":"Compendium.dnd5e.items.sqcerAMszpe3hwyI","rarity":"veryRare","price":14000,"component":"mmN2lB8E5UGBftu1","metatag":"Mammoth"},{"item":"Compendium.dnd5e.items.qVuZznv0MnIjDU70","rarity":"legendary","price":28800,"component":"ohUOCyBVcWk0pYvv","metatag":"Balor"},{"item":"Compendium.dnd5e.items.lTfo6OVvAY2iJ4oq","rarity":"rare","price":5600,"component":"kdo5X01G1MhDaGTm","metatag":"Rhinoceros"}]},{"name":"Horseshoes of Speed","item":"Compendium.dnd5e.items.nAqDwI9GyXS1diiz","rarity":"rare","price":5000,"component":"bCKpjpOXCQbIOfBF"},{"name":"Horseshoes of a Zephyr","item":"Compendium.dnd5e.items.2mvXGvDmHHhzbT04","rarity":"veryRare","price":6200,"component":"bbmChVcW5DLYk6lw"},{"name":"Instant Fortress","item":"Compendium.dnd5e.items.9stfX2i2I1YPo8vx","rarity":"legendary","price":75000,"component":"PNBpZzmeBSHtuJJX"},{"name":"Ioun Stone","variants":[{"item":"Compendium.dnd5e.items.NGVEouqK0I6J6jV5","rarity":"veryRare","price":9400,"component":"y1wwwjUM3OSUwKy1"},{"item":"Compendium.dnd5e.items.Q4Iy6hqREsbk9yG7","rarity":"veryRare","price":9400,"component":"PDhdqwQJBPS2VlA3","metatag":"Dex ≥ 20"},{"item":"Compendium.dnd5e.items.h8rS84jKsMHl9J1i","rarity":"veryRare","price":1200,"component":"YU6uabBB9mAR4B5O","metatag":"Adult or Ancient"},{"item":"Compendium.dnd5e.items.ig5DOQtQYJPXJId4","rarity":"veryRare","price":9400,"component":"KH2nNTWu5d1C5D8z","metatag":"Con ≥ 20"},{"item":"Compendium.dnd5e.items.7FEcfqz1piPHN1tV","rarity":"legendary","price":41600,"component":"nxwXhGc8NBLA5XuM","metatag":"Shield Guardian"},{"item":"Compendium.dnd5e.items.9jMQEm99q1ttAV1Q","rarity":"veryRare","price":9400,"component":"Hfq7q7Kam5fNd97o","metatag":"Wis ≥ 20"},{"item":"Compendium.dnd5e.items.YeLz5OxRNxmvHJId","rarity":"veryRare","price":9400,"component":"PDhdqwQJBPS2VlA3","metatag":"Int ≥ 20"},{"item":"Compendium.dnd5e.items.hDF4RSCzMO8iI14x","rarity":"veryRare","price":9400,"component":"Hfq7q7Kam5fNd97o","metatag":"Cha ≥ 20"},{"item":"Compendium.dnd5e.items.nk2MH16KcZmKp7FQ","rarity":"legendary","price":41600,"component":"KH2nNTWu5d1C5D8z","metatag":"Pit Fiend"},{"item":"Compendium.dnd5e.items.v4uNbmiz4ECTI89n","rarity":"rare","price":2100,"component":"4uUFCJoP8b0h4l6o","metatag":"Gorgon"},{"item":"Compendium.dnd5e.items.szNhDWpks5BhEXhT","rarity":"veryRare","price":9400,"component":"keqUwwbcZ6A7Uj6V","metatag":"Troll"},{"item":"Compendium.dnd5e.items.jvKmgJYL33E8gev5","rarity":"rare","price":5200,"component":"k8OOk9mRHLO4FIYd","metatag":"Spellcaster"},{"item":"Compendium.dnd5e.items.0G5LSgbb5NTV4XC7","rarity":"veryRare","price":9400,"component":"VlOSYbeyg3iQKm08","metatag":"Str ≥ 20"},{"item":"Compendium.dnd5e.items.6MDTnMG4Hcw7qZsy","rarity":"rare","price":2100,"component":"MlB2e2DOagQFNSIy","metatag":"Vampire"}]},{"name":"Iron Bands of Binding","item":"Compendium.dnd5e.items.E9G4jALlSA96fKAN","rarity":"rare","price":4000,"component":"oyHUdONgiF7nYpCa","metatag":"Shambling Mound"},{"name":"Iron Flask","item":"Compendium.dnd5e.items.lvLrkAR7k8DS7J3W","rarity":"legendary","price":28800,"component":"87bCx26JGVjaY5SS","metatag":"Iron Golem"},{"name":"Lantern of Revealing","item":"Compendium.dnd5e.items.7FLs8qIGdOFnz9oL","rarity":"uncommon","price":900,"component":"64sgJIggFsgi0L7u","metatag":"Hag"},{"name":"Mantle of Spell Resistance","item":"Compendium.dnd5e.items.oxzUb5j1TMsccGW4","rarity":"rare","price":19000,"component":"XFSxdDal8TdWSaA9","metatag":"Rakshasa"},{"name":"Manual of Bodily Health","item":"Compendium.dnd5e.items.BjyTJn9oGvURWKJR","rarity":"veryRare","price":14000,"component":"keqUwwbcZ6A7Uj6V"},{"name":"Manual of Golems","item":"Compendium.dnd5e.items.UxkP6FvDzPbsIY6o","rarity":"veryRare","variants":[{"mod":"Clay","price":8200,"component":"qcmPfB2BqQgzGyKm","metatag":"Clay Golem"},{"mod":"Flesh","price":6200,"component":"9b5oDdUgbmFnmCzh","metatag":"Flesh Golem"},{"mod":"Iron","price":12200,"component":"87bCx26JGVjaY5SS","metatag":"Iron Golem"},{"mod":"Stone","price":9200,"component":"qcmPfB2BqQgzGyKm","metatag":"Stone Golem"}]},{"name":"Manual of Gainful Exercise","item":"Compendium.dnd5e.items.ykefWXBjq3y6y9Se","rarity":"veryRare","price":14000,"component":"L55KPHnnjtY5zFRv"},{"name":"Manual of Quickness of Action","item":"Compendium.dnd5e.items.Q4jmng3i9Lb2nL5F","rarity":"veryRare","price":14000,"component":"yeRCgjVwQ7DyusFf"},{"name":"Marvelous Pigments","item":"Compendium.dnd5e.items.e3XQygrXkzNvkDGF","rarity":"veryRare","price":8600,"component":"nTwG7qOPr4O1KdIb"},{"name":"Medallion of Thoughts","item":"Compendium.dnd5e.items.skoUe223EvRYGPL6","rarity":"uncommon","price":1200,"component":"dbdH3VbRd1W2ucXF"},{"name":"Mirror of Life Trapping","item":"Compendium.dnd5e.items.hf5j1meGsA33HkUj","rarity":"uncommon","price":18000,"component":"8RVwd96ncBeqkOZF"},{"name":"Necklace of Adaptation","item":"Compendium.dnd5e.items.wwNpAz2KMukovewN","rarity":"uncommon","price":1200,"component":"el7BNKRgRzizWRJ5"},{"name":"Necklace of Fireballs","item":"Compendium.dnd5e.items.3ALOhh6JNInIK4o7","component":"7oXPZJip7vNsGcOT","metatag":"(Dragon with Fire Immunity or Resistance)","variants":[{"mod":"3 Beads","rarity":"uncommon"},{"mod":"6 Beads","rarity":"rare"}]},{"name":"Necklace of Prayer Beads","item":"Compendium.dnd5e.items.wqVSRfkcTjuhvDyx","component":"cAlKUufC49wyZipR","note":"You can craft up to 6 beads. Use highest rarity to determine essence. Add cost of all beads together.","variants":[{"mod":"Bless","rarity":"uncommon","price":300},{"mod":"Curing","rarity":"uncommon","price":600},{"mod":"Favor","rarity":"rare","price":3200},{"mod":"Smiting","rarity":"uncommon","price":600},{"mod":"Summons","rarity":"veryRare","price":6400},{"mod":"Wind Walk","rarity":"veryRare","price":6400}]},{"name":"Orb of Dragonkind","item":"Compendium.dnd5e.items.1RwJWOAeyoideLKe","rarity":"artifact","price":4000000,"component":"YU6uabBB9mAR4B5O"},{"name":"Pearl of Power","item":"Compendium.dnd5e.items.44XNWmMGnwXn7bNW","rarity":"uncommon","price":1000,"component":"j6Mki4wc36SNQjbv"},{"name":"Periapt of Health","item":"Compendium.dnd5e.items.9v0TPDXNa9S7aNB4","rarity":"uncommon","price":400,"component":"SyvUpNIEZv3kl0nZ"},{"name":"Periapt of Proof against Poison","item":"Compendium.dnd5e.items.oYZNXHth1UYxPwVi","rarity":"rare","price":5000,"component":"PbL9tdLPXpOBJdoi"},{"name":"Periapt of Wound Closure","item":"Compendium.dnd5e.items.DWwBkOFuYf5VN3M2","rarity":"rare","price":800,"component":"6faKGTlnoB9qaEGV"},{"name":"Pipes of Haunting","item":"Compendium.dnd5e.items.oNLfJNRQgUHpU8c7","rarity":"uncommon","price":800,"component":"NmoGNwrTuccgoDT9"},{"name":"Pipes of the Sewers","item":"Compendium.dnd5e.items.nvhk1quD0Dg1ZtSH","rarity":"uncommon","price":700,"component":"IXByIg9HWtqoURaE"},{"name":"Portable Hole","item":"Compendium.dnd5e.items.rvxGvcUzoQXVNbAu","rarity":"rare","price":2500,"component":"NzaynVVgPInD2LZv"},{"name":"Restorative Ointment","item":"Compendium.dnd5e.items.VmcgAIsRCyrjBguC","rarity":"uncommon","price":360,"component":"XjSnUMOXytj9f2Gy"},{"name":"Robe of Eyes","item":"Compendium.dnd5e.items.U74TPNQLJZbHJyCk","rarity":"rare","price":4000,"component":"YFvz364KlQjcCgnY","metatag":"Sphinx"},{"name":"Robe of Scintillating Colors","item":"Compendium.dnd5e.items.JRJpKZyamkpa7awv","rarity":"veryRare","price":9400,"component":"YGbRAmidY8RtiI6K"},{"name":"Robe of Stars","item":"Compendium.dnd5e.items.66UkbfH0PVwo4HgA","rarity":"veryRare","price":18000,"component":"FFvArli2j1V6vQ17"},{"name":"Robe of Useful Items","item":"Compendium.dnd5e.items.2ksm2KXCY3vBHTAx","rarity":"uncommon","price":1250,"component":"vCRuBwLkS3GCozMC"},{"name":"Robe of the Archmagi","item":"Compendium.dnd5e.items.mr96Z8YTI490ExhP","rarity":"legendary","price":41600,"variants":[{"mod":"Good","component":"lB2NvUMY9yA5K26r"},{"mod":"Neutral","component":"vCRuBwLkS3GCozMC"},{"mod":"Evil","component":"XFSxdDal8TdWSaA9"}]},{"name":"Rope of Climbing","item":"Compendium.dnd5e.items.29e6gHwWKNLaRUoz","rarity":"uncommon","price":900,"component":"wzAvPyeqFw5Gr7kT"},{"name":"Rope of Entanglement","item":"Compendium.dnd5e.items.J8gQdJJi5e8LmD7H","rarity":"rare","price":2000,"component":"OoCfBFim4pHc1mQJ"},{"name":"Scarab of Protection","item":"Compendium.dnd5e.items.xjRSY2ECcc9viSz3","rarity":"legendary","price":41600,"component":"MlB2e2DOagQFNSIy","metatag":"Lich"},{"name":"Slippers of Spider Climbing","item":"Compendium.dnd5e.items.ZgXJE9pjvZLMCeHg","rarity":"uncommon","price":1500,"component":"bCKpjpOXCQbIOfBF","metatag":"Spider"},{"name":"Sovereign Glue","item":"Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4","rarity":"veryRare","price":4800,"component":"6faKGTlnoB9qaEGV","metatag":"Black Pudding"},{"name":"Sphere of Annihilation","item":"Compendium.dnd5e.items.2YNqk5zm9jDTvd7q","rarity":"veryRare","price":15000,"component":"avkxkX9FIr7TeRPq"},{"name":"Stone of Controlling Earth Elementals","item":"Compendium.dnd5e.items.TWFS1BtruQeE10BY","rarity":"rare","price":3200,"component":"JXKfw1i3zfca4FpO"},{"name":"Stone of Good Luck","item":"Compendium.dnd5e.items.296Zgo9RhltWShE1","rarity":"uncommon","price":1500,"component":"IQty2wmvgO8Mkh5u","metatag":"Halfling"},{"name":"Talisman of Pure Good","item":"Compendium.dnd5e.items.iB3gunzgxZ8xK6Z5","rarity":"legendary","price":72000,"component":"c0VpQ2VOOOS2dRkA","metatag":"Good-Aligned god"},{"name":"Talisman of Ultimate Evil","item":"Compendium.dnd5e.items.PAXfmZ2ErDlCVy0N","rarity":"legendary","price":62000,"component":"iIeA2wkTaNdOAlCT","metatag":"Evil-Aligned god"},{"name":"Talisman of the Sphere","item":"Compendium.dnd5e.items.46ikeR4RrSim6DsN","rarity":"veryRare","price":15000,"component":"f0vzWxq07ZRNSb0P"},{"name":"Tome of Clear Thought","item":"Compendium.dnd5e.items.2BYm8to5KldN8eYu","rarity":"veryRare","price":9200,"component":"DbBMwWcAQ6sHlts7"},{"name":"Tome of Leadership and Influence","item":"Compendium.dnd5e.items.oN4Glcmi4BhdAI3k","rarity":"veryRare","price":9200,"component":"aMzAJ1jEth8pAepp"},{"name":"Tome of Understanding","item":"Compendium.dnd5e.items.WnKWD1FuAFUE7f4v","rarity":"veryRare","price":9200,"component":"pnzfqU0ghGOwCnW7"},{"name":"Universal Solvent","item":"Compendium.dnd5e.items.MAwoj2suj6cvb9Ti","rarity":"legendary","price":22400,"component":"EJ6ukmLOW0AVI2ax"},{"name":"Well of Many Worlds","item":"Compendium.dnd5e.items.xjme5oSQZmdAy1fc","rarity":"legendary","price":96000,"component":"NzaynVVgPInD2LZv"},{"name":"Wind Fan","item":"Compendium.dnd5e.items.mYFfH24uzuKh4IPS","rarity":"uncommon","price":700,"component":"f0Vhn42XB5wryuBx"},{"name":"Winged Boots","item":"Compendium.dnd5e.items.YjImJ3cVnArHH4ES","rarity":"rare","price":6000,"component":"jSTYBrGVxdDO3Xms"},{"name":"Wings of Flying","item":"Compendium.dnd5e.items.FkDyLSpiynKTQZdi","rarity":"rare","price":6000,"component":"OXzIMGFo0mABAkbE"}]
+[
+    {
+        "name": "+1 Ammunition",
+        "item": [
+            "Compendium.dnd5e.items.tEWhsb2lYF4uvF0z",
+            "Compendium.dnd5e.items.ZjUOHSyND2VFXQeP",
+            "Compendium.dnd5e.items.NYIib9KEYDUFe9GY"
+        ],
+        "rarity": "uncommon",
+        "qty": 10,
+        "price": 25,
+        "component": "EmhhpOFAHtZEO3hb"
+    },
+    {
+        "name": "+2 Ammunition",
+        "item": [
+            "Compendium.dnd5e.items.gLkbbUtGhQgYANM8",
+            "Compendium.dnd5e.items.x1GUgZYjMubaFavx",
+            "Compendium.dnd5e.items.BNJmdttKvIwC08Pd"
+        ],
+        "rarity": "rare",
+        "qty": 10,
+        "price": 100,
+        "component": "AiCeQyy4udhdOFVs"
+    },
+    {
+        "name": "+3 Ammunition",
+        "item": [
+            "Compendium.dnd5e.items.IY5PveXrF7VoFlWg",
+            "Compendium.dnd5e.items.XXLznzi3rlanMhTM",
+            "Compendium.dnd5e.items.x9I9vdo4kafHDjcO"
+        ],
+        "rarity": "veryRare",
+        "qty": 10,
+        "price": 480,
+        "component": "VBr0hd4emdEZIEvh"
+    },
+    {
+        "name": "Ammunition of Slaying",
+        "item": [
+            "Compendium.dnd5e.items.aXsfZvDCdpuv3Yvb",
+            "Compendium.dnd5e.items.6OIw31CDF6mAwFnd",
+            "Compendium.dnd5e.items.Mj8fTo5VZKJJ7uMv"
+        ],
+        "rarity": "veryRare",
+        "price": 550,
+        "variants": [
+            {
+                "component": "dbdH3VbRd1W2ucXF",
+                "mod": "Aberration"
+            },
+            {
+                "component": "NVQmaBx4ZAamAfS4",
+                "mod": "Beast"
+            },
+            {
+                "component": "tCjYYmrWoOGWAIJ5",
+                "mod": "Celestial"
+            },
+            {
+                "component": "DbBMwWcAQ6sHlts7",
+                "mod": "Construct"
+            },
+            {
+                "component": "eqFKrrfW66rlnFBx",
+                "mod": "Dragon"
+            },
+            {
+                "component": "DrRWMM7zhbFMSzSX",
+                "mod": "Elemental"
+            },
+            {
+                "component": "yeRCgjVwQ7DyusFf",
+                "mod": "Fey"
+            },
+            {
+                "component": "HQTWHFdCv4WHSKso",
+                "mod": "Fiend"
+            },
+            {
+                "component": "zloMUkaNBGzuKVQk",
+                "mod": "Giant"
+            },
+            {
+                "component": "79aJ7ySW6dmb0635",
+                "mod": "Humanoid"
+            },
+            {
+                "component": "7WBaUdAs6QRcw6LX",
+                "mod": "Monstrosity"
+            },
+            {
+                "component": "EJ6ukmLOW0AVI2ax",
+                "mod": "Ooze"
+            },
+            {
+                "component": "ClhLDzU87z4DlE11",
+                "mod": "Plant"
+            },
+            {
+                "component": "HWfsNczOK8yvTgre",
+                "mod": "Undead"
+            }
+        ]
+    },
+    {
+        "name": "+1 Armor",
+        "item": [
+            "Compendium.dnd5e.items.84z9mVy1mCipUWEY",
+            "Compendium.dnd5e.items.Rn9gt6JGULtx9Zvz",
+            "Compendium.dnd5e.items.MSO3JxK8578xSh6x",
+            "Compendium.dnd5e.items.dOZkW5MwvsMhnd08",
+            "Compendium.dnd5e.items.k2B9P3gm2NGjJ1m0",
+            "Compendium.dnd5e.items.dXtZxlh2VKLCo1nA",
+            "Compendium.dnd5e.items.twRJhPtDQe1HceFt",
+            "Compendium.dnd5e.items.fStHPOhuJvwEjzQh",
+            "Compendium.dnd5e.items.NM1dPyKwHw2DyUWA",
+            "Compendium.dnd5e.items.aDEAwKwttl35dWaB",
+            "Compendium.dnd5e.items.HpEEfZg9PRkXnMi4",
+            "Compendium.dnd5e.items.STxsp9Ao3pS2T4gt"
+        ],
+        "price": 1500,
+        "includeBasePrice": true,
+        "rarity": "rare",
+        "component": "cYW1f8CLLOvfAv4Z",
+        "metatag": "Dinosaur"
+    },
+    {
+        "name": "+2 Armor",
+        "item": [
+            "Compendium.dnd5e.items.ET8Oo5vaTZqyb7rN",
+            "Compendium.dnd5e.items.akjpaK4TYkUZbGrN",
+            "Compendium.dnd5e.items.FLoBS3UnFnZTSsSx",
+            "Compendium.dnd5e.items.YFarUKR3OrM5raf5",
+            "Compendium.dnd5e.items.XJFqU9COdk4ycFa2",
+            "Compendium.dnd5e.items.UT8zCwmdXVQlBiyl",
+            "Compendium.dnd5e.items.G9XQPNLlDXkpVxn1",
+            "Compendium.dnd5e.items.VTc5McIjCm40KPIz",
+            "Compendium.dnd5e.items.M28HYDCueaK7J8u8",
+            "Compendium.dnd5e.items.fO1PuSOtZWLzEHqu",
+            "Compendium.dnd5e.items.zIpNJyuOxp2raizE",
+            "Compendium.dnd5e.items.FZixEM5voQkH84xP"
+        ],
+        "price": 6500,
+        "includeBasePrice": true,
+        "rarity": "veryRare",
+        "component": "IXByIg9HWtqoURaE",
+        "metatag": "Gorgon"
+    },
+    {
+        "name": "+3 Armor",
+        "item": [
+            "Compendium.dnd5e.items.JDTO996oInbiZGHW",
+            "Compendium.dnd5e.items.eHGbr3rqRRxdBPLq",
+            "Compendium.dnd5e.items.cI0UhWUux8gIzSHn",
+            "Compendium.dnd5e.items.xbVpKtrQ6tJsPhXX",
+            "Compendium.dnd5e.items.IeM5Ha2cg0RA99q3",
+            "Compendium.dnd5e.items.ZwFCZDgQljlidzns",
+            "Compendium.dnd5e.items.XKnDE8DTrJxIkVCF",
+            "Compendium.dnd5e.items.466j8hy4AiENMHVQ",
+            "Compendium.dnd5e.items.KhRhwADrTpol3yTx",
+            "Compendium.dnd5e.items.9uT9SXy1Gb1jiiZX",
+            "Compendium.dnd5e.items.BwC8hZaNjO7IQc6K",
+            "Compendium.dnd5e.items.00BggOkChWztQx6R"
+        ],
+        "price": 28800,
+        "includeBasePrice": true,
+        "rarity": "legendary",
+        "component": "Wrf7F3joiws0LfKb",
+        "metatag": "Magnetite"
+    },
+    {
+        "name": "Armor of Resistance",
+        "item": [
+            "Compendium.dnd5e.items.lccm5AjIk91aIHbi",
+            "Compendium.dnd5e.items.BQw5lyopqLmf8B6u",
+            "Compendium.dnd5e.items.HF32aZSVw4P0MR4K",
+            "Compendium.dnd5e.items.lN1VbnGFo3HNZXNb",
+            "Compendium.dnd5e.items.VRT5GEusTFstOZdF",
+            "Compendium.dnd5e.items.dRtb9Tg34NKX9mGF",
+            "Compendium.dnd5e.items.698gLyJ4JKVVMF53",
+            "Compendium.dnd5e.items.azxwKFHrNmG3HpVy",
+            "Compendium.dnd5e.items.Wo2Dkh191C4VmLmg",
+            "Compendium.dnd5e.items.f0I81P9k29Q1lV4S",
+            "Compendium.dnd5e.items.JNkjtTxYmEC7W34O",
+            "Compendium.dnd5e.items.W1kDsFekjroIywuz"
+        ],
+        "rarity": "uncommon",
+        "includeBasePrice": true,
+        "variants": [
+            {
+                "component": "yV25NETDeHuwL0KW",
+                "metatag": "Black Pudding",
+                "price": 1200,
+                "mod": "Acid"
+            },
+            {
+                "component": "XFSxdDal8TdWSaA9",
+                "metatag": "Ice Devil",
+                "price": 1200,
+                "mod": "Cold"
+            },
+            {
+                "component": "xMIlw7VW2cfWQjCO",
+                "metatag": "Salamander",
+                "price": 1500,
+                "mod": "Fire"
+            },
+            {
+                "component": "PNBpZzmeBSHtuJJX",
+                "metatag": "Golem",
+                "price": 1200,
+                "mod": "Force"
+            },
+            {
+                "component": "xMIlw7VW2cfWQjCO",
+                "metatag": "Djinni",
+                "price": 1200,
+                "mod": "Lightning"
+            },
+            {
+                "component": "TzCPgT7JhpP04SkE",
+                "metatag": "Mummy",
+                "price": 1200,
+                "mod": "Necrotic"
+            },
+            {
+                "component": "vlNoBGcKR48rqFN8",
+                "metatag": "Naga",
+                "price": 1500,
+                "mod": "Poison"
+            },
+            {
+                "component": "pnzfqU0ghGOwCnW7",
+                "metatag": "Aboleth",
+                "price": 1100,
+                "mod": "Psychic"
+            },
+            {
+                "component": "oYlfu54Ps2NiTXBz",
+                "metatag": "Planetar",
+                "price": 1100,
+                "mod": "Radiant"
+            },
+            {
+                "component": "qvJJUacV1hJNsjqW",
+                "metatag": "Storm",
+                "price": 1100,
+                "mod": "Thunder"
+            }
+        ]
+    },
+    {
+        "name": "Armor of Invulnerability",
+        "item": "Compendium.dnd5e.items.evSCq83oPhR0ZK4y",
+        "rarity": "legendary",
+        "price": "18000",
+        "component": "87bCx26JGVjaY5SS",
+        "metatag": "Golem"
+    },
+    {
+        "name": "Demon Armor",
+        "item": "Compendium.dnd5e.items.ejEt6hLQxOux04lS",
+        "rarity": "rare",
+        "price": 3000,
+        "component": "1OdKcBvQY8R40hyC",
+        "metatag": "Demon"
+    },
+    {
+        "name": "Dwarven Plate",
+        "item": "Compendium.dnd5e.items.OwqRt1pVLhdMQa0d",
+        "rarity": "veryRare",
+        "price": 6500,
+        "component": "eqFKrrfW66rlnFBx"
+    },
+    {
+        "name": "Glamoured Studded Leather",
+        "item": "Compendium.dnd5e.items.SypSoinJkES0o5FB",
+        "rarity": "rare",
+        "price": 2100,
+        "component": "yeRCgjVwQ7DyusFf",
+        "metatag": "Hag"
+    },
+    {
+        "name": "Dragon Scale Mail",
+        "item": "Compendium.dnd5e.items.tIwoSAGJlcuyiwaQ",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "i78vqs99UxYefKCI",
+        "variants": [
+            {
+                "mod": "Black",
+                "metatag": "Black"
+            },
+            {
+                "mod": "Blue",
+                "metatag": "Blue"
+            },
+            {
+                "mod": "Brass",
+                "metatag": "Brass"
+            },
+            {
+                "mod": "Bronze",
+                "metatag": "Bronze"
+            },
+            {
+                "mod": "Copper",
+                "metatag": "Copper"
+            },
+            {
+                "mod": "Gold",
+                "metatag": "Gold"
+            },
+            {
+                "mod": "Green",
+                "metatag": "Green"
+            },
+            {
+                "mod": "Red",
+                "metatag": "Red"
+            },
+            {
+                "mod": "Silver",
+                "metatag": "Silver"
+            },
+            {
+                "mod": "White",
+                "metatag": "White"
+            }
+        ]
+    },
+    {
+        "name": "Elven Chain",
+        "item": "Compendium.dnd5e.items.6067acDZGv7KNOkP",
+        "rarity": "rare",
+        "price": 2500,
+        "component": "H8M3EbG0rpQLdr0O"
+    },
+    {
+        "name": "Armor of Vulnerability",
+        "item": "Compendium.dnd5e.items.YwS4pESpfsiq0JZv",
+        "rarity": "uncommon",
+        "price": 500,
+        "includeBasePrice": true,
+        "component": "HQTWHFdCv4WHSKso"
+    },
+    {
+        "name": "Plate Armor of Etherealness",
+        "item": "Compendium.dnd5e.items.dJjdWdaZU30r1zx4",
+        "rarity": "legendary",
+        "price": 41600,
+        "component": "1REcsIBcwg1YbhMX"
+    },
+    {
+        "name": "Animated Shield",
+        "item": "Compendium.dnd5e.items.NG8BlE2nwYJxCjWO",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "cHnLGG1O2TftyNOu",
+        "metatag": "Animated"
+    },
+    {
+        "name": "Arrow-Catching Shield",
+        "item": "Compendium.dnd5e.items.uWUD93jwuO2Jxkti",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "lB2NvUMY9yA5K26r"
+    },
+    {
+        "name": "Shield of Missile Attraction",
+        "item": "Compendium.dnd5e.items.M5APnDW8bKQb7fHI",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "VlOSYbeyg3iQKm08",
+        "metatag": "Magnetite"
+    },
+    {
+        "name": "Spellguard Shield",
+        "item": "Compendium.dnd5e.items.kpDbCYgUivh7NApp",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "87bCx26JGVjaY5SS",
+        "metatag": "Shield Guardian"
+    },
+    {
+        "name": "+1 Shield",
+        "item": "Compendium.dnd5e.items.NgwrqNa6kkgoPW2Q",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "xjJZ37nt0OJCSNIp",
+        "metatag": "Beetle"
+    },
+    {
+        "name": "+2 Shield",
+        "item": "Compendium.dnd5e.items.xzZQIIxXjNJwNqnp",
+        "rarity": "veryRare",
+        "price": 6500,
+        "component": "DmmvAWOXEPDmLeJX",
+        "metatag": "Bulette"
+    },
+    {
+        "name": "+3 Shield",
+        "item": "Compendium.dnd5e.items.WfqBg3yBNoJQtVEB",
+        "rarity": "legendary",
+        "price": 28800,
+        "component": "i78vqs99UxYefKCI"
+    },
+    {
+        "name": "Oil of Etherealness",
+        "item": "Compendium.dnd5e.items.Xbq8CyXSRV358SfP",
+        "rarity": "rare",
+        "price": 1900,
+        "component": "1REcsIBcwg1YbhMX"
+    },
+    {
+        "name": "Oil of Sharpness",
+        "item": "Compendium.dnd5e.items.C0MNXWA81ufzGlp5",
+        "rarity": "veryRare",
+        "price": 4800,
+        "component": "xIsX4yO6XCAAX0AA"
+    },
+    {
+        "name": "Oil of Slipperiness",
+        "item": "Compendium.dnd5e.items.FIDyR0kZnxGy7bj8",
+        "rarity": "uncommon",
+        "price": 480,
+        "component": "Xl6yAscw4bGt63y1"
+    },
+    {
+        "name": "Philter of Love",
+        "item": "Compendium.dnd5e.items.63nb14yQRJMc4bIn",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "yeRCgjVwQ7DyusFf"
+    },
+    {
+        "name": "Potion of Animal Friendship",
+        "item": "Compendium.dnd5e.items.nXWevqtV6p484N59",
+        "rarity": "uncommon",
+        "price": 200,
+        "component": "NVQmaBx4ZAamAfS4"
+    },
+    {
+        "name": "Potion of Clairvoyance",
+        "item": "Compendium.dnd5e.items.bAyr7j5Peq9wIJTa",
+        "rarity": "rare",
+        "price": 900,
+        "component": "f0vzWxq07ZRNSb0P"
+    },
+    {
+        "name": "Potion of Climbing",
+        "item": "Compendium.dnd5e.items.aMnWi1WXWpxRHq4r",
+        "rarity": "common",
+        "price": 50,
+        "component": "bCKpjpOXCQbIOfBF"
+    },
+    {
+        "name": "Potion of Cloud Giant Strength",
+        "item": "Compendium.dnd5e.items.lAcTZgNtpmks2Mo5",
+        "rarity": "veryRare",
+        "price": 6000,
+        "component": "Wvy5lLUwe4khoWFZ"
+    },
+    {
+        "name": "Potion of Diminution",
+        "item": "Compendium.dnd5e.items.HY8duCwmvlXOruTG",
+        "rarity": "uncommon",
+        "price": 270,
+        "component": "79aJ7ySW6dmb0635",
+        "metatag": "Gnome"
+    },
+    {
+        "name": "Potion of Flying",
+        "item": "Compendium.dnd5e.items.eTNc8XPtvZNe3yQs",
+        "rarity": "rare",
+        "price": 900,
+        "component": "EF8ieZM5f27C4RyP"
+    },
+    {
+        "name": "Potion of Fire Giant Strength",
+        "item": "Compendium.dnd5e.items.bEZOY6uvHRweMM56",
+        "rarity": "rare",
+        "price": 3000,
+        "component": "Wvy5lLUwe4khoWFZ",
+        "metatag": "Fire"
+    },
+    {
+        "name": "Potion of Frost Giant Strength",
+        "item": "Compendium.dnd5e.items.TevMHicE3A70AlmP",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "Wvy5lLUwe4khoWFZ",
+        "metatag": "Frost"
+    },
+    {
+        "name": "Potion of Hill Giant Strength",
+        "item": "Compendium.dnd5e.items.mhFBTY0egW8AeCHe",
+        "rarity": "uncommon",
+        "price": 500,
+        "component": "Wvy5lLUwe4khoWFZ",
+        "metatag": "Hill"
+    },
+    {
+        "name": "Potion of Stone Giant Strength",
+        "item": "Compendium.dnd5e.items.4ZiJsDTRA1GgcWKP",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "Wvy5lLUwe4khoWFZ",
+        "metatag": "Stone"
+    },
+    {
+        "name": "Potion of Storm Giant Strength",
+        "item": "Compendium.dnd5e.items.1KMSpOSU0EliUBm2",
+        "rarity": "legendary",
+        "price": 30000,
+        "component": "Wvy5lLUwe4khoWFZ",
+        "metatag": "Storm"
+    },
+    {
+        "name": "Potion of Gaseous Form",
+        "item": "Compendium.dnd5e.items.bqZ6NTLDCUB98YjV",
+        "rarity": "rare",
+        "price": 900,
+        "component": "p3RuPY4B6v8GC4tY"
+    },
+    {
+        "name": "Potion of Greater Healing",
+        "item": "Compendium.dnd5e.items.L887NdWEP5NqHCrQ",
+        "rarity": "uncommon",
+        "price": 250,
+        "component": "sd5FByV5Bb4XW8Pp"
+    },
+    {
+        "name": "Potion of Growth",
+        "item": "Compendium.dnd5e.items.gTRFQLdVD1gsKtPi",
+        "rarity": "uncommon",
+        "price": 270,
+        "component": "zloMUkaNBGzuKVQk"
+    },
+    {
+        "name": "Potion of Healing",
+        "item": "Compendium.dnd5e.items.ytlsBjYsZ7OBSEBs",
+        "rarity": "common",
+        "price": 50,
+        "component": "DuYjIFUhM5vTErTr"
+    },
+    {
+        "name": "Potion of Heroism",
+        "item": "Compendium.dnd5e.items.wNKYbKYwOHbA7SH8",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "tCjYYmrWoOGWAIJ5"
+    },
+    {
+        "name": "Potion of Invisibility",
+        "item": "Compendium.dnd5e.items.rTn4p9nJr4Aq2GPB",
+        "rarity": "rare",
+        "price": 900,
+        "component": "vCRuBwLkS3GCozMC",
+        "metatag": "Duergar"
+    },
+    {
+        "name": "Potion of Mind Reading",
+        "item": "Compendium.dnd5e.items.Ct9LR9Ft1FG4a6Y1",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "PAdHyVXnuTux8hdb",
+        "metatag": "Aboleth"
+    },
+    {
+        "name": "Potion of Poison",
+        "item": "Compendium.dnd5e.items.qBSEGJyHxdKIlBfj",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "m2qvItypCKPwOaMS"
+    },
+    {
+        "name": "Potion of Resistance",
+        "rarity": "uncommon",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.zgZkJAyFAfYmyn11",
+                "price": 240,
+                "component": "5vG0Jr4gXLm77iQJ"
+            },
+            {
+                "item": "Compendium.dnd5e.items.34YKlIJVVWLeBv7R",
+                "price": 240,
+                "component": "aJgfKtcgq9heFRDX",
+                "metatag": "Ice Devil"
+            },
+            {
+                "item": "Compendium.dnd5e.items.Jj4iFQQGvckx8Wsj",
+                "price": 300,
+                "component": "aJgfKtcgq9heFRDX",
+                "metatag": "Hell Hound"
+            },
+            {
+                "item": "Compendium.dnd5e.items.kKGJjVVlJVoakWgQ",
+                "price": 240,
+                "component": "OiGzKrl04YHEirj1"
+            },
+            {
+                "item": "Compendium.dnd5e.items.8MPnSrvEeZhPhtTi",
+                "price": 240,
+                "component": "6MLu1IWoxEKhpSQd",
+                "metatag": "Flesh Golem"
+            },
+            {
+                "item": "Compendium.dnd5e.items.xw99pcqPBVwtMOLw",
+                "price": 240,
+                "component": "HWfsNczOK8yvTgre"
+            },
+            {
+                "item": "Compendium.dnd5e.items.f5chGcpQCi1HYPQw",
+                "price": 300,
+                "component": "aJgfKtcgq9heFRDX",
+                "metatag": "Bearded Devil"
+            },
+            {
+                "item": "Compendium.dnd5e.items.c0luemOP0iW8L23R",
+                "price": 220,
+                "component": "OiGzKrl04YHEirj1",
+                "metatag": "Dreamholder"
+            },
+            {
+                "item": "Compendium.dnd5e.items.LBQWNqX6hZOKhQ8a",
+                "price": 220,
+                "component": "6MLu1IWoxEKhpSQd",
+                "metatag": "Couatl"
+            },
+            {
+                "item": "Compendium.dnd5e.items.zBX8LLC2CjC89Dzl",
+                "price": 220,
+                "component": "hT3V8qWDXKbiRKGI",
+                "metatag": "Storm"
+            }
+        ]
+    },
+    {
+        "name": "Potion of Speed",
+        "item": "Compendium.dnd5e.items.ctKfjHjk9gs9UtZI",
+        "rarity": "veryRare",
+        "price": 4800,
+        "component": "oU1RT4tJPp4IzHfG"
+    },
+    {
+        "name": "Potion of Superior Healing",
+        "item": "Compendium.dnd5e.items.5m9ErO9In8Uc5yyf",
+        "rarity": "rare",
+        "price": 1000,
+        "component": "vlNoBGcKR48rqFN8"
+    },
+    {
+        "name": "Potion of Supreme Healing",
+        "item": "Compendium.dnd5e.items.JFiSlgcm3uSSBM5t",
+        "rarity": "veryRare",
+        "price": 5000,
+        "component": [
+            "vlNoBGcKR48rqFN8",
+            "ODgZjv1bCzx1fVhw"
+        ]
+    },
+    {
+        "name": "Potion of Water Breathing",
+        "item": "Compendium.dnd5e.items.CAZMwFBWp9VC0ZCg",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "HbIkMc24LrD2F3zh"
+    },
+    {
+        "name": "Ring of Air Elemental Command",
+        "item": "Compendium.dnd5e.items.XZWHQ20ynJBK6xmU",
+        "rarity": "legendary",
+        "price": 35000,
+        "component": "T0h4LS1FgWbtW1Yl",
+        "metatag": "Air Elemental"
+    },
+    {
+        "name": "Ring of Animal Influence",
+        "item": "Compendium.dnd5e.items.ElLfmohtIFMagr5f",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "0bibGJfScx8Kh2Wv"
+    },
+    {
+        "name": "Ring of Djinni Summoning",
+        "item": "Compendium.dnd5e.items.hdlBOEbEjiwUjTW5",
+        "rarity": "legendary",
+        "price": 90000,
+        "component": "T0h4LS1FgWbtW1Yl",
+        "metatag": "Djinni"
+    },
+    {
+        "name": "Ring of Earth Elemental Command",
+        "item": "Compendium.dnd5e.items.Zf7kBZa5f4WBepn1",
+        "rarity": "legendary",
+        "price": 35000,
+        "component": "JXKfw1i3zfca4FpO",
+        "metatag": "Earth Elemental"
+    },
+    {
+        "name": "Ring of Evasion",
+        "item": "Compendium.dnd5e.items.2wxqnjpnPmkpPCC5",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "QkOa20g9NPulrF8F"
+    },
+    {
+        "name": "Ring of Feather Falling",
+        "item": "Compendium.dnd5e.items.JyYwliYiWEw2g0yJ",
+        "rarity": "rare",
+        "price": 2100,
+        "component": "THaJlBXlAbQFHWGN"
+    },
+    {
+        "name": "Ring of Fire Elemental Command",
+        "item": "Compendium.dnd5e.items.L9KBLub5vfb3mTDz",
+        "rarity": "legendary",
+        "price": 35000,
+        "component": "GcYYTzakq3RAdrWA",
+        "metatag": "Fire Elemental"
+    },
+    {
+        "name": "Ring of Free Action",
+        "item": "Compendium.dnd5e.items.i2puCDRaTxkuFfB4",
+        "rarity": "veryRare",
+        "price": 16000,
+        "component": "oyHUdONgiF7nYpCa"
+    },
+    {
+        "name": "Ring of Invisibility",
+        "item": "Compendium.dnd5e.items.1J0dsxyKRhVXYQf5",
+        "rarity": "legendary",
+        "price": 32000,
+        "component": "DrRWMM7zhbFMSzSX",
+        "metatag": "Invisible Stalker"
+    },
+    {
+        "name": "Ring of Jumping",
+        "item": "Compendium.dnd5e.items.x7LfMrLafLKfemGH",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "cYW1f8CLLOvfAv4Z",
+        "metatag": "Frog or Toad"
+    },
+    {
+        "name": "Ring of Mind Shielding",
+        "item": "Compendium.dnd5e.items.dGnkwePemh7ovuDv",
+        "rarity": "uncommon",
+        "price": 1600,
+        "component": "vnyhV87jkWP7Mrng"
+    },
+    {
+        "name": "Ring of Protection",
+        "item": "Compendium.dnd5e.items.QtmVEreNIWEVOoLR",
+        "rarity": "rare",
+        "price": 3500,
+        "component": "87bCx26JGVjaY5SS"
+    },
+    {
+        "name": "Ring of Regeneration",
+        "item": "Compendium.dnd5e.items.AweD4kpKGM7Ilu3n",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "jxo80IYK5IY1IQXf"
+    },
+    {
+        "name": "Ring of Resistance",
+        "rarity": "uncommon",
+        "component": "A3qPzoyg2OTWBJOl",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.WO8DLfz3G2QZ5njs",
+                "price": 1200,
+                "metatag": "(Dragon with Acid Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.fvezXwRJ5PqUf5NN",
+                "price": 4000,
+                "metatag": "(Dragon with Cold Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.3X7vdOjnCSpi40yn",
+                "price": 1500,
+                "metatag": "(Dragon with Fire Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.ScxK8YNU5dWELhlQ",
+                "price": 1200,
+                "metatag": "(Dragon with Force Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.XJ8CG4UvLELCmOi2",
+                "price": 1200,
+                "metatag": "(Dragon with Lightning Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.qMGkmzfLHfXd7DiJ",
+                "price": 1200,
+                "metatag": "(Dragon with Necrotic Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.5SorTMl8NKDO9Yge",
+                "price": 1500,
+                "metatag": "(Dragon with Poison Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.Q7E6MgPzVkwBeZ6l",
+                "price": 1100,
+                "metatag": "(Dragon with Psychic Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.IrC5LPbWNxlAQoK7",
+                "price": 1100,
+                "metatag": "(Dragon with Radiant Immunity)"
+            },
+            {
+                "item": "Compendium.dnd5e.items.IpBBqr0r7JanyVn0",
+                "price": 1100,
+                "metatag": "(Dragon with Thunder Immunity)"
+            }
+        ]
+    },
+    {
+        "name": "Ring of Shooting Stars",
+        "item": "Compendium.dnd5e.items.etA2SBgWwduCLgLT",
+        "rarity": "veryRare",
+        "price": 14000,
+        "component": "mThBpshzp6qS1MQi"
+    },
+    {
+        "name": "Ring of Spell Storing",
+        "item": "Compendium.dnd5e.items.9cIlRtKDtDXQtElf",
+        "rarity": "rare",
+        "price": 8000,
+        "component": "epJgCrtRo4sfrdr5"
+    },
+    {
+        "name": "Ring of Spell Turning",
+        "item": "Compendium.dnd5e.items.8PI1EL8xHLq4tXKr",
+        "rarity": "legendary",
+        "price": 50000,
+        "component": "XFSxdDal8TdWSaA9",
+        "metatag": "Rakshasa"
+    },
+    {
+        "name": "Ring of Swimming",
+        "item": "Compendium.dnd5e.items.aA7MbjnpHYoYvmuW",
+        "rarity": "uncommon",
+        "price": 1800,
+        "component": "HbIkMc24LrD2F3zh"
+    },
+    {
+        "name": "Ring of Telekinesis",
+        "item": "Compendium.dnd5e.items.hxfOtvFrY1PXHQN1",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "pnzfqU0ghGOwCnW7",
+        "metatag": "Dreamholder"
+    },
+    {
+        "name": "Ring of the Ram",
+        "item": "Compendium.dnd5e.items.qw05Om9XWqTMoio2",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "kdo5X01G1MhDaGTm",
+        "metatag": "Goat or Sheep"
+    },
+    {
+        "name": "Ring of Three Wishes",
+        "item": "Compendium.dnd5e.items.ewXgnWiYQhS8KArS",
+        "rarity": "legendary",
+        "price": 150000,
+        "component": "IQty2wmvgO8Mkh5u",
+        "metatag": "Halfling"
+    },
+    {
+        "name": "Ring of Warmth",
+        "item": "Compendium.dnd5e.items.2veAOEyfbDJuxR8Y",
+        "rarity": "uncommon",
+        "price": 4500,
+        "component": "Dp3nZiuONDzG0WNe"
+    },
+    {
+        "name": "Ring of Water Elemental Command",
+        "item": "Compendium.dnd5e.items.HnIERWmmra74hSCw",
+        "rarity": "legendary",
+        "price": 35000,
+        "component": "Nca66iDNA3u3nZVR",
+        "metatag": "Water Elemental"
+    },
+    {
+        "name": "Ring of Water Walking",
+        "item": "Compendium.dnd5e.items.LC5LsQOPwoHQW9Mi",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "DuYjIFUhM5vTErTr"
+    },
+    {
+        "name": "Ring of X-ray Vision",
+        "item": "Compendium.dnd5e.items.i3njMqHc689GvHDn",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "FFvArli2j1V6vQ17"
+    },
+    {
+        "name": "Immovable Rod",
+        "item": "Compendium.dnd5e.items.eQNXan0zp279jDtk",
+        "rarity": "uncommon",
+        "price": 2000,
+        "component": "cYW1f8CLLOvfAv4Z"
+    },
+    {
+        "name": "Rod of Absorption",
+        "item": "Compendium.dnd5e.items.6pjaQzbtxQTuQ4RW",
+        "rarity": "legendary",
+        "price": 41600,
+        "component": "qcmPfB2BqQgzGyKm"
+    },
+    {
+        "name": "Rod of Alertness",
+        "item": "Compendium.dnd5e.items.Do3qeSHtBjUsmfvz",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "64sgJIggFsgi0L7u"
+    },
+    {
+        "name": "Rod of Lordly Might",
+        "item": "Compendium.dnd5e.items.d5HNCmLIPCpPoX2w",
+        "rarity": "legendary",
+        "price": 35000,
+        "component": "x0QkmzQiyfpTzgys",
+        "metatag": "Pit Fiend"
+    },
+    {
+        "name": "Rod of Rulership",
+        "item": "Compendium.dnd5e.items.vmbB2SK6pQU2Vkzb",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "hEuQaTZsBW9h8LAP",
+        "metatag": "Incubus or Sucubus"
+    },
+    {
+        "name": "Rod of Security",
+        "item": "Compendium.dnd5e.items.9kfMsSweOBui0SC4",
+        "rarity": "veryRare",
+        "price": 20000,
+        "component": "aMzAJ1jEth8pAepp",
+        "metatag": "Unicorn"
+    },
+    {
+        "name": "Staff of Charming",
+        "item": "Compendium.dnd5e.items.FeouSUPUlUhfgeRp",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "iIeA2wkTaNdOAlCT",
+        "metatag": "Incubus or Sucubus"
+    },
+    {
+        "name": "Staff of Fire",
+        "item": "Compendium.dnd5e.items.lsiR1hVfISlC5YoB",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "ipqCzs5yfdZshALV",
+        "metatag": "Magma Mephit"
+    },
+    {
+        "name": "Staff of Frost",
+        "item": "Compendium.dnd5e.items.xEtBeZjJnkDXojQM",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "5vG0Jr4gXLm77iQJ",
+        "metatag": "Ice Mephit"
+    },
+    {
+        "name": "Staff of Healing",
+        "item": "Compendium.dnd5e.items.WLVQJVpCWiPkCAtZ",
+        "rarity": "veryRare",
+        "price": 6000,
+        "component": "aMzAJ1jEth8pAepp",
+        "metatag": "Unicorn"
+    },
+    {
+        "name": "Staff of Power",
+        "item": "Compendium.dnd5e.items.eM5gEe4SEOvA2Y9t",
+        "rarity": "legendary",
+        "price": 65000,
+        "component": "B3KAXOUbXXneKhEb",
+        "metatag": "Storm"
+    },
+    {
+        "name": "Staff of Striking",
+        "item": "Compendium.dnd5e.items.URun3vYrXKJJdAJe",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "PDhdqwQJBPS2VlA3",
+        "metatag": "Sprite"
+    },
+    {
+        "name": "Staff of Swarming Insects",
+        "item": "Compendium.dnd5e.items.bod1dKzbAkAm21Ho",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "QFG2nvKjMeb3A9in",
+        "metatag": "Beetle or Insect"
+    },
+    {
+        "name": "Staff of Thunder and Lightning",
+        "item": "Compendium.dnd5e.items.F6v3Q7dz1SlpLTMf",
+        "rarity": "veryRare",
+        "price": 10000,
+        "component": "6j0yj0EAdskYL9Xu",
+        "metatag": "Djinni"
+    },
+    {
+        "name": "Staff of Withering",
+        "item": "Compendium.dnd5e.items.uHL99JKLUpTKAbz8",
+        "rarity": "rare",
+        "price": 2500,
+        "component": "1t71vPhsR3YOWkcY",
+        "metatag": "Wight"
+    },
+    {
+        "name": "Staff of the Magi",
+        "item": "Compendium.dnd5e.items.l3V7V8VCXpmAAysQ",
+        "rarity": "artifact",
+        "price": 4000000,
+        "component": "rW1Xodor47cpyhCL",
+        "metatag": "Kraken"
+    },
+    {
+        "name": "Staff of the Python",
+        "item": "Compendium.dnd5e.items.MOeFq5MLAQzVQC7z",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "xjJZ37nt0OJCSNIp",
+        "metatag": "Snake"
+    },
+    {
+        "name": "Staff of the Woodlands",
+        "item": "Compendium.dnd5e.items.caEn3ixCUFBnHTx6",
+        "rarity": "veryRare",
+        "price": 22000,
+        "component": "oyHUdONgiF7nYpCa",
+        "metatag": "Dryad"
+    },
+    {
+        "name": "+1 Wand of the War Mage",
+        "item": "Compendium.dnd5e.items.OPbdSlrhkUDNpgcS",
+        "rarity": "uncommon",
+        "price": 750,
+        "component": "d7A1YuHfTxhACcuj"
+    },
+    {
+        "name": "+2 Wand of the War Mage",
+        "item": "Compendium.dnd5e.items.k3T7tpcdzDyVKlF4",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "d7A1YuHfTxhACcuj"
+    },
+    {
+        "name": "+3 Wand of the War Mage",
+        "item": "Compendium.dnd5e.items.IuVaBrq17AqxpXc4",
+        "rarity": "veryRare",
+        "price": 6200,
+        "component": "d7A1YuHfTxhACcuj"
+    },
+    {
+        "name": "Wand of Binding",
+        "item": "Compendium.dnd5e.items.7jEKkA9qbwJ3IuCb",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "dQf3AhmCdhXWly5c",
+        "metatag": "Shambling Mound"
+    },
+    {
+        "name": "Wand of Enemy Detection",
+        "item": "Compendium.dnd5e.items.5Rxo4K9cgpwgW9vZ",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "Hkbv1jrFWbD43g0G",
+        "metatag": "Ankheg"
+    },
+    {
+        "name": "Wand of Fear",
+        "item": "Compendium.dnd5e.items.EJFql4aNWHHJSxT9",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "1REcsIBcwg1YbhMX",
+        "metatag": "Ghost"
+    },
+    {
+        "name": "Wand of Fireballs",
+        "item": "Compendium.dnd5e.items.DoSvjhRARhRqWZXg",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "ipqCzs5yfdZshALV",
+        "metatag": "Fire Elemental"
+    },
+    {
+        "name": "Wand of Lightning Bolts",
+        "item": "Compendium.dnd5e.items.bPFVfq81EsMNu6OQ",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "6j0yj0EAdskYL9Xu",
+        "metatag": "Air Elemental"
+    },
+    {
+        "name": "Wand of Magic Detection",
+        "item": "Compendium.dnd5e.items.18fbyArtidKzON01",
+        "rarity": "uncommon",
+        "price": 600,
+        "component": "YFvz364KlQjcCgnY",
+        "metatag": "Sphinx"
+    },
+    {
+        "name": "Wand of Magic Missiles",
+        "item": "Compendium.dnd5e.items.1taRIMF9w7jpnonN",
+        "rarity": "uncommon",
+        "price": 900,
+        "component": "7WBaUdAs6QRcw6LX"
+    },
+    {
+        "name": "Wand of Paralysis",
+        "item": "Compendium.dnd5e.items.GcpXNc4dKUNw0Tk6",
+        "rarity": "veryRare",
+        "price": 10000,
+        "component": "scRplQg5saStEwcd",
+        "metatag": "Phase Spider"
+    },
+    {
+        "name": "Wand of Polymorph",
+        "item": "Compendium.dnd5e.items.khyjT3dKyoEOf4eA",
+        "rarity": "veryRare",
+        "price": 20000,
+        "component": "gQADm2mPJwrV5LNQ",
+        "metatag": "Mimic"
+    },
+    {
+        "name": "Wand of Secrets",
+        "item": "Compendium.dnd5e.items.VQ6NWjWV37wiB29O",
+        "rarity": "uncommon",
+        "price": 600,
+        "component": "63kQK9z9A2NTVpP5",
+        "metatag": "(Has Blindsight)"
+    },
+    {
+        "name": "Wand of Web",
+        "item": "Compendium.dnd5e.items.4sR5HOah6KwVPHOb",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "i8ypVXXity8JzNJF",
+        "metatag": "Spider"
+    },
+    {
+        "name": "Wand of Wonder",
+        "item": "Compendium.dnd5e.items.lPsueMv4ZoXqCYf9",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "0CJU10TbDGph88GY"
+    },
+    {
+        "name": "Amulet of Health",
+        "item": "Compendium.dnd5e.items.iiQxTvDOhPGW5spF",
+        "rarity": "rare",
+        "price": 7000,
+        "component": "0bibGJfScx8Kh2Wv",
+        "metatag": "Mammoth"
+    },
+    {
+        "name": "Amulet of Proof against Detection and Location",
+        "item": "Compendium.dnd5e.items.50N8zf58FR4JWR05",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "zG8LGapbh4k8O3EZ"
+    },
+    {
+        "name": "Amulet of the Planes",
+        "item": "Compendium.dnd5e.items.8ABk0XV76Hzq8Qul",
+        "rarity": "veryRare",
+        "price": 20000,
+        "component": "KH2nNTWu5d1C5D8z"
+    },
+    {
+        "name": "Apparatus of the Crab",
+        "item": "Compendium.dnd5e.items.lSd5QHnIJbKvP1bh",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "Flywz49U8ViqIZPL"
+    },
+    {
+        "name": "Bag of Beans",
+        "item": "Compendium.dnd5e.items.F8QpasPjLrw2POzE",
+        "rarity": "rare",
+        "price": 2000,
+        "component": "ClhLDzU87z4DlE11"
+    },
+    {
+        "name": "Bag of Devouring",
+        "item": "Compendium.dnd5e.items.YG9QW0flem4SLL6A",
+        "rarity": "veryRare",
+        "price": 6500,
+        "component": "ZhZ3QEPTqCnxAbDb"
+    },
+    {
+        "name": "Bag of Holding",
+        "item": "Compendium.dnd5e.items.aDHRuUs29SrumWfq",
+        "rarity": "uncommon",
+        "price": 2500,
+        "component": "NzaynVVgPInD2LZv"
+    },
+    {
+        "name": "Bag of Tricks",
+        "item": [
+            "Compendium.dnd5e.items.9Ifr8fGvJ1bArzOW",
+            "Compendium.dnd5e.items.DxIdfGoJEYQj8o3D",
+            "Compendium.dnd5e.items.LHaqMvrx3PfSzWMQ"
+        ],
+        "rarity": "uncommon",
+        "price": 500,
+        "component": "38jKtQMrqQuY4rDu"
+    },
+    {
+        "name": "Bead of Force",
+        "item": "Compendium.dnd5e.items.SqTtbBCfiEsmZ36N",
+        "rarity": "rare",
+        "price": 960,
+        "component": "nxwXhGc8NBLA5XuM"
+    },
+    {
+        "name": "Belt of Dwarvenkind",
+        "item": "Compendium.dnd5e.items.j2ZGEwx8MhHZXds4",
+        "rarity": "veryRare",
+        "price": 9500,
+        "component": "ZhZ3QEPTqCnxAbDb"
+    },
+    {
+        "name": "Belt of Giant Strength",
+        "component": "2ugxh5VDYE9BSQyn",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.bq9YKwEHLQ7p7ric",
+                "price": 24000,
+                "rarity": "veryRare",
+                "metatag": "Fire"
+            },
+            {
+                "item": "Compendium.dnd5e.items.ORKf6RRcalrdD6Qp",
+                "price": 16000,
+                "rarity": "veryRare",
+                "metatag": "Frost"
+            },
+            {
+                "item": "Compendium.dnd5e.items.ER75WHewYN04Zp11",
+                "price": 8000,
+                "rarity": "rare",
+                "metatag": "Hill"
+            },
+            {
+                "item": "Compendium.dnd5e.items.fCUZ7h8YYrs16UhX",
+                "price": 16000,
+                "rarity": "veryRare",
+                "metatag": "Stone"
+            },
+            {
+                "item": "Compendium.dnd5e.items.wBYmPQG3nZfD88aP",
+                "price": 96000,
+                "rarity": "legendary",
+                "metatag": "Storm"
+            }
+        ]
+    },
+    {
+        "name": "Boots of Elvenkind",
+        "item": "Compendium.dnd5e.items.KKWBLKQIWHtcpymp",
+        "rarity": "uncommon",
+        "price": 2500,
+        "component": "SiJprDsuwzvrjjnp"
+    },
+    {
+        "name": "Boots of Levitation",
+        "item": "Compendium.dnd5e.items.HLhFCDGfI8EK7uV9",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "38jKtQMrqQuY4rDu"
+    },
+    {
+        "name": "Boots of Speed",
+        "item": "Compendium.dnd5e.items.MCMSZrhcD40oMJ9v",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "sLDAHwZgbSQgGdWW"
+    },
+    {
+        "name": "Boots of Striding and Springing",
+        "item": "Compendium.dnd5e.items.hSY1b8yi8JWw2blf",
+        "rarity": "uncommon",
+        "price": 1800,
+        "component": "lg7XAcGRAcjYQcPG"
+    },
+    {
+        "name": "Boots of the Winterlands",
+        "item": "Compendium.dnd5e.items.RDPFmUR9exTEXFc8",
+        "rarity": "uncommon",
+        "price": 2000,
+        "component": "IohBB5Av8ku7lcaS"
+    },
+    {
+        "name": "Bowl of Commanding Water Elementals",
+        "item": "Compendium.dnd5e.items.rRMaaGZ7qbzqMvoI",
+        "rarity": "rare",
+        "price": 3200,
+        "component": "Nca66iDNA3u3nZVR"
+    },
+    {
+        "name": "Bracers of Archery",
+        "item": "Compendium.dnd5e.items.ZYEqOSY9BLZs2GPx",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "ZhZ3QEPTqCnxAbDb"
+    },
+    {
+        "name": "Bracers of Defense",
+        "item": "Compendium.dnd5e.items.DSHi7yT6OUyDoCcu",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "ucusMCaHQqzR0jsS"
+    },
+    {
+        "name": "Brazier of Commanding Fire Elementals",
+        "item": "Compendium.dnd5e.items.OcjcplcUWH07Kn9k",
+        "rarity": "rare",
+        "price": 3200,
+        "component": "GcYYTzakq3RAdrWA",
+        "metatag": "Efreefi"
+    },
+    {
+        "name": "Brooch of Shielding",
+        "item": "Compendium.dnd5e.items.ZdcEtbtU3VkuxIFE",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "DmmvAWOXEPDmLeJX"
+    },
+    {
+        "name": "Broom of Flying",
+        "item": "Compendium.dnd5e.items.hFAVm9pTJDm0nu3g",
+        "rarity": "veryRare",
+        "price": 8000,
+        "component": "oyHUdONgiF7nYpCa"
+    },
+    {
+        "name": "Candle of Invocation",
+        "item": "Compendium.dnd5e.items.ZoUVmRA3HfAK2eZy",
+        "rarity": "veryRare",
+        "price": 5600,
+        "variants": [
+            {
+                "mod": "Good",
+                "component": "6MLu1IWoxEKhpSQd"
+            },
+            {
+                "mod": "Evil",
+                "component": "aJgfKtcgq9heFRDX"
+            }
+        ]
+    },
+    {
+        "name": "Cape of the Mountebank",
+        "item": "Compendium.dnd5e.items.gpHgWLsD8k2yzbfR",
+        "rarity": "rare",
+        "price": 1600,
+        "component": "ZhZ3QEPTqCnxAbDb"
+    },
+    {
+        "name": "Carpet of Flying",
+        "rarity": "veryRare",
+        "component": "oyHUdONgiF7nYpCa",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.XwqNHyox5OQQio8q",
+                "price": 8000
+            },
+            {
+                "item": "Compendium.dnd5e.items.DeK9uQvNJj3JzFwe",
+                "price": 10000
+            },
+            {
+                "item": "Compendium.dnd5e.items.XAr1SR4POx5BAArk",
+                "price": 12000
+            },
+            {
+                "item": "Compendium.dnd5e.items.TjWk2mpNXjDdfIDM",
+                "price": 16000
+            }
+        ]
+    },
+    {
+        "name": "Censer of Controlling Air Elementals",
+        "item": "Compendium.dnd5e.items.sXEkkTDXWQDUMzsC",
+        "rarity": "rare",
+        "price": 3200,
+        "component": "T0h4LS1FgWbtW1Yl",
+        "metatag": "Djinni"
+    },
+    {
+        "name": "Chime of Opening",
+        "item": "Compendium.dnd5e.items.vZdLYfHlLcZqQ8zc",
+        "rarity": "rare",
+        "price": 1500,
+        "component": "khcaAhWbTgPlLsZy"
+    },
+    {
+        "name": "Circlet of Blasting",
+        "item": "Compendium.dnd5e.items.9UvWQTY5yIgkJmmb",
+        "rarity": "uncommon",
+        "price": 360,
+        "component": "Mg44MtvSc2kXWCYW"
+    },
+    {
+        "name": "Cloak of Arachnida",
+        "item": "Compendium.dnd5e.items.VwJjuNbBf2KHMPrY",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "sGIgCEeorbjaVVIr",
+        "metatag": "Giant Spider"
+    },
+    {
+        "name": "Cloak of Displacement",
+        "item": "Compendium.dnd5e.items.LpD064ilKEeFzVI8",
+        "rarity": "legendary",
+        "price": 60000,
+        "component": "ZhZ3QEPTqCnxAbDb"
+    },
+    {
+        "name": "Cloak of Elvenkind",
+        "item": "Compendium.dnd5e.items.Jvf1NWFxcjfHnMQ5",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "ClhLDzU87z4DlE11"
+    },
+    {
+        "name": "Cloak of Protection",
+        "item": "Compendium.dnd5e.items.lvaMqEhfidfHDGf5",
+        "rarity": "rare",
+        "price": 3500,
+        "component": "sGIgCEeorbjaVVIr"
+    },
+    {
+        "name": "Cloak of the Bat",
+        "item": "Compendium.dnd5e.items.Aq1rhgcgFnwu2T4I",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "IohBB5Av8ku7lcaS",
+        "metatag": "Bat"
+    },
+    {
+        "name": "Cloak of the Manta Ray",
+        "item": "Compendium.dnd5e.items.hGrxC676XmlnS9y0",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "IohBB5Av8ku7lcaS",
+        "metatag": "Ray or shark"
+    },
+    {
+        "name": "Crystal Ball",
+        "item": "Compendium.dnd5e.items.ItoGjtOtDOQ2noNM",
+        "rarity": "veryRare",
+        "price": 28000,
+        "component": "f0vzWxq07ZRNSb0P"
+    },
+    {
+        "name": "Cube of Force",
+        "item": "Compendium.dnd5e.items.s4fR8bxQGSt4wbH7",
+        "rarity": "veryRare",
+        "price": 16000,
+        "component": "cHnLGG1O2TftyNOu"
+    },
+    {
+        "name": "Cubic Gate",
+        "item": "Compendium.dnd5e.items.6ai1pEde3iQX30Fr",
+        "rarity": "legendary",
+        "price": 40000,
+        "component": "DrRWMM7zhbFMSzSX"
+    },
+    {
+        "name": "Decanter of Endless Water",
+        "item": "Compendium.dnd5e.items.qXcUKfCVxEvV3VU8",
+        "component": "5vG0Jr4gXLm77iQJ",
+        "variants": [
+            {
+                "mod": "(60 Gallons/day)",
+                "price": 300,
+                "rarity": "uncommon"
+            },
+            {
+                "mod": "(300 Gallons/day)",
+                "price": 1300,
+                "rarity": "rare"
+            },
+            {
+                "mod": "(1500 Gallons/day)",
+                "price": 6200,
+                "rarity": "veryRare"
+            },
+            {
+                "mod": "(Unlimited)",
+                "price": 28800,
+                "rarity": "legendary"
+            }
+        ]
+    },
+    {
+        "name": "Deck of Illusions",
+        "item": "Compendium.dnd5e.items.Wk7EOYoY3b2tgGoS",
+        "rarity": "uncommon",
+        "price": 600,
+        "component": "Hfq7q7Kam5fNd97o"
+    },
+    {
+        "name": "Deck of Many Things",
+        "item": "Compendium.dnd5e.items.oSarKEU8x1AupB6z",
+        "rarity": "legendary",
+        "price": 60000,
+        "component": "KH2nNTWu5d1C5D8z"
+    },
+    {
+        "name": "Dimensional Shackles",
+        "item": "Compendium.dnd5e.items.wGKykLRS8UqChNXI",
+        "rarity": "rare",
+        "price": 2500,
+        "component": "OiGzKrl04YHEirj1"
+    },
+    {
+        "name": "Dust of Disappearance",
+        "item": "Compendium.dnd5e.items.cGUPm15mLfhGDz2b",
+        "rarity": "uncommon",
+        "price": 250,
+        "component": "DrRWMM7zhbFMSzSX"
+    },
+    {
+        "name": "Dust of Dryness",
+        "item": "Compendium.dnd5e.items.eMR6B4bIoJPUDJG8",
+        "rarity": "uncommon",
+        "price": 180,
+        "component": "HPprrBKDy38nCPzu"
+    },
+    {
+        "name": "Dust of Sneezing and Choking",
+        "item": "Compendium.dnd5e.items.9eyZY9tL3fXD1Mbm",
+        "rarity": "uncommon",
+        "price": 480,
+        "component": "hEuQaTZsBW9h8LAP"
+    },
+    {
+        "name": "Efficient Quiver",
+        "item": "Compendium.dnd5e.items.MLNzQUsVUi0PEV3i",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "16sVLmlX0K7dM08Q"
+    },
+    {
+        "name": "Efreeti Bottle",
+        "item": "Compendium.dnd5e.items.fbcQsOgWCjhEAGY7",
+        "rarity": "legendary",
+        "price": 30000,
+        "component": "GcYYTzakq3RAdrWA",
+        "metatag": "Efreeti"
+    },
+    {
+        "name": "Elemental Gem",
+        "rarity": "rare",
+        "price": 960,
+        "component": "Dp3nZiuONDzG0WNe",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.zDJ4oEt5HArN1xmP",
+                "metatag": "Djinni"
+            },
+            {
+                "item": "Compendium.dnd5e.items.HLEhnzLbpRbYdAHo"
+            },
+            {
+                "item": "Compendium.dnd5e.items.dsjke4vPPsc9gsxH",
+                "metatag": "Efreefi"
+            },
+            {
+                "item": "Compendium.dnd5e.items.IGwDN9gtYxCrlrCr"
+            }
+        ]
+    },
+    {
+        "name": "Eversmoking Bottle",
+        "item": "Compendium.dnd5e.items.CvzjhUy9ekRieR1A",
+        "rarity": "uncommon",
+        "price": 480,
+        "component": "1U4aEXFOooBJTC93"
+    },
+    {
+        "name": "Eyes of Charming",
+        "item": "Compendium.dnd5e.items.8dfhaa1g3VDjhtm3",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "64sgJIggFsgi0L7u"
+    },
+    {
+        "name": "Eyes of Minute Seeing",
+        "item": "Compendium.dnd5e.items.BsyPV6eTNghT3Fho",
+        "rarity": "uncommon",
+        "price": 850,
+        "component": "MlwNdpnQ6TvJSz70",
+        "metatag": "Bird"
+    },
+    {
+        "name": "Eyes of the Eagle",
+        "item": "Compendium.dnd5e.items.U4PI6l96QJUk6TGb",
+        "rarity": "uncommon",
+        "price": 850,
+        "component": "MlwNdpnQ6TvJSz70",
+        "metatag": "Eagle"
+    },
+    {
+        "name": "Feather Token",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.DnlQkH6Bpwkd5n5Y",
+                "price": 50,
+                "rarity": "common",
+                "component": "oyHUdONgiF7nYpCa"
+            },
+            {
+                "item": "Compendium.dnd5e.items.hWqImieUaLo08l9l",
+                "price": 3000,
+                "rarity": "rare",
+                "component": "r4w30vZItZx4gH6Y"
+            },
+            {
+                "item": "Compendium.dnd5e.items.e98hfROZjztt7ccO",
+                "price": 300,
+                "rarity": "uncommon",
+                "component": "f0Vhn42XB5wryuBx"
+            },
+            {
+                "item": "Compendium.dnd5e.items.UgnUJhu0tW1tLt7g",
+                "price": 1400,
+                "rarity": "rare",
+                "component": "sBFCK8wOVWgkoY3r"
+            },
+            {
+                "item": "Compendium.dnd5e.items.NjTgPn2o0M1TGk93",
+                "price": 50,
+                "rarity": "common",
+                "component": "SiJprDsuwzvrjjnp"
+            },
+            {
+                "item": "Compendium.dnd5e.items.Fgkj11diTJJ7H3JC",
+                "price": 600,
+                "rarity": "uncommon",
+                "component": "pprQRQQTwn73lthK"
+            }
+        ]
+    },
+    {
+        "name": "Figurine of Wondrous Power",
+        "rarity": "rare",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.CI58LNiwrTpmWYMp",
+                "price": 2000,
+                "component": "f0Vhn42XB5wryuBx",
+                "metatag": "Griffon"
+            },
+            {
+                "item": "Compendium.dnd5e.items.s2kQs21J3cFg7ZSs",
+                "price": 4000,
+                "component": "sGIgCEeorbjaVVIr",
+                "metatag": "Insect"
+            },
+            {
+                "item": "Compendium.dnd5e.items.Minr6xegwoHFvAjG",
+                "rarity": "uncommon",
+                "price": 600,
+                "component": "IohBB5Av8ku7lcaS",
+                "metatag": "Lion"
+            },
+            {
+                "item": [
+                    "Compendium.dnd5e.items.8CaODbNQtxHGuVjn",
+                    "Compendium.dnd5e.items.41kYCmKq0PbGVKaM",
+                    "Compendium.dnd5e.items.iLt7wTWr4cJnQulJ"
+                ],
+                "rarity": "veryRare",
+                "price": 17400,
+                "component": "kdo5X01G1MhDaGTm",
+                "metatag": "Goat"
+            },
+            {
+                "item": "Compendium.dnd5e.items.GP2bvHlxVi30OEmo",
+                "price": 6000,
+                "component": "mmN2lB8E5UGBftu1",
+                "metatag": "Elephant"
+            },
+            {
+                "item": "Compendium.dnd5e.items.M5qkJ7erLqWYUHa0",
+                "rarity": "veryRare",
+                "price": 24000,
+                "component": "cYW1f8CLLOvfAv4Z",
+                "metatag": "Horse"
+            },
+            {
+                "item": "Compendium.dnd5e.items.9nxSHbqlDdngtuuz",
+                "price": 3000,
+                "component": "EmhhpOFAHtZEO3hb",
+                "metatag": "Dog or Wolf"
+            },
+            {
+                "item": "Compendium.dnd5e.items.XEH5YErAN1WSytln",
+                "price": 7000,
+                "component": "MlwNdpnQ6TvJSz70",
+                "metatag": "Owl"
+            },
+            {
+                "item": "Compendium.dnd5e.items.nMtmxeYrbyFdv0bg",
+                "rarity": "uncommon",
+                "price": 1000,
+                "component": "r4w30vZItZx4gH6Y",
+                "metatag": "Bird"
+            }
+        ]
+    },
+    {
+        "name": "Folding Boat",
+        "item": "Compendium.dnd5e.items.u4ewpAFZjLrWrmQv",
+        "rarity": "rare",
+        "price": 3000,
+        "component": "SiJprDsuwzvrjjnp"
+    },
+    {
+        "name": "Gauntlets of Ogre Power",
+        "item": "Compendium.dnd5e.items.3TWT5bv3z5zGUZCe",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "qvJJUacV1hJNsjqW",
+        "metatag": "Ogre"
+    },
+    {
+        "name": "Gem of Brightness",
+        "item": "Compendium.dnd5e.items.thkvJ5QBRORIwkkV",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "6MLu1IWoxEKhpSQd"
+    },
+    {
+        "name": "Gem of Seeing",
+        "item": "Compendium.dnd5e.items.jJU8vFhHLQeKe2wu",
+        "rarity": "rare",
+        "price": 8000,
+        "component": "f0vzWxq07ZRNSb0P"
+    },
+    {
+        "name": "Gloves of Missile Snaring",
+        "item": "Compendium.dnd5e.items.otYAEwhsANKHZAmk",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "sLDAHwZgbSQgGdWW"
+    },
+    {
+        "name": "Gloves of Swimming and Climbing",
+        "item": "Compendium.dnd5e.items.PRhtLbRLb9LjHZG7",
+        "rarity": "uncommon",
+        "price": 900,
+        "component": "xjJZ37nt0OJCSNIp",
+        "metatag": "Shark"
+    },
+    {
+        "name": "Goggles of Night",
+        "item": "Compendium.dnd5e.items.XGAWqtmhK6SYBL6A",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "YFvz364KlQjcCgnY"
+    },
+    {
+        "name": "Hat of Disguise",
+        "item": "Compendium.dnd5e.items.dQxqcjDm0IxYusCV",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "XFSxdDal8TdWSaA9",
+        "metatag": "Shapechanger"
+    },
+    {
+        "name": "Headband of Intellect",
+        "item": "Compendium.dnd5e.items.a26LjC4QxP1oorXC",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "k8OOk9mRHLO4FIYd"
+    },
+    {
+        "name": "Helm of Brilliance",
+        "item": "Compendium.dnd5e.items.rhGulc3gEJhnuP31",
+        "rarity": "veryRare",
+        "price": 25000,
+        "component": "ba4zNUpWFrEBsWlN"
+    },
+    {
+        "name": "Helm of Comprehending Languages",
+        "item": "Compendium.dnd5e.items.rY9sRFQp5CFSfsat",
+        "rarity": "uncommon",
+        "price": 500,
+        "component": "Flywz49U8ViqIZPL"
+    },
+    {
+        "name": "Helm of Telepathy",
+        "item": "Compendium.dnd5e.items.EJVaAvNfCq6gn6VG",
+        "rarity": "uncommon",
+        "price": 2000,
+        "component": "cft5xyACBpRZsZs6"
+    },
+    {
+        "name": "Helm of Teleportation",
+        "item": "Compendium.dnd5e.items.DEQkJiQdGyfmSNkV",
+        "rarity": "veryRare",
+        "price": 23000,
+        "component": "FjeqPxwD0Eh1bFeZ"
+    },
+    {
+        "name": "Handy Haversack",
+        "item": "Compendium.dnd5e.items.7vqs5AqI4VCmuszx",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "NzaynVVgPInD2LZv"
+    },
+    {
+        "name": "Horn of Blasting",
+        "item": "Compendium.dnd5e.items.t7GfyRp3dB3lqS9i",
+        "rarity": "uncommon",
+        "price": 450,
+        "component": "VlOSYbeyg3iQKm08"
+    },
+    {
+        "name": "Horn of Valhalla",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.QYJyQCnIQeLiMrmJ",
+                "rarity": "rare",
+                "price": 8400,
+                "component": "mmN2lB8E5UGBftu1",
+                "metatag": "Elephant"
+            },
+            {
+                "item": "Compendium.dnd5e.items.sqcerAMszpe3hwyI",
+                "rarity": "veryRare",
+                "price": 14000,
+                "component": "mmN2lB8E5UGBftu1",
+                "metatag": "Mammoth"
+            },
+            {
+                "item": "Compendium.dnd5e.items.qVuZznv0MnIjDU70",
+                "rarity": "legendary",
+                "price": 28800,
+                "component": "ohUOCyBVcWk0pYvv",
+                "metatag": "Balor"
+            },
+            {
+                "item": "Compendium.dnd5e.items.lTfo6OVvAY2iJ4oq",
+                "rarity": "rare",
+                "price": 5600,
+                "component": "kdo5X01G1MhDaGTm",
+                "metatag": "Rhinoceros"
+            }
+        ]
+    },
+    {
+        "name": "Horseshoes of Speed",
+        "item": "Compendium.dnd5e.items.nAqDwI9GyXS1diiz",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "bCKpjpOXCQbIOfBF"
+    },
+    {
+        "name": "Horseshoes of a Zephyr",
+        "item": "Compendium.dnd5e.items.2mvXGvDmHHhzbT04",
+        "rarity": "veryRare",
+        "price": 6200,
+        "component": "bbmChVcW5DLYk6lw"
+    },
+    {
+        "name": "Instant Fortress",
+        "item": "Compendium.dnd5e.items.9stfX2i2I1YPo8vx",
+        "rarity": "legendary",
+        "price": 75000,
+        "component": "PNBpZzmeBSHtuJJX"
+    },
+    {
+        "name": "Ioun Stone",
+        "variants": [
+            {
+                "item": "Compendium.dnd5e.items.NGVEouqK0I6J6jV5",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "y1wwwjUM3OSUwKy1"
+            },
+            {
+                "item": "Compendium.dnd5e.items.Q4Iy6hqREsbk9yG7",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "PDhdqwQJBPS2VlA3",
+                "metatag": "Dex ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.h8rS84jKsMHl9J1i",
+                "rarity": "veryRare",
+                "price": 1200,
+                "component": "YU6uabBB9mAR4B5O",
+                "metatag": "Adult or Ancient"
+            },
+            {
+                "item": "Compendium.dnd5e.items.ig5DOQtQYJPXJId4",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "KH2nNTWu5d1C5D8z",
+                "metatag": "Con ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.7FEcfqz1piPHN1tV",
+                "rarity": "legendary",
+                "price": 41600,
+                "component": "nxwXhGc8NBLA5XuM",
+                "metatag": "Shield Guardian"
+            },
+            {
+                "item": "Compendium.dnd5e.items.9jMQEm99q1ttAV1Q",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "Hfq7q7Kam5fNd97o",
+                "metatag": "Wis ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.YeLz5OxRNxmvHJId",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "PDhdqwQJBPS2VlA3",
+                "metatag": "Int ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.hDF4RSCzMO8iI14x",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "Hfq7q7Kam5fNd97o",
+                "metatag": "Cha ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.nk2MH16KcZmKp7FQ",
+                "rarity": "legendary",
+                "price": 41600,
+                "component": "KH2nNTWu5d1C5D8z",
+                "metatag": "Pit Fiend"
+            },
+            {
+                "item": "Compendium.dnd5e.items.v4uNbmiz4ECTI89n",
+                "rarity": "rare",
+                "price": 2100,
+                "component": "4uUFCJoP8b0h4l6o",
+                "metatag": "Gorgon"
+            },
+            {
+                "item": "Compendium.dnd5e.items.szNhDWpks5BhEXhT",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "keqUwwbcZ6A7Uj6V",
+                "metatag": "Troll"
+            },
+            {
+                "item": "Compendium.dnd5e.items.jvKmgJYL33E8gev5",
+                "rarity": "rare",
+                "price": 5200,
+                "component": "k8OOk9mRHLO4FIYd",
+                "metatag": "Spellcaster"
+            },
+            {
+                "item": "Compendium.dnd5e.items.0G5LSgbb5NTV4XC7",
+                "rarity": "veryRare",
+                "price": 9400,
+                "component": "VlOSYbeyg3iQKm08",
+                "metatag": "Str ≥ 20"
+            },
+            {
+                "item": "Compendium.dnd5e.items.6MDTnMG4Hcw7qZsy",
+                "rarity": "rare",
+                "price": 2100,
+                "component": "MlB2e2DOagQFNSIy",
+                "metatag": "Vampire"
+            }
+        ]
+    },
+    {
+        "name": "Iron Bands of Binding",
+        "item": "Compendium.dnd5e.items.E9G4jALlSA96fKAN",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "oyHUdONgiF7nYpCa",
+        "metatag": "Shambling Mound"
+    },
+    {
+        "name": "Iron Flask",
+        "item": "Compendium.dnd5e.items.lvLrkAR7k8DS7J3W",
+        "rarity": "legendary",
+        "price": 28800,
+        "component": "87bCx26JGVjaY5SS",
+        "metatag": "Iron Golem"
+    },
+    {
+        "name": "Lantern of Revealing",
+        "item": "Compendium.dnd5e.items.7FLs8qIGdOFnz9oL",
+        "rarity": "uncommon",
+        "price": 900,
+        "component": "64sgJIggFsgi0L7u",
+        "metatag": "Hag"
+    },
+    {
+        "name": "Mantle of Spell Resistance",
+        "item": "Compendium.dnd5e.items.oxzUb5j1TMsccGW4",
+        "rarity": "rare",
+        "price": 19000,
+        "component": "XFSxdDal8TdWSaA9",
+        "metatag": "Rakshasa"
+    },
+    {
+        "name": "Manual of Bodily Health",
+        "item": "Compendium.dnd5e.items.BjyTJn9oGvURWKJR",
+        "rarity": "veryRare",
+        "price": 14000,
+        "component": "keqUwwbcZ6A7Uj6V"
+    },
+    {
+        "name": "Manual of Golems",
+        "item": "Compendium.dnd5e.items.UxkP6FvDzPbsIY6o",
+        "rarity": "veryRare",
+        "variants": [
+            {
+                "mod": "Clay",
+                "price": 8200,
+                "component": "qcmPfB2BqQgzGyKm",
+                "metatag": "Clay Golem"
+            },
+            {
+                "mod": "Flesh",
+                "price": 6200,
+                "component": "9b5oDdUgbmFnmCzh",
+                "metatag": "Flesh Golem"
+            },
+            {
+                "mod": "Iron",
+                "price": 12200,
+                "component": "87bCx26JGVjaY5SS",
+                "metatag": "Iron Golem"
+            },
+            {
+                "mod": "Stone",
+                "price": 9200,
+                "component": "qcmPfB2BqQgzGyKm",
+                "metatag": "Stone Golem"
+            }
+        ]
+    },
+    {
+        "name": "Manual of Gainful Exercise",
+        "item": "Compendium.dnd5e.items.ykefWXBjq3y6y9Se",
+        "rarity": "veryRare",
+        "price": 14000,
+        "component": "L55KPHnnjtY5zFRv"
+    },
+    {
+        "name": "Manual of Quickness of Action",
+        "item": "Compendium.dnd5e.items.Q4jmng3i9Lb2nL5F",
+        "rarity": "veryRare",
+        "price": 14000,
+        "component": "yeRCgjVwQ7DyusFf"
+    },
+    {
+        "name": "Marvelous Pigments",
+        "item": "Compendium.dnd5e.items.e3XQygrXkzNvkDGF",
+        "rarity": "veryRare",
+        "price": 8600,
+        "component": "nTwG7qOPr4O1KdIb"
+    },
+    {
+        "name": "Medallion of Thoughts",
+        "item": "Compendium.dnd5e.items.skoUe223EvRYGPL6",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "dbdH3VbRd1W2ucXF"
+    },
+    {
+        "name": "Mirror of Life Trapping",
+        "item": "Compendium.dnd5e.items.hf5j1meGsA33HkUj",
+        "rarity": "uncommon",
+        "price": 18000,
+        "component": "8RVwd96ncBeqkOZF"
+    },
+    {
+        "name": "Necklace of Adaptation",
+        "item": "Compendium.dnd5e.items.wwNpAz2KMukovewN",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "el7BNKRgRzizWRJ5"
+    },
+    {
+        "name": "Necklace of Fireballs",
+        "item": "Compendium.dnd5e.items.3ALOhh6JNInIK4o7",
+        "component": "7oXPZJip7vNsGcOT",
+        "metatag": "(Dragon with Fire Immunity or Resistance)",
+        "variants": [
+            {
+                "mod": "3 Beads",
+                "rarity": "uncommon"
+            },
+            {
+                "mod": "6 Beads",
+                "rarity": "rare"
+            }
+        ]
+    },
+    {
+        "name": "Necklace of Prayer Beads",
+        "item": "Compendium.dnd5e.items.wqVSRfkcTjuhvDyx",
+        "component": "cAlKUufC49wyZipR",
+        "note": "You can craft up to 6 beads. Use highest rarity to determine essence. Add cost of all beads together.",
+        "variants": [
+            {
+                "mod": "Bless",
+                "rarity": "uncommon",
+                "price": 300
+            },
+            {
+                "mod": "Curing",
+                "rarity": "uncommon",
+                "price": 600
+            },
+            {
+                "mod": "Favor",
+                "rarity": "rare",
+                "price": 3200
+            },
+            {
+                "mod": "Smiting",
+                "rarity": "uncommon",
+                "price": 600
+            },
+            {
+                "mod": "Summons",
+                "rarity": "veryRare",
+                "price": 6400
+            },
+            {
+                "mod": "Wind Walk",
+                "rarity": "veryRare",
+                "price": 6400
+            }
+        ]
+    },
+    {
+        "name": "Orb of Dragonkind",
+        "item": "Compendium.dnd5e.items.1RwJWOAeyoideLKe",
+        "rarity": "artifact",
+        "price": 4000000,
+        "component": "YU6uabBB9mAR4B5O"
+    },
+    {
+        "name": "Pearl of Power",
+        "item": "Compendium.dnd5e.items.44XNWmMGnwXn7bNW",
+        "rarity": "uncommon",
+        "price": 1000,
+        "component": "j6Mki4wc36SNQjbv"
+    },
+    {
+        "name": "Periapt of Health",
+        "item": "Compendium.dnd5e.items.9v0TPDXNa9S7aNB4",
+        "rarity": "uncommon",
+        "price": 400,
+        "component": "SyvUpNIEZv3kl0nZ"
+    },
+    {
+        "name": "Periapt of Proof against Poison",
+        "item": "Compendium.dnd5e.items.oYZNXHth1UYxPwVi",
+        "rarity": "rare",
+        "price": 5000,
+        "component": "PbL9tdLPXpOBJdoi"
+    },
+    {
+        "name": "Periapt of Wound Closure",
+        "item": "Compendium.dnd5e.items.DWwBkOFuYf5VN3M2",
+        "rarity": "rare",
+        "price": 800,
+        "component": "6faKGTlnoB9qaEGV"
+    },
+    {
+        "name": "Pipes of Haunting",
+        "item": "Compendium.dnd5e.items.oNLfJNRQgUHpU8c7",
+        "rarity": "uncommon",
+        "price": 800,
+        "component": "NmoGNwrTuccgoDT9"
+    },
+    {
+        "name": "Pipes of the Sewers",
+        "item": "Compendium.dnd5e.items.nvhk1quD0Dg1ZtSH",
+        "rarity": "uncommon",
+        "price": 700,
+        "component": "IXByIg9HWtqoURaE"
+    },
+    {
+        "name": "Portable Hole",
+        "item": "Compendium.dnd5e.items.rvxGvcUzoQXVNbAu",
+        "rarity": "rare",
+        "price": 2500,
+        "component": "NzaynVVgPInD2LZv"
+    },
+    {
+        "name": "Restorative Ointment",
+        "item": "Compendium.dnd5e.items.VmcgAIsRCyrjBguC",
+        "rarity": "uncommon",
+        "price": 360,
+        "component": "XjSnUMOXytj9f2Gy"
+    },
+    {
+        "name": "Robe of Eyes",
+        "item": "Compendium.dnd5e.items.U74TPNQLJZbHJyCk",
+        "rarity": "rare",
+        "price": 4000,
+        "component": "YFvz364KlQjcCgnY",
+        "metatag": "Sphinx"
+    },
+    {
+        "name": "Robe of Scintillating Colors",
+        "item": "Compendium.dnd5e.items.JRJpKZyamkpa7awv",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "YGbRAmidY8RtiI6K"
+    },
+    {
+        "name": "Robe of Stars",
+        "item": "Compendium.dnd5e.items.66UkbfH0PVwo4HgA",
+        "rarity": "veryRare",
+        "price": 18000,
+        "component": "FFvArli2j1V6vQ17"
+    },
+    {
+        "name": "Robe of Useful Items",
+        "item": "Compendium.dnd5e.items.2ksm2KXCY3vBHTAx",
+        "rarity": "uncommon",
+        "price": 1250,
+        "component": "vCRuBwLkS3GCozMC"
+    },
+    {
+        "name": "Robe of the Archmagi",
+        "item": "Compendium.dnd5e.items.mr96Z8YTI490ExhP",
+        "rarity": "legendary",
+        "price": 41600,
+        "variants": [
+            {
+                "mod": "Good",
+                "component": "lB2NvUMY9yA5K26r"
+            },
+            {
+                "mod": "Neutral",
+                "component": "vCRuBwLkS3GCozMC"
+            },
+            {
+                "mod": "Evil",
+                "component": "XFSxdDal8TdWSaA9"
+            }
+        ]
+    },
+    {
+        "name": "Rope of Climbing",
+        "item": "Compendium.dnd5e.items.29e6gHwWKNLaRUoz",
+        "rarity": "uncommon",
+        "price": 900,
+        "component": "wzAvPyeqFw5Gr7kT"
+    },
+    {
+        "name": "Rope of Entanglement",
+        "item": "Compendium.dnd5e.items.J8gQdJJi5e8LmD7H",
+        "rarity": "rare",
+        "price": 2000,
+        "component": "OoCfBFim4pHc1mQJ"
+    },
+    {
+        "name": "Scarab of Protection",
+        "item": "Compendium.dnd5e.items.xjRSY2ECcc9viSz3",
+        "rarity": "legendary",
+        "price": 41600,
+        "component": "MlB2e2DOagQFNSIy",
+        "metatag": "Lich"
+    },
+    {
+        "name": "Slippers of Spider Climbing",
+        "item": "Compendium.dnd5e.items.ZgXJE9pjvZLMCeHg",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "bCKpjpOXCQbIOfBF",
+        "metatag": "Spider"
+    },
+    {
+        "name": "Sovereign Glue",
+        "item": "Compendium.dnd5e.items.zJ5LhDvTxYKzPIx4",
+        "rarity": "veryRare",
+        "price": 4800,
+        "component": "6faKGTlnoB9qaEGV",
+        "metatag": "Black Pudding"
+    },
+    {
+        "name": "Sphere of Annihilation",
+        "item": "Compendium.dnd5e.items.2YNqk5zm9jDTvd7q",
+        "rarity": "veryRare",
+        "price": 15000,
+        "component": "avkxkX9FIr7TeRPq"
+    },
+    {
+        "name": "Stone of Controlling Earth Elementals",
+        "item": "Compendium.dnd5e.items.TWFS1BtruQeE10BY",
+        "rarity": "rare",
+        "price": 3200,
+        "component": "JXKfw1i3zfca4FpO"
+    },
+    {
+        "name": "Stone of Good Luck",
+        "item": "Compendium.dnd5e.items.296Zgo9RhltWShE1",
+        "rarity": "uncommon",
+        "price": 1500,
+        "component": "IQty2wmvgO8Mkh5u",
+        "metatag": "Halfling"
+    },
+    {
+        "name": "Talisman of Pure Good",
+        "item": "Compendium.dnd5e.items.iB3gunzgxZ8xK6Z5",
+        "rarity": "legendary",
+        "price": 72000,
+        "component": "c0VpQ2VOOOS2dRkA",
+        "metatag": "Good-Aligned god"
+    },
+    {
+        "name": "Talisman of Ultimate Evil",
+        "item": "Compendium.dnd5e.items.PAXfmZ2ErDlCVy0N",
+        "rarity": "legendary",
+        "price": 62000,
+        "component": "iIeA2wkTaNdOAlCT",
+        "metatag": "Evil-Aligned god"
+    },
+    {
+        "name": "Talisman of the Sphere",
+        "item": "Compendium.dnd5e.items.46ikeR4RrSim6DsN",
+        "rarity": "veryRare",
+        "price": 15000,
+        "component": "f0vzWxq07ZRNSb0P"
+    },
+    {
+        "name": "Tome of Clear Thought",
+        "item": "Compendium.dnd5e.items.2BYm8to5KldN8eYu",
+        "rarity": "veryRare",
+        "price": 9200,
+        "component": "DbBMwWcAQ6sHlts7"
+    },
+    {
+        "name": "Tome of Leadership and Influence",
+        "item": "Compendium.dnd5e.items.oN4Glcmi4BhdAI3k",
+        "rarity": "veryRare",
+        "price": 9200,
+        "component": "aMzAJ1jEth8pAepp"
+    },
+    {
+        "name": "Tome of Understanding",
+        "item": "Compendium.dnd5e.items.WnKWD1FuAFUE7f4v",
+        "rarity": "veryRare",
+        "price": 9200,
+        "component": "pnzfqU0ghGOwCnW7"
+    },
+    {
+        "name": "Universal Solvent",
+        "item": "Compendium.dnd5e.items.MAwoj2suj6cvb9Ti",
+        "rarity": "legendary",
+        "price": 22400,
+        "component": "EJ6ukmLOW0AVI2ax"
+    },
+    {
+        "name": "Well of Many Worlds",
+        "item": "Compendium.dnd5e.items.xjme5oSQZmdAy1fc",
+        "rarity": "legendary",
+        "price": 96000,
+        "component": "NzaynVVgPInD2LZv"
+    },
+    {
+        "name": "Wind Fan",
+        "item": "Compendium.dnd5e.items.mYFfH24uzuKh4IPS",
+        "rarity": "uncommon",
+        "price": 700,
+        "component": "f0Vhn42XB5wryuBx"
+    },
+    {
+        "name": "Winged Boots",
+        "item": "Compendium.dnd5e.items.YjImJ3cVnArHH4ES",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "jSTYBrGVxdDO3Xms"
+    },
+    {
+        "name": "Wings of Flying",
+        "item": "Compendium.dnd5e.items.FkDyLSpiynKTQZdi",
+        "rarity": "rare",
+        "price": 6000,
+        "component": "OXzIMGFo0mABAkbE"
+    }
+]

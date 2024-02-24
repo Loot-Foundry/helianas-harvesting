@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compendium": "node ./tools/crafting-items-generator/main.mjs",
-    "build": "gulp"
+    "build": "gulp",
+    "minify": "gulp minifyJson"
   },
   "author": "Charles Miller",
   "license": "MIT",
@@ -16,7 +17,8 @@
     "del": "^7.0.0",
     "gulp": "^4.0.2",
     "jsonfile": "^6.1.0",
-    "rollup": "^3.20.2"
+    "rollup": "^3.20.2",
+    "gulp-json-minify": "^1.2.3"
   },
   "overrides": {
     "chokidar": "3.5.3",

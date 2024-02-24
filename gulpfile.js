@@ -4,6 +4,7 @@ import { join, dirname, relative } from 'path';
 import { fileURLToPath } from 'url';
 import { deleteAsync } from 'del';
 import { rollup } from 'rollup';
+import minifyJson from 'gulp-json-minify'
 import rollupTerser from '@rollup/plugin-terser';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -21,6 +22,12 @@ gulp.task('copyFiles', () => {
       }
       return distPath;
     }));
+});
+
+gulp.task('minifyJson', async () => {
+  gulp.src(join(distPath, '/data/*.json'))
+    .pipe(minifyJson())
+    .pipe(gulp.dest(join(distPath, 'data')));
 });
 
 gulp.task('compileJS', async () => {
@@ -46,4 +53,4 @@ gulp.task('clean', () => {
   return deleteAsync(distPath);
 });
 
-gulp.task('default', gulp.series('clean', 'copyFiles', 'compileJS'));
+gulp.task('default', gulp.series('clean', 'copyFiles', 'compileJS', 'minifyJson'));
