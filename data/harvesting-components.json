@@ -606,6 +606,15 @@
     },
     {
         "creatureType": "Construct",
+        "name": "Construct Gears",
+        "dc": 15,
+        "id": "lg7XAcGRAcjYQcPG",
+        "img": "icons/commodities/tech/cog-gold.webp",
+        "crafting": true,
+        "edible": false
+    },
+    {
+        "creatureType": "Construct",
         "name": "Construct Brain",
         "dc": 20,
         "id": "Flywz49U8ViqIZPL",

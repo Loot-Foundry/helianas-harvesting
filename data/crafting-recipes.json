@@ -453,13 +453,15 @@
         "item": "Compendium.dnd5e.items.aMnWi1WXWpxRHq4r",
         "rarity": "common",
         "price": 50,
-        "component": "bCKpjpOXCQbIOfBF"
+        "component": "bCKpjpOXCQbIOfBF",
+        "metatag": "Spider"
     },
     {
         "name": "Potion of Cloud Giant Strength",
         "item": "Compendium.dnd5e.items.lAcTZgNtpmks2Mo5",
         "rarity": "veryRare",
         "price": 6000,
+        "metatag": "Cloud",
         "component": "Wvy5lLUwe4khoWFZ"
     },
     {
@@ -604,7 +606,7 @@
             {
                 "item": "Compendium.dnd5e.items.8MPnSrvEeZhPhtTi",
                 "price": 240,
-                "component": "6MLu1IWoxEKhpSQd",
+                "component": "DbBMwWcAQ6sHlts7",
                 "metatag": "Flesh Golem"
             },
             {
@@ -835,7 +837,7 @@
         "item": "Compendium.dnd5e.items.9cIlRtKDtDXQtElf",
         "rarity": "rare",
         "price": 8000,
-        "component": "epJgCrtRo4sfrdr5"
+        "component": "NmoGNwrTuccgoDT9"
     },
     {
         "name": "Ring of Spell Turning",
@@ -1160,6 +1162,450 @@
         "rarity": "rare",
         "price": 4000,
         "component": "0CJU10TbDGph88GY"
+    },
+    {
+        "name": "Vorpal Sword",
+        "item": [
+            "Compendium.dnd5e.items.3FNyS6DeCBZzFbqU",
+            "Compendium.dnd5e.items.HokQ1loVJTFxt27u",
+            "Compendium.dnd5e.items.I7cOsXsklWkzouHA"
+        ],
+        "rarity": "legendary",
+        "price": 24000,
+        "component": "AiCeQyy4udhdOFVs"
+    },
+    {
+        "name": "Dagger of Venom",
+        "item": "Compendium.dnd5e.items.7i4s9msZWpAw4Ynv",
+        "rarity": "rare",
+        "price": 1900,
+        "component": "X3dMh8s2AslCkadb",
+        "metatag": "Vrock"
+    },
+    {
+        "name": "+1 Weapon",
+        "item": [
+            "Compendium.dnd5e.items.UAXu4MNvAvaKz9JO",
+            "Compendium.dnd5e.items.N8XNP3vjVZmM2r9S",
+            "Compendium.dnd5e.items.fCRftM4QxEDkeu0a",
+            "Compendium.dnd5e.items.59pjg8FGM4GG4Fdd",
+            "Compendium.dnd5e.items.giU3yyZXvErjf78D",
+            "Compendium.dnd5e.items.0LVFLPmsu1b2vf8E",
+            "Compendium.dnd5e.items.09i8r1UmzDSKiZ9g",
+            "Compendium.dnd5e.items.qhdGVfT5j6u46mtk",
+            "Compendium.dnd5e.items.dwGxrGqkn2ppNaqs",
+            "Compendium.dnd5e.items.kBVK2IiZYRkEYtcM",
+            "Compendium.dnd5e.items.nl7cc7Z1HpSHbUdQ",
+            "Compendium.dnd5e.items.MnX9soPEMNsCtpv7",
+            "Compendium.dnd5e.items.Qfi5Rsuun3reqYmf",
+            "Compendium.dnd5e.items.ijDzcDXfJAdj2uED",
+            "Compendium.dnd5e.items.idtlcnIWgwVdvp31",
+            "Compendium.dnd5e.items.l88FXiodYofrJT8a",
+            "Compendium.dnd5e.items.kHjpHTKex95ULxUX",
+            "Compendium.dnd5e.items.q24QnImAicnT9Byd",
+            "Compendium.dnd5e.items.A2i08i8gAFscm6hZ",
+            "Compendium.dnd5e.items.IPkf0XNowClwXnjQ",
+            "Compendium.dnd5e.items.jf0XMx2vfEZzZuD7",
+            "Compendium.dnd5e.items.EveBprZPBjfZqXLt",
+            "Compendium.dnd5e.items.PKpftwMAn88gfLi7",
+            "Compendium.dnd5e.items.rJKXDPikXSYXYgb5",
+            "Compendium.dnd5e.items.yoFff2zdTloKx1if",
+            "Compendium.dnd5e.items.t8L7B0JWamsvxhui",
+            "Compendium.dnd5e.items.S7AhpCPDBGUBbg7b",
+            "Compendium.dnd5e.items.VGtyTdVLoWls8FL5",
+            "Compendium.dnd5e.items.gYDMk3LWikIP5PmA",
+            "Compendium.dnd5e.items.sl6yiYSlqkHiVVSN",
+            "Compendium.dnd5e.items.asUgQFrF1xYeNhtW",
+            "Compendium.dnd5e.items.6I5lt8KheTsAE4Zr",
+            "Compendium.dnd5e.items.WNdN2mBF3O7ZNcMp",
+            "Compendium.dnd5e.items.vuThcmO7MYlw5b9f",
+            "Compendium.dnd5e.items.l2T46xCqUbJvKE7A",
+            "Compendium.dnd5e.items.8N1GqcdroUpmM9dS",
+            "Compendium.dnd5e.items.lcqqW2vGF6P8nJ77"
+        ],
+        "rarity": "uncommon",
+        "price": 750,
+        "component": "bCKpjpOXCQbIOfBF"
+    },
+    {
+        "name": "+2 Weapon",
+        "item": [
+            "Compendium.dnd5e.items.cQ94oKUZN8FDAI8U",
+            "Compendium.dnd5e.items.fu7DJcrYWfGMeVt9",
+            "Compendium.dnd5e.items.gyJ0imAckcWtCjyv",
+            "Compendium.dnd5e.items.Lr8aRsnia8hftPAb",
+            "Compendium.dnd5e.items.EWdfUQriSabqDESm",
+            "Compendium.dnd5e.items.z0lIRURcyDYt1kLK",
+            "Compendium.dnd5e.items.Mt2WB1W9nDWO4d16",
+            "Compendium.dnd5e.items.hdUzXzVPonOQzW81",
+            "Compendium.dnd5e.items.Or3kVfJ0Fbr33ARS",
+            "Compendium.dnd5e.items.8LZBOY5USLZ4ngDq",
+            "Compendium.dnd5e.items.6ndqUhOySYVVQ5on",
+            "Compendium.dnd5e.items.3Q6rw9kAMf6F1SW5",
+            "Compendium.dnd5e.items.LZcpcR21nte4Yoe2",
+            "Compendium.dnd5e.items.8wXB18E0oPAYFkqc",
+            "Compendium.dnd5e.items.gV671PZGnYoVZefN",
+            "Compendium.dnd5e.items.CVMGOJWTO6TCybrH",
+            "Compendium.dnd5e.items.x12sDhylcf8843fT",
+            "Compendium.dnd5e.items.XIpJkxbySJxm6hoU",
+            "Compendium.dnd5e.items.ZcvU9rRb573NOywv",
+            "Compendium.dnd5e.items.bcv7J9culilK68zp",
+            "Compendium.dnd5e.items.m1hJnK7CHsaJB26v",
+            "Compendium.dnd5e.items.1kihEfn9QppB34ee",
+            "Compendium.dnd5e.items.NrHboku9vJO5FGiY",
+            "Compendium.dnd5e.items.hHX5qXva1ScCpBpL",
+            "Compendium.dnd5e.items.qcEiSj67zfbLvYdJ",
+            "Compendium.dnd5e.items.7kVZo4DLBq22406E",
+            "Compendium.dnd5e.items.uLY74ppOrTaWKwer",
+            "Compendium.dnd5e.items.VHYy3ZsJNPUo1SIx",
+            "Compendium.dnd5e.items.tt4WokZBZMGqgYm5",
+            "Compendium.dnd5e.items.b2l2ubCGSnmiTrm8",
+            "Compendium.dnd5e.items.uRoHwk1c8e5xJjkV",
+            "Compendium.dnd5e.items.9qOAoFw9dTXhJ1w0",
+            "Compendium.dnd5e.items.HeDP6dL9daVT3uj2",
+            "Compendium.dnd5e.items.EkTpM4Wbsrdqflzl",
+            "Compendium.dnd5e.items.RbC0UCqAnQcIPIXZ",
+            "Compendium.dnd5e.items.KvIlZssYEtQ4bvSE",
+            "Compendium.dnd5e.items.WlPzuxaVnYzxzDEC"
+        ],
+        "rarity": "rare",
+        "price": 1500,
+        "component": "bbmChVcW5DLYk6lw"
+    },
+    {
+        "name": "+3 Weapon",
+        "item": [
+            "Compendium.dnd5e.items.kNlvoSTcdMqxJPmI",
+            "Compendium.dnd5e.items.HQJ8tiyyrJJSUSyF",
+            "Compendium.dnd5e.items.HdC66U61pDOknaux",
+            "Compendium.dnd5e.items.bWI5i4RbyGKT6Eiq",
+            "Compendium.dnd5e.items.izF3kmyFEVI5TWhp",
+            "Compendium.dnd5e.items.wgBKZNeRN1XsE9I7",
+            "Compendium.dnd5e.items.rc9nkN6YOD7ogtEi",
+            "Compendium.dnd5e.items.PAa2EG5kzmqxcp46",
+            "Compendium.dnd5e.items.mkyltDYnuzNU3kmF",
+            "Compendium.dnd5e.items.RfEZvwcLwe6Ih0LQ",
+            "Compendium.dnd5e.items.EU78dSbnr91QWZ7g",
+            "Compendium.dnd5e.items.oG4rvCuMstgl4Nez",
+            "Compendium.dnd5e.items.cmnBssaWWzWWm70C",
+            "Compendium.dnd5e.items.Sj4zEvuGcSV6anKm",
+            "Compendium.dnd5e.items.FhtjbeBeP4q5vTyc",
+            "Compendium.dnd5e.items.r97KnMO7Zxgfdh3P",
+            "Compendium.dnd5e.items.amRx3jOYlPeXEiAN",
+            "Compendium.dnd5e.items.Y08Al2dMN8he1hFK",
+            "Compendium.dnd5e.items.8W6ULfSqzuHh6Peg",
+            "Compendium.dnd5e.items.H6SIiRIig7OMM2Z0",
+            "Compendium.dnd5e.items.2CQnAvn06bncXPBt",
+            "Compendium.dnd5e.items.P8f9o36qxagW2uRW",
+            "Compendium.dnd5e.items.dghpiMWDSUXtQf6X",
+            "Compendium.dnd5e.items.iIuNqnpWCHrLEKWj",
+            "Compendium.dnd5e.items.3YH1o1Wa4gcdN3fh",
+            "Compendium.dnd5e.items.BmWnprrj0QWQ1BL3",
+            "Compendium.dnd5e.items.YevPP0DZXgAcLmzv",
+            "Compendium.dnd5e.items.2wK9ImkAeG3Lzxa0",
+            "Compendium.dnd5e.items.egJhGFU3v5OfjPNS",
+            "Compendium.dnd5e.items.uIHXYhnOwETlA5lT",
+            "Compendium.dnd5e.items.AHn15T1TOuDFS0GH",
+            "Compendium.dnd5e.items.q3WqP3r2emnumyUF",
+            "Compendium.dnd5e.items.62EaozKvcA0aSy2q",
+            "Compendium.dnd5e.items.z9fFB1uaGJvcXTf7",
+            "Compendium.dnd5e.items.nrvAo3TznyQrHS1t",
+            "Compendium.dnd5e.items.setcTdSZ09rmsqMn",
+            "Compendium.dnd5e.items.jcQqI0pxLD2nNNQ4"
+        ],
+        "rarity": "veryRare",
+        "price": 6200,
+        "component": "ZFt4UhHc5Mggky7H"
+    },
+    {
+        "name": "Berserker Axe",
+        "item": [
+            "Compendium.dnd5e.items.dvNzJqb7vq6oJlA2",
+            "Compendium.dnd5e.items.zSKorO6lwT7vs2uk",
+            "Compendium.dnd5e.items.gwuffGC4JZ8BbStz"
+        ],
+        "rarity": "rare",
+        "price": 2100,
+        "component": "1OdKcBvQY8R40hyC"
+    },
+    {
+        "name": "Dancing Sword",
+        "item": [
+            "Compendium.dnd5e.items.zWSB0NCllWaSVoNT",
+            "Compendium.dnd5e.items.sIiUbRJItYAs5gtA",
+            "Compendium.dnd5e.items.6n8J07mFo8xs11vS",
+            "Compendium.dnd5e.items.kOYXMf4GTtD7OqbD",
+            "Compendium.dnd5e.items.stlFCpqW3ZuAftTi"
+        ],
+        "rarity": "rare",
+        "price": 2100,
+        "component": "nxwXhGc8NBLA5XuM",
+        "metatag": "Flying Sword"
+    },
+    {
+        "name": "Defender",
+        "item": [
+            "Compendium.dnd5e.items.nSNhjX5F7f86AW1a",
+            "Compendium.dnd5e.items.ukcKemEoTTRB9yLC",
+            "Compendium.dnd5e.items.YrkkHa6KN8a9o35k",
+            "Compendium.dnd5e.items.Ilyv71AeobM6AvIn",
+            "Compendium.dnd5e.items.d58CvI0Fiav9Jjt1"
+        ],
+        "rarity": "legendary",
+        "price": 24000,
+        "component": "nxwXhGc8NBLA5XuM"
+    },
+    {
+        "name": "Dragon Slayer",
+        "item": [
+            "Compendium.dnd5e.items.orHjq3XDPz4eXcov",
+            "Compendium.dnd5e.items.SXjs8JghAPBv7d6j",
+            "Compendium.dnd5e.items.S7TrIOlE600KIOUx",
+            "Compendium.dnd5e.items.feKHv3JUWZdSNKf0",
+            "Compendium.dnd5e.items.MFd96UkSs5g9QO78"
+        ],
+        "rarity": "rare",
+        "price": 2400,
+        "component": "YU6uabBB9mAR4B5O"
+    },
+    {
+        "name": "Flame Tongue",
+        "item": [
+            "Compendium.dnd5e.items.WWb4vAmh18sMAxfY",
+            "Compendium.dnd5e.items.ducaFdrqwLZ0l3c7",
+            "Compendium.dnd5e.items.CoUFHk5keIihsbYL",
+            "Compendium.dnd5e.items.qVHCzgVvOZAtuk4N",
+            "Compendium.dnd5e.items.Z9FBwEoMi6daDGRj"
+        ],
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "7oXPZJip7vNsGcOT",
+        "metatag": "(Dragon with Fire Immunity or Resistance)"
+    },
+    {
+        "name": "Frost Brand",
+        "item": [
+            "Compendium.dnd5e.items.ykB6UKv5BuQnSRSL",
+            "Compendium.dnd5e.items.NmZMx2u6bHpRyGUa",
+            "Compendium.dnd5e.items.efluRemOguW2YeZY",
+            "Compendium.dnd5e.items.07R6JFioylOCpVoL",
+            "Compendium.dnd5e.items.DT02xK1DzxLNlVaI"
+        ],
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "7oXPZJip7vNsGcOT",
+        "metatag": "(Dragon with Cold Immunity or Resistance)"
+    },
+    {
+        "name": "Giant Slayer",
+        "item": [
+            "Compendium.dnd5e.items.YM6bZNmpync83VFa",
+            "Compendium.dnd5e.items.jmSC8I5awCoxNVv7",
+            "Compendium.dnd5e.items.nBFr5xTWeChM7xrb",
+            "Compendium.dnd5e.items.F3rQcaZvElNEiudk",
+            "Compendium.dnd5e.items.xw2kL7Puwg4wfjW3",
+            "Compendium.dnd5e.items.I5PWgE4IF40Iv9h4",
+            "Compendium.dnd5e.items.ZLpj1bpnWlAFUEHE",
+            "Compendium.dnd5e.items.tTqixDDmzAfs995G"
+        ],
+        "rarity": "rare",
+        "price": 2400,
+        "component": "B3KAXOUbXXneKhEb"
+    },
+    {
+        "name": "Holy Avenger",
+        "item": [
+            "Compendium.dnd5e.items.FCxG64QUxsnF4Lis",
+            "Compendium.dnd5e.items.dZ9zWfhsIlabadKL",
+            "Compendium.dnd5e.items.kTxi62RTrrdrIBr9",
+            "Compendium.dnd5e.items.ULL5nkyN3WzazI4l",
+            "Compendium.dnd5e.items.bHbbIhbTzu4lYMRz"
+        ],
+        "rarity": "legendary",
+        "price": 150000,
+        "component": "c0VpQ2VOOOS2dRkA",
+        "metatag": "Solar"
+    },
+    {
+        "name": "Luck Blade",
+        "item": [
+            "Compendium.dnd5e.items.fWR9EFEjR0JtFdCC",
+            "Compendium.dnd5e.items.X6PHssSGnwiJRgcx",
+            "Compendium.dnd5e.items.qGH7YqWhi0tHisMi",
+            "Compendium.dnd5e.items.E7c4zpWdYgkKDHGo",
+            "Compendium.dnd5e.items.nL0Y0X8SjF58OmBM"
+        ],
+        "rarity": "legendary",
+        "price": 170000,
+        "component": "PDhdqwQJBPS2VlA3"
+    },
+    {
+        "name": "Nine Lives Stealer",
+        "item": [
+            "Compendium.dnd5e.items.tFLmAPUDLxBY8jFO",
+            "Compendium.dnd5e.items.BefbYlWbRYyy6R8s",
+            "Compendium.dnd5e.items.OUGMoQYeJzxEcRvm",
+            "Compendium.dnd5e.items.9Mdes2tKt0cqsNTw",
+            "Compendium.dnd5e.items.2Lkub0qIwucWEfp3"
+        ],
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "0bibGJfScx8Kh2Wv",
+        "metatag": "Cat"
+    },
+    {
+        "name": "Sword of Life Stealing",
+        "item": [
+            "Compendium.dnd5e.items.sdHSbitJxgTX6aDG",
+            "Compendium.dnd5e.items.wtctR6tCcYbQPiS0",
+            "Compendium.dnd5e.items.p01JzD9RpIOkJiqK",
+            "Compendium.dnd5e.items.sfegfmo59MHJg2YC",
+            "Compendium.dnd5e.items.902yxeFDwavpm6cv"
+        ],
+        "rarity": "rare",
+        "price": 2100,
+        "component": "1REcsIBcwg1YbhMX",
+        "metatag": "Wraith"
+    },
+    {
+        "name": "Sword of Sharpness",
+        "item": [
+            "Compendium.dnd5e.items.QB4CFMTLR6JlD7Kq",
+            "Compendium.dnd5e.items.8MNDhKb1Q87QszOJ",
+            "Compendium.dnd5e.items.ZKyhkS8ud2NpV7ng"
+        ],
+        "rarity": "rare",
+        "price": 2100,
+        "component": "LVCVAX3viWeE3l3t"
+    },
+    {
+        "name": "Sword of Wounding",
+        "item": [
+            "Compendium.dnd5e.items.JpwuGtFkfrGibQpP",
+            "Compendium.dnd5e.items.pG6dddIcb9NmPrdt",
+            "Compendium.dnd5e.items.KJYqNZgdkRwPmPMl",
+            "Compendium.dnd5e.items.L4PxYPtYca283sju",
+            "Compendium.dnd5e.items.SpbjbMMoJiva2zOa"
+        ],
+        "rarity": "rare",
+        "price": 2100,
+        "component": "RKu20rYg91awVGn9"
+    },
+    {
+        "name": "Vicious Weapon",
+        "item": [
+            "Compendium.dnd5e.items.dG7iFak1YH1nXRpC",
+            "Compendium.dnd5e.items.ozYrQ5N4s81h35Fa",
+            "Compendium.dnd5e.items.UctSPehpKb4lJQGr",
+            "Compendium.dnd5e.items.5Jz5w7XJxgtlsx6K",
+            "Compendium.dnd5e.items.jeoZmDD9fuQdvC77",
+            "Compendium.dnd5e.items.qmuOeNsOKwkn6K8W",
+            "Compendium.dnd5e.items.eKip69fExSYN661B",
+            "Compendium.dnd5e.items.nY6CnKEHyJ5STgt5",
+            "Compendium.dnd5e.items.p9dtQU9wEZGumHSb",
+            "Compendium.dnd5e.items.FpLaviCom3XR1ckP",
+            "Compendium.dnd5e.items.isKR904LkLaH4i6M",
+            "Compendium.dnd5e.items.K7h4LT03SNt2807z",
+            "Compendium.dnd5e.items.QM3gdsL0eaAus7XT",
+            "Compendium.dnd5e.items.Fk78kNmp3OLX5EMC",
+            "Compendium.dnd5e.items.lM5uo6R4gy8rJG5Y",
+            "Compendium.dnd5e.items.r8yK6SrWOz4hqF01",
+            "Compendium.dnd5e.items.VQAUcjn1qdwW3MeU",
+            "Compendium.dnd5e.items.4MeSq8KcF7KK7emF",
+            "Compendium.dnd5e.items.gVo3UbvwjFIiFR0c",
+            "Compendium.dnd5e.items.pC3202gDTy8G5i4r",
+            "Compendium.dnd5e.items.gSwpQacBLOJeLWrK",
+            "Compendium.dnd5e.items.6JbrdSg5YYbs9ANm",
+            "Compendium.dnd5e.items.Vm6SuX6TkDvSIVGr",
+            "Compendium.dnd5e.items.zibIgdxPz8QHSCg6",
+            "Compendium.dnd5e.items.Z7xno2zMzRtqqUIQ",
+            "Compendium.dnd5e.items.h0XLhuUQ0vSnW3DU",
+            "Compendium.dnd5e.items.FHUDEygUW7EWCDgA",
+            "Compendium.dnd5e.items.Z0eO3TTpYA2hjwdd",
+            "Compendium.dnd5e.items.1PMaZR6CX8fUnOZd",
+            "Compendium.dnd5e.items.AChuumAYmts5uGFT",
+            "Compendium.dnd5e.items.qGRN4wvZLJ8uITf2",
+            "Compendium.dnd5e.items.e7JpVX2549vp9mgF",
+            "Compendium.dnd5e.items.TMqS62qjBCveT1Ss",
+            "Compendium.dnd5e.items.g8DG0jXlvfP3uTtZ",
+            "Compendium.dnd5e.items.HnJqfKkYXIWo2sp9",
+            "Compendium.dnd5e.items.luTJgPXN5n0EN7iy"
+        ],
+        "rarity": "uncommon",
+        "price": 350,
+        "component": "lbj5EH5IVfSFjwWD"
+    },
+    {
+        "name": "Javelin of Lightning",
+        "item": "Compendium.dnd5e.items.LEC1wkaAUnWzDPDD",
+        "rarity": "uncommon",
+        "price": 1200,
+        "component": "DrRWMM7zhbFMSzSX"
+    },
+    {
+        "name": "Oathbow",
+        "item": "Compendium.dnd5e.items.mGIwk9FwTAJB6qTn",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "0IN26XvZJMUEAYV8"
+    },
+    {
+        "name": "Sun Blade",
+        "item": "Compendium.dnd5e.items.yiYCqmD5n08NftYk",
+        "rarity": "veryRare",
+        "price": 12000,
+        "component": "HPprrBKDy38nCPzu"
+    },
+    {
+        "name": "Mace of Disruption",
+        "item": "Compendium.dnd5e.items.m7RubLd1lUcMjYgY",
+        "rarity": "rare",
+        "price": 7000,
+        "component": "BvCRGl3GnJB492aE"
+    },
+    {
+        "name": "Mace of Smiting",
+        "item": "Compendium.dnd5e.items.w56FIjFafs2rN6iK",
+        "rarity": "rare",
+        "price": 4500,
+        "component": "PNBpZzmeBSHtuJJX"
+    },
+    {
+        "name": "Mace of Terror",
+        "item": "Compendium.dnd5e.items.b46t42bMruQf9v3O",
+        "rarity": "rare",
+        "price": 7000,
+        "component": "IXByIg9HWtqoURaE"
+    },
+    {
+        "name": "Hammer of Thunderbolts",
+        "item": "Compendium.dnd5e.items.wGDDt17DpBcXPuUD",
+        "rarity": "veryRare",
+        "price": 16000,
+        "component": "qvJJUacV1hJNsjqW",
+        "metatag": "Storm"
+    },
+    {
+        "name": "Scimitar of Speed",
+        "item": "Compendium.dnd5e.items.7wY0389wscheFkIa",
+        "rarity": "veryRare",
+        "price": 9400,
+        "component": "QkOa20g9NPulrF8F"
+    },
+    {
+        "name": "Trident of Fish Command",
+        "item": "Compendium.dnd5e.items.o4Irx3hHiD3FnPbL",
+        "rarity": "uncommon",
+        "price": 700,
+        "component": "oDmycy52JK4p1b7K"
+    },
+    {
+        "name": "Dwarven Thrower",
+        "item": "Compendium.dnd5e.items.kvD4ElYCfCKpjDeg",
+        "rarity": "veryRare",
+        "price": 18000,
+        "component": "LVCVAX3viWeE3l3t",
+        "metatag": "Stone"
     },
     {
         "name": "Amulet of Health",
@@ -2020,7 +2466,7 @@
     {
         "name": "Mantle of Spell Resistance",
         "item": "Compendium.dnd5e.items.oxzUb5j1TMsccGW4",
-        "rarity": "rare",
+        "rarity": "veryRare",
         "price": 19000,
         "component": "XFSxdDal8TdWSaA9",
         "metatag": "Rakshasa"
@@ -2094,7 +2540,7 @@
     {
         "name": "Mirror of Life Trapping",
         "item": "Compendium.dnd5e.items.hf5j1meGsA33HkUj",
-        "rarity": "uncommon",
+        "rarity": "veryRare",
         "price": 18000,
         "component": "8RVwd96ncBeqkOZF"
     },
@@ -2259,7 +2705,7 @@
         "variants": [
             {
                 "mod": "Good",
-                "component": "lB2NvUMY9yA5K26r"
+                "component": "XFSxdDal8TdWSaA9"
             },
             {
                 "mod": "Neutral",
@@ -2267,7 +2713,7 @@
             },
             {
                 "mod": "Evil",
-                "component": "XFSxdDal8TdWSaA9"
+                "component": "lB2NvUMY9yA5K26r"
             }
         ]
     },
