@@ -1,10 +1,10 @@
 import { ComponentDatabase } from "./ComponentDatabase.js";
 import CraftingWindow from "./CraftingWindow.js";
-import HarvestWindow from "./HarvestWindow.js"
+import HarvestWindow from "./HarvestWindow.js";
 import { RecipeDatabase } from "./RecipeDatabase.js";
-import { Config } from "./config.js";
+import { loadModules } from "./utils/loadModules.js";
 
-Hooks.on("setup", function() {
+Hooks.on("setup", function () {
     const componentDatabase = new ComponentDatabase();
     const recipeDatabase = new RecipeDatabase(componentDatabase);
     game.modules.get("helianas-harvesting").api = {
@@ -13,21 +13,13 @@ Hooks.on("setup", function() {
     };
 });
 
-Hooks.on("ready", async function() {
+Hooks.on("ready", async function () {
     const { componentDatabase, recipeDatabase } = game.modules.get("helianas-harvesting").api;
 
-    const itemFile = await fetch(Config.HarvestItemJson);
-    const items = await itemFile.json();
-    items.forEach(item => {
-        item.source = "HGtMH";
-        componentDatabase.addItem(item);
-    });
+    const { moduleStats, components, craftingRecipes } = await loadModules();
 
-    const recipeFile = await fetch(Config.HarvestRecipeJson);
-    const recipes = await recipeFile.json();
-    recipes.forEach(recipe => {
-        recipeDatabase.addRecipe(recipe);
-    });
+    Array.from(components).forEach(i => componentDatabase.addItem(i[1]));
+    Array.from(craftingRecipes).forEach(r => recipeDatabase.addRecipe(r[1]));
 });
 
 Hooks.on("getSceneControlButtons", (controls) => {

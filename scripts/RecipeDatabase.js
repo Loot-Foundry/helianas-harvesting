@@ -7,7 +7,7 @@ export class RecipeDatabase {
     }
 
     addRecipe(recipe) {
-        const fields = ["name", "item", "mod", "price", "rarity", "qty", "metatag", "component", "variants", "includeBasePrice", "note"];
+        const fields = ["name", "source", "item", "mod", "price", "rarity", "qty", "metatag", "component", "variants", "includeBasePrice", "note"];
 
         // Handle Variant Recipes by cloning
         const variants = recipe.variants
