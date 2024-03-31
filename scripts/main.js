@@ -46,7 +46,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
     actorControl.tools.push({
         name: "craft",
         title: "HelianasHarvest.CraftControl",
-        icon: "fa-solid fa-list",
+        icon: "fa-solid fa-hammer-crash",
         layer: "tokens",
         visible: game.user.isGM,
         button: true,
