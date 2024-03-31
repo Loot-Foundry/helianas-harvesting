@@ -1,6 +1,6 @@
-import { Config } from "./config.js";
+import { Config } from "../config.js";
 import PlayerSelectWindow from "./PlayerSelectWindow.js";
-import { RecipeDatabase } from "./RecipeDatabase.js";
+import { RecipeDatabase } from "../RecipeDatabase.js";
 
 export default class CraftingWindow extends Application {
     /**

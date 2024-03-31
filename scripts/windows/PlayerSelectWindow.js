@@ -1,5 +1,5 @@
-import { Config } from "./config.js";
-import { RecipeDatabase } from "./RecipeDatabase.js";
+import { Config } from "../config.js";
+import { RecipeDatabase } from "../RecipeDatabase.js";
 
 export default class PlayerSelectWindow extends Application {
   constructor(message) {

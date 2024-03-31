@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <tr>
+            <th>Module</th>
+            <th>Components</th>
+            <th>Recipes</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each stats }}
+        <tr>
+            <td>{{ title }}</td>
+            <td style="text-align: center">{{ components.loaded }} </td>
+            <td style="text-align: center">{{ craftingRecipes.loaded }} </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

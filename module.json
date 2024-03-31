@@ -16,7 +16,7 @@
   ],
   "flags": {
     "helianas-harvesting": {
-      "priority": 10,
+      "priority": -10,
       "components": "modules/helianas-harvesting/data/harvesting-components.json",
       "recipes": "modules/helianas-harvesting/data/crafting-recipes.json"
     }

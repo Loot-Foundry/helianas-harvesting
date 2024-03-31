@@ -1,5 +1,5 @@
-import { Config } from "./config.js";
-import { ComponentDatabase } from "./ComponentDatabase.js";
+import { Config } from "../config.js";
+import { ComponentDatabase } from "../ComponentDatabase.js";
 import { HarvestWindowForm } from "./HarvestWindowForm.js";
 
 export default class HarvestWindow extends Application {

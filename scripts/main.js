@@ -1,60 +1,14 @@
-import { ComponentDatabase } from "./ComponentDatabase.js";
-import CraftingWindow from "./CraftingWindow.js";
-import HarvestWindow from "./HarvestWindow.js";
-import { RecipeDatabase } from "./RecipeDatabase.js";
+import { bindStatisticsButton } from "./utils/bindStatisticsButton.js";
 import { loadModules } from "./utils/loadModules.js";
+import { bindSceneControlButtons } from "./utils/bindSceneControlButtons.js";
+import { initializeDatabases } from "./utils/initializeDatabases.js";
+import { setupModuleAPI } from "./utils/setupModuleAPI.js";
 
-Hooks.on("setup", function () {
-    const componentDatabase = new ComponentDatabase();
-    const recipeDatabase = new RecipeDatabase(componentDatabase);
-    game.modules.get("helianas-harvesting").api = {
-        componentDatabase,
-        recipeDatabase
-    };
-});
+Hooks.on("setup", setupModuleAPI);
 
-Hooks.on("ready", async function () {
-    const { componentDatabase, recipeDatabase } = game.modules.get("helianas-harvesting").api;
+Hooks.on("ready", initializeDatabases);
 
-    const { moduleStats, components, craftingRecipes } = await loadModules();
+Hooks.on("getSceneControlButtons", bindSceneControlButtons);
 
-    Array.from(components).forEach(i => componentDatabase.addItem(i[1]));
-    Array.from(craftingRecipes).forEach(r => recipeDatabase.addRecipe(r[1]));
-});
-
-Hooks.on("getSceneControlButtons", (controls) => {
-    let actorControl = controls.find(c => c.name === "token");
-    actorControl.tools.push({
-        name: "harvest",
-        title: "HelianasHarvest.HarvestControl",
-        icon: "fa-solid fa-sickle",
-        layer: "tokens",
-        visible: game.user.isGM,
-        button: true,
-        onClick: () => {
-            let token = null;
-
-            if (canvas.tokens.controlled.length)
-                token = canvas.tokens.controlled[0];
-
-            const { componentDatabase } = game.modules.get("helianas-harvesting").api;
-            const hw = new HarvestWindow(componentDatabase, token);
-            hw.render(true);
-        }
-    });
-
-    actorControl.tools.push({
-        name: "craft",
-        title: "HelianasHarvest.CraftControl",
-        icon: "fa-solid fa-hammer-crash",
-        layer: "tokens",
-        visible: game.user.isGM,
-        button: true,
-        onClick: () => {
-            const { recipeDatabase } = game.modules.get("helianas-harvesting").api;
-
-            const cw = new CraftingWindow(recipeDatabase);
-            cw.render(true);
-        }
-    });
-});
+Hooks.on("getHarvestWindowHeaderButtons", bindStatisticsButton);
+Hooks.on("getCraftingWindowHeaderButtons", bindStatisticsButton);

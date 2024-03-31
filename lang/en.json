@@ -33,6 +33,8 @@
         "RequiredComponents": "Required Components",
         "RecipeSearch": "Search Recipes",
         "CraftingCreatedItemNotice": "Sent {itemName} to {actorName}",
-        "PlayerSelectWindowTitle": "Select a Player"
+        "PlayerSelectWindowTitle": "Select a Player",
+        "StatisticsLabel": "View Stats",
+        "StatisticsWindowTitle": "Heliana's Harvesting Statistics"
     }
 }
