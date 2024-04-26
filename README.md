@@ -1,65 +1,27 @@
-This module is in testing.
+# Heliana's Harvesting Module
 
-## API
+This module helps you harvest, craft and cook following the rule set from Heliana's Guide to Monster Hunting.
 
-You can use the module's API to add your own crafting components.
+## How to Harvest from a Creature
 
-```js
-const api = game.modules.get("helianas-harvesting")?.api;
+![The GM selects a creature you want to harvest then click the Harvest Creature button](/images/harvesting/step1.png)
 
-if (api) {
-    api.componentDatabase.addItem({
-        /**
-         * id must be a 16 digit alphanumeric random string.
-         * Use a persistent unique ID for each item, it will be saved
-         * to newly made item's via flag data for later crafting checks.
-         **/
-        id: "mmdXhJuLahzOhNQy",
+![Fill in the creature name and type, the fill in the number of component](/images/harvesting/step2.png)
 
-        name: "My Item Name",
+![Click the "Create Harvest Table" button](/images/harvesting/step3.png)
 
-        img: "/foundry/icon.webp",
+![Share the components with your players](/images/harvesting/step4.png)
 
-        // This gets added to the system.source for generated items.
-        source: "My Content"
+![Have the players decide what to harvest and what order](/images/harvesting/step5.png)
 
-        // The creature type which can drop this item.
-        // Note this is case sensitive and is upper cased.
-        // Defaults to "All"
-        creatureType: "Aberration",
+![Have players roll their checks then fill in the harvest check total](/images/harvesting/step6.png)
 
-        // Crafting DC for the item (Defaults to 5)
-        dc: 5,
+![Select the player to send the components to the complete your harvest!](/images/harvesting/step7.png)
 
-        // True if the item is flagged for crafting (Defaults to false)
-        crafting: true,
+## TODO
 
-        // True if the item is edible (Defaults to false)
-        edible: false,
-
-        // True if the item is volatile (Defaults to false)
-        volatile: true,
-        // An array of all creature names which can drop this item if bossDrop is true.
-        bosses: ["Big Monster", "Bigger Monster", "Biggest Monster"]
-    });
-}
-```
-
-If you are importing a large number of items, I recommend loading them from a JSON file packaged with your module.
-
-```js
-Hooks.on("ready", async function() {
-    const api = game.modules.get("helianas-harvesting")?.api;
-
-    if (api) {
-        const itemFile = await fetch(Config.HarvestItemJson);
-        const items = await itemFile.json();
-        items.forEach(item => {
-            api.componentDatabase.addItem(item);
-        });
-    }
-});
-```
+* Add automation around crafting
+* Add cooking menu and automation
 
 ## Licenses
 
