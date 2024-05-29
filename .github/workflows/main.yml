@@ -28,10 +28,10 @@ jobs:
         download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
 
     # Build the project
-    - name: Use Node.js 15.x
+    - name: Use Node.js 18.x
       uses: actions/setup-node@v3
       with:
-        node-version: 15.x
+        node-version: 18.x
 
     # Install required packages
     - run: npm ci
