@@ -2,11 +2,11 @@
   "id": "helianas-harvesting",
   "title": "Heliana's Harvesting",
   "description": "<p>Initial Testing Version of a Harvesting Module to aid with Heliana's Harvesting Rules.</p>",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.315",
-    "maximum": "11"
+    "verified": "12.324",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -28,7 +28,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "2.0.0",
-          "verified": "3.0.1"
+          "verified": "3.2.0"
         }
       }
     ],
