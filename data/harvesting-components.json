@@ -363,7 +363,7 @@
     {
         "creatureType": "Beast",
         "name": "Beast Stinger",
-        "dc": 5,
+        "dc": 15,
         "id": "QFG2nvKjMeb3A9in",
         "img": "icons/creatures/claws/claw-curved-jagged-yellow.webp",
         "crafting": true,
