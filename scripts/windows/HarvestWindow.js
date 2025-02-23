@@ -194,17 +194,24 @@ export default class HarvestWindow extends Application {
   }
 
   shareComponents() {
+    let searchQuery = "";
+
     let message = `<p>${game.i18n.format("HelianasHarvest.ChatComponentsMessage", {creatureName: this.formData.creatureName})}</p>`;
     message += `<ul>`;
 
     this.formData.getHarvestComponents().forEach(item => {
       message += `<li> ${item.name} (DC ${item.dc}) x ${item.count}`;
+      searchQuery += item.name + ",";
     });
 
     message += `</ul>
-      <p>${game.i18n.localize("HelianasHarvest.ChatComponentsInstructions")}</p>`;
+      <p>${game.i18n.localize("HelianasHarvest.ChatComponentsInstructions")}</p>
+      <button class="helianas-harvest-relevant-recipes-button" title="${searchQuery}">${game.i18n.localize("HelianasHarvest.ShowRelevantRecipes")}</button>
+      `;
 
     this.sendChatMessage(message);
+
+    this.formData.getHarvestComponents();
   }
 
   getAssessmentSkill() {
