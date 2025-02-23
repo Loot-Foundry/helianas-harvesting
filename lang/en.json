@@ -24,6 +24,7 @@
         "ChatRollCheckInstructions": "Roll your combined check and enter the total into the harvest window.",
         "ChatHarvestTableMessage": "Harvest DC Table for {creatureName}",
         "ChatComponentsInstructions": "Discuss what you would like to attempt to harvest and what order. Each additional item you attempt to harvest will increase the DC.",
+        "ShowRelevantRecipes": "Show Relevant Recipes",
         "ChatComponentsMessage": "The following items can be harvested from {creatureName}:",
         "CraftControl": "Crafting Recipes",
         "CraftWindowTitle": "Heliana's Crafting Recipes",

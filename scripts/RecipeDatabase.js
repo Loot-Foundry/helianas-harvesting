@@ -93,17 +93,24 @@ export class RecipeDatabase {
     }
 
     /**
-     * Searches all recipes to find
+     * Searches all recipes to find.  Default behaviour returns all recipes if no search string is provided.
      *
      * @param {string} text Search string
+     * @param {boolean} [matchAll=true] Whether to match all keywords (AND logic) or any keyword (OR logic)
+     * @param {string} [delimiter=" "] Delimiter used to split the search string into keywords.  " " for AND logic, "," for OR logic
      *
      * @returns {any[]} results
      */
-    searchItems(text) {
-        let keywords = text.toLowerCase().split(" ");
-
+    searchItems(text, matchAll = false, delimiter = ",") {
+        let keywords = text.toLowerCase().split(delimiter)
+        keywords = keywords.map(word => word.trim()).filter(word => word.length > 0);
+        if (keywords.length === 0) return this._recipes;
         return this._recipes.filter(r => {
-            return keywords.every(word => (r.searchText.includes(word)));
+            if (matchAll) {
+                return keywords.every(word => (r.searchText.includes(word)));
+            } else {
+                return keywords.some(word => (r.searchText.includes(word)));
+            }
         });
     }
 

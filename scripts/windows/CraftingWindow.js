@@ -7,11 +7,13 @@ export default class CraftingWindow extends Application {
      *
      * @param {RecipeDatabase} recipeDatabase
      * @param {ActorToken} token
+     * @param {string} searchText
      */
-    constructor(recipeDatabase) {
+    constructor(recipeDatabase, searchText = "") {
         super();
 
         this.recipeDatabase = recipeDatabase;
+        this.searchText = searchText
     }
 
     static get defaultOptions() {
@@ -34,8 +36,9 @@ export default class CraftingWindow extends Application {
 
     /**
      * Search Text Field
+     * (This has been moved to the class constructor to allow the search text to be passed in from other functions)
      */
-    searchText = "";
+    //searchText = "";
 
     #activeElementId = false;
     #cursorPosition = { start: 0, end: 0 };
@@ -52,6 +55,7 @@ export default class CraftingWindow extends Application {
     getData() {
         let data = super.getData();
         data.rarityNames = game.system.config.itemRarity;
+        data.displaySearchBar = game.user.isGM;
 
         data.recipes = this.recipeDatabase
             .searchItems(this.searchText)
