@@ -8,7 +8,7 @@ export function bindSceneControlButtons(controls) {
         title: "HelianasHarvest.HarvestControl",
         icon: "fa-solid fa-sickle",
         layer: "tokens",
-        visible: game.user.isGM,
+        visible: game.user.isGM || game.settings.get("helianas-harvesting", "playerHarvesting"),
         button: true,
         onClick: () => {
             let token = null;
@@ -27,7 +27,7 @@ export function bindSceneControlButtons(controls) {
         title: "HelianasHarvest.CraftControl",
         icon: "fa-solid fa-hammer-crash",
         layer: "tokens",
-        visible: game.user.isGM,
+        visible: game.user.isGM || game.settings.get("helianas-harvesting", "playerCrafting") || game.settings.get("helianas-harvesting", "playerRecipes"),
         button: true,
         onClick: () => {
             const { recipeDatabase } = game.modules.get("helianas-harvesting").api;

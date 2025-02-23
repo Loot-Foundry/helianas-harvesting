@@ -1,5 +1,20 @@
 {
     "HelianasHarvest" : {
+        "Settings": {
+            "PlayerRecipes": {
+                "Name": "Allow Players to view recipes",
+                "Hint": "If enabled, players can access the Crafting Recipes window and view all crafting recipes in the system. \n Recommended - Enabled"
+            },
+            "PlayerCrafting": {
+                "Name": "Allow Players to Craft Items",
+                "Hint": "If enabled, players can use the Crafting Recipes window to send items to their inventory. \n Recommended - Disabled",
+                "Denied": "You do not have permission to craft items."
+            },
+            "PlayerHarvesting": {
+                "Name": "Allow Players to access Harvesting",
+                "Hint": "If enabled, players can access the Harvest Creature - Harvest Controls window. \n Recommended - Disabled"
+            }
+        },
         "CreatureTypeLabel": "Creature Type",
         "CreatureNameLabel": "Creature Name",
         "CreatureCRLabel": "Creature CR Rating",
