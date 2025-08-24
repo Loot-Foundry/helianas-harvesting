@@ -21,7 +21,7 @@ export default class HarvestWindow extends Application {
   }
 
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       template: Config.HarvestWindowTemplate,
       classes: ['helianas-harvesting-module'],
       width: 800,

@@ -11,7 +11,7 @@ export default class PlayerSelectWindow extends Application {
   }
 
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       template: Config.PlayerSelectWindowTemplate,
       classes: ['helianas-harvesting-module'],
       width: 350,

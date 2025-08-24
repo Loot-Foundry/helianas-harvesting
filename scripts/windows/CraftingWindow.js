@@ -15,7 +15,7 @@ export default class CraftingWindow extends Application {
     }
 
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             template: Config.CraftWindowTemplate,
             classes: ['helianas-harvesting-module'],
             width: 800,

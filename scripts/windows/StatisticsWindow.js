@@ -3,7 +3,7 @@ import { Config } from "../config.js";
 export default class StatisticsWindow extends Application {
 
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             template: Config.StatisticsWindowTemplate,
             classes: ['helianas-harvesting-module'],
             width: 500,
