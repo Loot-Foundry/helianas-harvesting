@@ -1,13 +1,15 @@
 <div>
-    <h1 class="module-title">
+    <h3 class="module-title">
         {{ localize message }}
-    </h1>
+    </h3>
+    <hr>
     <ul class="player-list">
         {{#each players}}
             <li class="player-item">
                 <a
                     class="select-player display-image-name"
                     data-player-id="{{ this.id }}"
+                    data-action="select"
                 >
                     <img
                         src="{{this.img}}"
