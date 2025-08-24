@@ -10,5 +10,4 @@ Hooks.on("ready", initializeDatabases);
 
 Hooks.on("getSceneControlButtons", bindSceneControlButtons);
 
-Hooks.on("getHarvestWindowHeaderButtons", bindStatisticsButton);
-Hooks.on("getCraftingWindowHeaderButtons", bindStatisticsButton);
+Hooks.on("getApplicationHeaderButtons", bindStatisticsButton);
