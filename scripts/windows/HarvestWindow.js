@@ -60,7 +60,7 @@ export default class HarvestWindow extends Application {
 
     data.creatureName = this.formData.creatureName;
     data.selectedType = this.formData.creatureType;
-    data.creatureTypes = this.itemData.creatureTypes;
+    data.creatureTypes = this.itemData.creatureTypes.map(t => ({ value: t, label: t }));
     data.creatureCR = this.formData.creatureCR;
 
     data.hasBoss = this.itemData.hasBoss(data.selectedType);
@@ -69,7 +69,7 @@ export default class HarvestWindow extends Application {
       data.isBoss = this.formData.isBoss;
 
       data.selectedBoss = this.formData.bossName;
-      data.bossNames = this.itemData.getBossNames(data.selectedType);
+      data.bossNames = this.itemData.getBossNames(data.selectedType).map(t => ({ value: t, label: t}));
     }
 
     data.items = this.formData.getItemCount(data.selectedType, data.selectedBoss, data.creatureCR);
@@ -81,7 +81,9 @@ export default class HarvestWindow extends Application {
 
     data.harvestCheckTotal = this.formData.harvestCheckTotal;
 
-    data.players = this.getPlayerCharacters();
+    data.players = [{value: '', label: "HelianasHarvest.HarvestCharacterOptionNone"}];
+    this.getPlayerCharacters().map(p => ({ value: p.id, label: p.name })).forEach(o => data.players.push(o));
+
     data.harvestingCharacter = this.formData.harvestingCharacter;
 
     return data;

@@ -20,11 +20,7 @@
           class="managed-input form-control"
           data-binding="creatureType"
         >
-          {{#selectOptions selectedType}}
-            {{#each creatureTypes}}
-              <option value="{{this}}">{{this}}</option>
-            {{/each}}
-          {{/selectOptions}}
+          {{selectOptions creatureTypes selected=selectedType}}
         </select>
       </div>
     </div>
@@ -64,11 +60,7 @@
               class="managed-input form-control"
               data-binding="bossName"
             >
-              {{#selectOptions selectedBoss}}
-                {{#each bossNames}}
-                  <option value="{{this}}">{{this}}</option>
-                {{/each}}
-              {{/selectOptions}}
+              {{selectOptions bossNames selected=selectedBoss}}
             </select>
           </div>
         </div>
@@ -208,12 +200,7 @@
           id="harvesting-character"
           data-binding="harvestingCharacter"
         />
-        {{#selectOptions harvestingCharacter}}
-          <option value="">{{localize "HelianasHarvest.HarvestCharacterOptionNone"}}</option>
-          {{#each players}}
-            <option value="{{this.id}}">{{this.name}}</option>
-          {{/each}}
-        {{/selectOptions}}
+        {{selectOptions players selected=harvestingCharacter keyAttr="key" valueAttr="value" localize=true}}
         </select>
       </div>
       <p class="notes">{{localize "HelianasHarvest.HarvestCharacterNote"}}</p>
