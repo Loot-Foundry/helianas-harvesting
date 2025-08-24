@@ -50,3 +50,7 @@
 .helianas-harvesting-module .player-list h3 {
     border-bottom: none;
 }
+
+.helianas-harvesting-module thead {
+    text-align: center;
+}
