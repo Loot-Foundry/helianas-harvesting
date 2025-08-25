@@ -18,6 +18,7 @@ export default class PlayerSelectWindow extends HandlebarsApplicationMixin(Appli
     classes: ["helianas-harvesting-module", "themed", "theme-light"],
     position: { width: 350, height: 400 },
     window: { title: "HelianasHarvest.PlayerSelectWindowTitle", resize: false },
+    tag: "div",
     // Silly Foundry devs, statics are for singletons; not snap, crackle and bind.
     actions: { select: PlayerSelectWindow.prototype._onSelect }
   };
