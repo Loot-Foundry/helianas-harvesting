@@ -2,29 +2,8 @@ import { Config } from "../config.js";
 import PlayerSelectWindow from "./PlayerSelectWindow.js";
 import { RecipeDatabase } from "../RecipeDatabase.js";
 
-export default class CraftingWindow extends Application {
-    /**
-     *
-     * @param {RecipeDatabase} recipeDatabase
-     * @param {ActorToken} token
-     */
-    constructor(recipeDatabase) {
-        super();
-
-        this.recipeDatabase = recipeDatabase;
-    }
-
-    static get defaultOptions() {
-        return foundry.utils.mergeObject(super.defaultOptions, {
-            template: Config.CraftWindowTemplate,
-            classes: ['helianas-harvesting-module'],
-            width: 800,
-            height: 600,
-            resizable: true,
-            title: "HelianasHarvest.CraftWindowTitle"
-        });
-    }
-
+const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
+export default class CraftingWindow extends HandlebarsApplicationMixin(ApplicationV2) {
     /**
      * Recipe Database
      *
@@ -40,6 +19,32 @@ export default class CraftingWindow extends Application {
     #activeElementId = false;
     #cursorPosition = { start: 0, end: 0 };
     #debounceSchedule = false;
+    #listenerAbort;
+
+    /**
+     * @param {RecipeDatabase} recipeDatabase
+     * @param {ActorToken} token
+     */
+    constructor(recipeDatabase) {
+        super();
+
+        this.recipeDatabase = recipeDatabase;
+    }
+
+    static DEFAULT_OPTIONS = {
+        id: "crafting-window",
+        classes: ["helianas-harvesting-module", "themed", "theme-light"],
+        position: { width: 800, height: 600 },
+        window: { title: "HelianasHarvest.CraftWindowTitle", resize: true },
+        tag: "div",
+        actions: {
+            openRecipe: CraftingWindow.prototype._onOpenRecipe
+        }
+    };
+
+    static PARTS = {
+        main: { template: Config.CraftWindowTemplate }
+    };
 
     updateForm(newValues) {
         if (typeof newValues.searchText === "string") {
@@ -49,78 +54,91 @@ export default class CraftingWindow extends Application {
         if (this.rendered) this.render();
     }
 
-    getData() {
-        let data = super.getData();
-        data.rarityNames = game.system.config.itemRarity;
-
-        data.recipes = this.recipeDatabase
-            .searchItems(this.searchText)
-            .sort((a, b) => a.name.localeCompare(b.name));
-        data.searchText = this.searchText;
-        return data;
+    async _prepareContext(options) {
+        return {
+            rarityNames: game.system.config.itemRarity,
+            recipes: this.recipeDatabase
+                .searchItems(this.searchText)
+                .sort((a, b) => a.name.localeCompare(b.name)),
+            searchText: this.searchText
+        };
     }
 
-    // Define the logic for activating listeners in the rendered HTML
-    activateListeners(html) {
-        super.activateListeners(html);
+    // Event Listeners
+    _onFocusManaged(event, target) {
+        this.#activeElementId = target.id;
+        this.#cursorPosition = {
+            start: target.selectionStart,
+            end: target.selectionEnd
+        };
+    }
+
+    _onBlurManaged(event, target) {
+        this.#activeElementId = null;
+        this.#cursorPosition = { start: 0, end: 0 };
+    }
+
+    _onInputManaged(event, target) {
+        this.#activeElementId = target.id;
+        this.#cursorPosition = {
+            start: target.selectionStart,
+            end: target.selectionEnd
+        };
+
+        if (this.#debounceSchedule) clearTimeout(this.#debounceSchedule);
+        this.#debounceSchedule = setTimeout(() => this.#updateForm(target), 500);
+    }
+
+    _onChangeManaged(event, target) {
+        this.#updateForm(target);
+    }
+
+    #updateForm(target) {
+        const input = {};
+        input[target.dataset.binding] = target.value;
+        this.updateForm(input);
+    }
+
+    async _onOpenRecipe(event, target) {
+        event.preventDefault();
+        const { itemName, itemLink } = target.dataset;
+        await this.send(itemName, itemLink);
+    }
+
+    _onRender(ctx, opts) {
+        // restore cursor
+
+        console.log(this.element);
+        console.log(ctx, opts);
+        console.log(this.#activeElementId);
+        console.log(this.#cursorPosition);
 
         if (this.#activeElementId) {
-            const element = html.find(`#${this.#activeElementId}`);
-            if (element) {
-                element.focus();
-                element.each((_, element) => {
-                    element.setSelectionRange(this.#cursorPosition.start, this.#cursorPosition.end);
-                });
+            const el = this.element.querySelector(`#${this.#activeElementId}`);
+            if (el) {
+                el.focus();
+                el.setSelectionRange?.(this.#cursorPosition.start, this.#cursorPosition.end);
             }
         }
 
-        // Numeric and text inputs
-        const managedInputs = html.find('.managed-input');
-        managedInputs.on('focus blur', event => {
-            if (event.type === "blur") {
-                this.#activeElementId = null;
-                this.#cursorPosition = { start: 0, end: 0 }; // Reset cursor position when focus is lost
-            }
-            else if (event.type === "focus") {
-                this.#activeElementId = event.currentTarget.getAttribute('id');
-                // Save the current cursor position
-                this.#cursorPosition = {
-                    start: event.currentTarget.selectionStart,
-                    end: event.currentTarget.selectionEnd
-                };
-            }
-        });
-        managedInputs.on('input change', event => {
-            if (event.type === "input") {
-                this.#activeElementId = event.currentTarget.getAttribute('id');
-                // Save the current cursor position
-                this.#cursorPosition = {
-                    start: event.currentTarget.selectionStart,
-                    end: event.currentTarget.selectionEnd
-                };
+        // re-wire listeners safely each render
+        this.#listenerAbort?.abort();
+        this.#listenerAbort = new AbortController();
+        const { signal } = this.#listenerAbort;
 
-                if (this.#debounceSchedule) {
-                    clearTimeout(this.#debounceSchedule);
-                }
-                this.#debounceSchedule = setTimeout(updateForm.bind(this), 500);
-            }
-            else {
-                updateForm.bind(this)();
-            }
-
-            function updateForm() {
-                const input = {};
-                input[event.target.dataset.binding] = event.target.value;
-                this.updateForm(input);
-            }
+        this.element.querySelectorAll('#recipe-search').forEach(el => {
+            el.addEventListener('focus', e => this._onFocusManaged(e, e.currentTarget), { signal });
+            //el.addEventListener('blur', e => this._onBlurManaged(e, e.currentTarget), { signal });
+            el.addEventListener('input', e => this._onInputManaged(e, e.currentTarget), { signal });
+            el.addEventListener('change', e => this._onChangeManaged(e, e.currentTarget), { signal });
         });
+    }
 
-        const itemLinks = html.find(".recipe-item-name");
-        itemLinks.on("click", async (event) => {
-            event.preventDefault();
-            const { itemName, itemLink } = event.currentTarget.dataset;
-            await this.send(itemName, itemLink);
-        });
+    close(options) {
+        // ensure timers/listeners don’t leak
+        this.#listenerAbort?.abort();
+        if (this.#debounceSchedule) clearTimeout(this.#debounceSchedule);
+        return super.close(options);
     }
 
     async send(itemName, itemLink) {
